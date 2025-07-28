@@ -51,13 +51,13 @@ export function useMDXComponents(components: MDXComponents): MDXComponents {
     h1: ({ children }) => {
       const id = slugify(getTextContent(children));
       return (
-        <h1 id={id} className="text-2xl font-bold text-neutral-900 dark:text-neutral-50 mt-8 mb-4 border-b border-neutral-200 dark:border-neutral-800 pb-2 group">
+        <h1 id={id} className="text-2xl font-bold text-[#24292e] dark:text-[#f0f6fc] mt-8 mb-4 border-b border-[#e1e4e8] dark:border-[#30363d] pb-2 group">
           <button 
             onClick={() => scrollToHeading(id)}
-            className="inline-flex items-center hover:text-blue-600 dark:hover:text-blue-400 transition-colors cursor-pointer"
+            className="inline-flex items-center hover:text-[#0070f3] dark:hover:text-[#58a6ff] transition-colors cursor-pointer"
           >
             {children}
-            <span className="ml-2 opacity-0 group-hover:opacity-100 transition-opacity text-blue-500 dark:text-blue-400">#</span>
+            <span className="ml-2 opacity-0 group-hover:opacity-100 transition-opacity text-[#0070f3] dark:text-[#58a6ff]">#</span>
           </button>
         </h1>
       );
@@ -65,13 +65,13 @@ export function useMDXComponents(components: MDXComponents): MDXComponents {
     h2: ({ children }) => {
       const id = slugify(getTextContent(children));
       return (
-        <h2 id={id} className="text-xl font-semibold text-neutral-900 dark:text-neutral-50 mt-6 mb-3 group">
+        <h2 id={id} className="text-xl font-semibold text-[#24292e] dark:text-[#f0f6fc] mt-6 mb-3 group">
           <button 
             onClick={() => scrollToHeading(id)}
-            className="inline-flex items-center hover:text-blue-600 dark:hover:text-blue-400 transition-colors cursor-pointer"
+            className="inline-flex items-center hover:text-[#0070f3] dark:hover:text-[#58a6ff] transition-colors cursor-pointer"
           >
             {children}
-            <span className="ml-2 opacity-0 group-hover:opacity-100 transition-opacity text-blue-500 dark:text-blue-400">#</span>
+            <span className="ml-2 opacity-0 group-hover:opacity-100 transition-opacity text-[#0070f3] dark:text-[#58a6ff]">#</span>
           </button>
         </h2>
       );
@@ -79,24 +79,24 @@ export function useMDXComponents(components: MDXComponents): MDXComponents {
     h3: ({ children }) => {
       const id = slugify(getTextContent(children));
       return (
-        <h3 id={id} className="text-lg font-medium text-neutral-900 dark:text-neutral-50 mt-4 mb-2 group">
+        <h3 id={id} className="text-lg font-medium text-[#24292e] dark:text-[#f0f6fc] mt-4 mb-2 group">
           <button 
             onClick={() => scrollToHeading(id)}
-            className="inline-flex items-center hover:text-blue-600 dark:hover:text-blue-400 transition-colors cursor-pointer"
+            className="inline-flex items-center hover:text-[#0070f3] dark:hover:text-[#58a6ff] transition-colors cursor-pointer"
           >
             {children}
-            <span className="ml-2 opacity-0 group-hover:opacity-100 transition-opacity text-blue-500 dark:text-blue-400">#</span>
+            <span className="ml-2 opacity-0 group-hover:opacity-100 transition-opacity text-[#0070f3] dark:text-[#58a6ff]">#</span>
           </button>
         </h3>
       );
     },
     p: ({ children }) => (
-      <p className="mb-6 leading-relaxed text-neutral-700 dark:text-neutral-300">
+      <p className="mb-6 leading-relaxed text-[#586069] dark:text-[#8b949e]">
         {children}
       </p>
     ),
     blockquote: ({ children }) => (
-      <blockquote className="border-l-4 border-neutral-200 dark:border-neutral-700 bg-neutral-50 dark:bg-neutral-800/50 pl-6 py-4 my-6 italic text-neutral-800 dark:text-neutral-200">
+      <blockquote className="border-l-4 border-[#e1e4e8] dark:border-[#30363d] bg-[#fafafa] dark:bg-[#111111] pl-6 py-4 my-6 italic text-[#24292e] dark:text-[#f0f6fc]">
         {children}
       </blockquote>
     ),
@@ -104,7 +104,7 @@ export function useMDXComponents(components: MDXComponents): MDXComponents {
       const isInline = !className;
       if (isInline) {
         return (
-          <code className="bg-neutral-100 dark:bg-neutral-800 text-neutral-800 dark:text-neutral-200 px-1.5 py-0.5 rounded text-sm font-mono">
+          <code className="bg-[#f6f8fa] dark:bg-[#161b22] text-[#24292e] dark:text-[#f0f6fc] px-1.5 py-0.5 rounded text-sm font-mono">
             {children}
           </code>
         );
@@ -116,39 +116,39 @@ export function useMDXComponents(components: MDXComponents): MDXComponents {
       );
     },
     pre: ({ children }) => (
-      <pre className="bg-neutral-900 dark:bg-neutral-950 text-neutral-100 dark:text-neutral-100 p-4 rounded-lg overflow-x-auto my-6 border border-neutral-200 dark:border-neutral-800">
+      <pre className="bg-[#24292e] dark:bg-[#000000] text-[#f0f6fc] dark:text-[#f0f6fc] p-4 rounded-lg overflow-x-auto my-6 border border-[#e1e4e8] dark:border-[#30363d]">
         {children}
       </pre>
     ),
     ul: ({ children }) => (
-      <ul className="list-disc list-inside space-y-2 my-4 ml-4 text-neutral-700 dark:text-neutral-300">
+      <ul className="list-disc list-inside space-y-2 my-4 ml-4 text-[#586069] dark:text-[#8b949e]">
         {children}
       </ul>
     ),
     ol: ({ children }) => (
-      <ol className="list-decimal list-inside space-y-2 my-4 ml-4 text-neutral-700 dark:text-neutral-300">
+      <ol className="list-decimal list-inside space-y-2 my-4 ml-4 text-[#586069] dark:text-[#8b949e]">
         {children}
       </ol>
     ),
     li: ({ children }) => (
-      <li className="text-neutral-700 dark:text-neutral-300">
+      <li className="text-[#586069] dark:text-[#8b949e]">
         {children}
       </li>
     ),
     table: ({ children }) => (
       <div className="overflow-x-auto my-6">
-        <table className="min-w-full border border-neutral-200 dark:border-neutral-700 rounded-lg">
+        <table className="min-w-full border border-[#e1e4e8] dark:border-[#30363d] rounded-lg">
           {children}
         </table>
       </div>
     ),
     th: ({ children }) => (
-      <th className="bg-neutral-50 dark:bg-neutral-800 border-b border-neutral-200 dark:border-neutral-700 px-4 py-3 text-left font-semibold text-neutral-900 dark:text-neutral-50">
+      <th className="bg-[#fafafa] dark:bg-[#111111] border-b border-[#e1e4e8] dark:border-[#30363d] px-4 py-3 text-left font-semibold text-[#24292e] dark:text-[#f0f6fc]">
         {children}
       </th>
     ),
     td: ({ children }) => (
-      <td className="border-b border-neutral-200 dark:border-neutral-700 px-4 py-3 text-neutral-700 dark:text-neutral-300">
+      <td className="border-b border-[#e1e4e8] dark:border-[#30363d] px-4 py-3 text-[#586069] dark:text-[#8b949e]">
         {children}
       </td>
     ),
