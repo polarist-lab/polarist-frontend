@@ -1,0 +1,263 @@
+
+> polarist-nextjs@0.1.0 dev
+> next dev --turbopack
+
+   ▲ Next.js 15.4.2 (Turbopack)
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.35.20:3000
+   - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Compiled middleware in 119ms
+ ✓ Ready in 1198ms
+ ○ Compiling /[locale]/iron5 ...
+ ✓ Compiled /[locale]/iron5 in 3s
+AuthStatus: user: null
+AuthStatus: loading: true
+Translation key not found: footer.about
+Translation key not found: footer.privacy
+Translation key not found: footer.terms
+Translation key not found: footer.contact
+ GET /en/iron5 200 in 3845ms
+ ○ Compiling /[locale]/community ...
+ ✓ Compiled /[locale]/community in 736ms
+AuthStatus: user: null
+AuthStatus: loading: true
+Translation key not found: footer.about
+Translation key not found: footer.privacy
+Translation key not found: footer.terms
+Translation key not found: footer.contact
+ GET /en/community 200 in 1249ms
+ ○ Compiling /favicon.ico ...
+ ✓ Compiled /favicon.ico in 587ms
+ GET /favicon.ico?favicon.45db1c09.ico 200 in 964ms
+ ✓ Compiled in 144ms
+ ✓ Compiled /_not-found/page in 294ms
+ GET /en/community 404 in 487ms
+ GET /favicon.ico?favicon.45db1c09.ico 200 in 255ms
+ ✓ Compiled /[locale]/community in 34ms
+AuthStatus: user: null
+AuthStatus: loading: true
+Translation key not found: footer.about
+Translation key not found: footer.privacy
+Translation key not found: footer.terms
+Translation key not found: footer.contact
+ GET /en/community 200 in 96ms
+ GET /favicon.ico?favicon.45db1c09.ico 200 in 352ms
+AuthStatus: user: null
+AuthStatus: loading: true
+Translation key not found: footer.about
+Translation key not found: footer.privacy
+Translation key not found: footer.terms
+Translation key not found: footer.contact
+ GET /en/community 200 in 59ms
+ GET /favicon.ico?favicon.45db1c09.ico 200 in 286ms
+AuthStatus: user: null
+AuthStatus: loading: true
+Translation key not found: footer.about
+Translation key not found: footer.privacy
+Translation key not found: footer.terms
+Translation key not found: footer.contact
+ GET /en/community 200 in 126ms
+ GET /favicon.ico?favicon.45db1c09.ico 200 in 256ms
+ ✓ Compiled in 141ms
+ ✓ Compiled /_not-found/page in 18ms
+ GET /en/community 404 in 165ms
+ GET /favicon.ico?favicon.45db1c09.ico 200 in 244ms
+ ✓ Compiled in 124ms
+ ✓ Compiled /[locale]/community in 21ms
+ GET /en/community 200 in 189ms
+ GET /en/community 200 in 43ms
+ GET /en/community 200 in 32ms
+ ✓ Compiled /[locale]/iron5 in 30ms
+AuthStatus: user: null
+AuthStatus: loading: true
+Translation key not found: footer.about
+Translation key not found: footer.privacy
+Translation key not found: footer.terms
+Translation key not found: footer.contact
+ GET /en/iron5 200 in 232ms
+AuthStatus: user: null
+AuthStatus: loading: true
+Translation key not found: footer.about
+Translation key not found: footer.privacy
+Translation key not found: footer.terms
+Translation key not found: footer.contact
+ GET /en/community 200 in 477ms
+ GET /favicon.ico?favicon.45db1c09.ico 200 in 370ms
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ✓ Compiled in 240ms
+AuthStatus: user: null
+AuthStatus: loading: true
+Translation key not found: footer.about
+Translation key not found: footer.privacy
+Translation key not found: footer.terms
+Translation key not found: footer.contact
+ GET /en/community 200 in 360ms
+ GET /favicon.ico?favicon.45db1c09.ico 200 in 244ms
+ GET /favicon.ico 200 in 275ms
+ ○ Compiling /[locale] ...
+ ✓ Compiled /[locale] in 630ms
+AuthStatus: user: null
+AuthStatus: loading: true
+Translation key not found: footer.about
+Translation key not found: footer.privacy
+Translation key not found: footer.terms
+Translation key not found: footer.contact
+ GET /en 200 in 1210ms
+ GET /favicon.ico?favicon.45db1c09.ico 200 in 252ms
+ GET /en/iron5 200 in 48ms
+ ✓ Compiled in 258ms
+ ✓ Compiled in 229ms
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/x/github/polarist/polarist-nextjs/.next/server/app/[locale]/iron5/page/app-build-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/x/github/polarist/polarist-nextjs/.next/server/app/[locale]/iron5/page/app-build-manifest.json'
+}
+ ○ Compiling /_error ...
+ ✓ Compiled /_error in 1156ms
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/x/github/polarist/polarist-nextjs/.next/static/development/_buildManifest.js.tmp.6m6r11r1zpj'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/x/github/polarist/polarist-nextjs/.next/static/development/_buildManifest.js.tmp.6m6r11r1zpj'
+}
+[Error: ENOENT: no such file or directory, open '/Users/x/github/polarist/polarist-nextjs/.next/server/app/[locale]/iron5/page/app-build-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/x/github/polarist/polarist-nextjs/.next/server/app/[locale]/iron5/page/app-build-manifest.json'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/x/github/polarist/polarist-nextjs/.next/static/development/_buildManifest.js.tmp.ru5e8yu2x9'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/x/github/polarist/polarist-nextjs/.next/static/development/_buildManifest.js.tmp.ru5e8yu2x9'
+}
+[Error: ENOENT: no such file or directory, open '/Users/x/github/polarist/polarist-nextjs/.next/static/development/_buildManifest.js.tmp.yheovsv5ck'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/x/github/polarist/polarist-nextjs/.next/static/development/_buildManifest.js.tmp.yheovsv5ck'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/x/github/polarist/polarist-nextjs/.next/server/app/favicon.ico/[__metadata_id__]/route/app-paths-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/x/github/polarist/polarist-nextjs/.next/server/app/favicon.ico/[__metadata_id__]/route/app-paths-manifest.json'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/x/github/polarist/polarist-nextjs/.next/server/app/[locale]/iron5/page/app-build-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/x/github/polarist/polarist-nextjs/.next/server/app/[locale]/iron5/page/app-build-manifest.json'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/x/github/polarist/polarist-nextjs/.next/static/development/_buildManifest.js.tmp.cbsedtxv8gh'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/x/github/polarist/polarist-nextjs/.next/static/development/_buildManifest.js.tmp.cbsedtxv8gh'
+}
+[Error: ENOENT: no such file or directory, open '/Users/x/github/polarist/polarist-nextjs/.next/server/app/[locale]/iron5/page/app-build-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/x/github/polarist/polarist-nextjs/.next/server/app/[locale]/iron5/page/app-build-manifest.json'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/x/github/polarist/polarist-nextjs/.next/static/development/_buildManifest.js.tmp.lg6xn7rz55'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/x/github/polarist/polarist-nextjs/.next/static/development/_buildManifest.js.tmp.lg6xn7rz55'
+}
+[Error: ENOENT: no such file or directory, open '/Users/x/github/polarist/polarist-nextjs/.next/static/development/_buildManifest.js.tmp.ndfr1i2whf'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/x/github/polarist/polarist-nextjs/.next/static/development/_buildManifest.js.tmp.ndfr1i2whf'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/x/github/polarist/polarist-nextjs/.next/server/app/favicon.ico/[__metadata_id__]/route/app-paths-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/x/github/polarist/polarist-nextjs/.next/server/app/favicon.ico/[__metadata_id__]/route/app-paths-manifest.json'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/x/github/polarist/polarist-nextjs/.next/server/app/favicon.ico/[__metadata_id__]/route/app-paths-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/x/github/polarist/polarist-nextjs/.next/server/app/favicon.ico/[__metadata_id__]/route/app-paths-manifest.json'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/x/github/polarist/polarist-nextjs/.next/server/app/[locale]/page/app-build-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/x/github/polarist/polarist-nextjs/.next/server/app/[locale]/page/app-build-manifest.json'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/x/github/polarist/polarist-nextjs/.next/static/development/_buildManifest.js.tmp.500wslj4ei'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/x/github/polarist/polarist-nextjs/.next/static/development/_buildManifest.js.tmp.500wslj4ei'
+}
+[Error: ENOENT: no such file or directory, open '/Users/x/github/polarist/polarist-nextjs/.next/server/app/[locale]/page/app-build-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/x/github/polarist/polarist-nextjs/.next/server/app/[locale]/page/app-build-manifest.json'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/x/github/polarist/polarist-nextjs/.next/static/development/_buildManifest.js.tmp.g5t3fhanlc'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/x/github/polarist/polarist-nextjs/.next/static/development/_buildManifest.js.tmp.g5t3fhanlc'
+}
+[Error: ENOENT: no such file or directory, open '/Users/x/github/polarist/polarist-nextjs/.next/static/development/_buildManifest.js.tmp.345fkitknsj'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/x/github/polarist/polarist-nextjs/.next/static/development/_buildManifest.js.tmp.345fkitknsj'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/x/github/polarist/polarist-nextjs/.next/server/app/favicon.ico/[__metadata_id__]/route/app-paths-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/x/github/polarist/polarist-nextjs/.next/server/app/favicon.ico/[__metadata_id__]/route/app-paths-manifest.json'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/x/github/polarist/polarist-nextjs/.next/server/app/[locale]/page/app-build-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/x/github/polarist/polarist-nextjs/.next/server/app/[locale]/page/app-build-manifest.json'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/x/github/polarist/polarist-nextjs/.next/static/development/_buildManifest.js.tmp.259nhtc7v52'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/x/github/polarist/polarist-nextjs/.next/static/development/_buildManifest.js.tmp.259nhtc7v52'
+}
+[Error: ENOENT: no such file or directory, open '/Users/x/github/polarist/polarist-nextjs/.next/server/app/[locale]/page/app-build-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/x/github/polarist/polarist-nextjs/.next/server/app/[locale]/page/app-build-manifest.json'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/x/github/polarist/polarist-nextjs/.next/static/development/_buildManifest.js.tmp.q0bwq6ilc4'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/x/github/polarist/polarist-nextjs/.next/static/development/_buildManifest.js.tmp.q0bwq6ilc4'
+}
+[Error: ENOENT: no such file or directory, open '/Users/x/github/polarist/polarist-nextjs/.next/static/development/_buildManifest.js.tmp.q7meodgmpym'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/x/github/polarist/polarist-nextjs/.next/static/development/_buildManifest.js.tmp.q7meodgmpym'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/x/github/polarist/polarist-nextjs/.next/server/app/favicon.ico/[__metadata_id__]/route/app-paths-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/x/github/polarist/polarist-nextjs/.next/server/app/favicon.ico/[__metadata_id__]/route/app-paths-manifest.json'
+}

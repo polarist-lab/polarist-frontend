@@ -1,0 +1,58 @@
+
+> polarist-backend@1.0.0 start:dev
+> nodemon --exec ts-node src/main.ts
+
+[33m[nodemon] 3.1.10[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: ts,json[39m
+[32m[nodemon] starting `ts-node src/main.ts`[39m
+[dotenv@17.2.0] injecting env (0) from .env (tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`)
+[32m[Nest] 66395  - [39m07/25/2025, 8:40:39 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 66395  - [39m07/25/2025, 8:40:39 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +19ms[39m
+[32m[Nest] 66395  - [39m07/25/2025, 8:40:39 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mDatabaseModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 66395  - [39m07/25/2025, 8:40:39 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPassportModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 66395  - [39m07/25/2025, 8:40:39 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +2ms[39m
+[32m[Nest] 66395  - [39m07/25/2025, 8:40:39 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mJwtModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 66395  - [39m07/25/2025, 8:40:39 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mHealthModule dependencies initialized[39m[38;5;3m +5ms[39m
+[32m[Nest] 66395  - [39m07/25/2025, 8:40:39 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +2ms[39m
+[32m[Nest] 66395  - [39m07/25/2025, 8:40:39 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mUsersModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 66395  - [39m07/25/2025, 8:40:39 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mProgressModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 66395  - [39m07/25/2025, 8:40:39 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mWordbooksModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 66395  - [39m07/25/2025, 8:40:39 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 66395  - [39m07/25/2025, 8:40:39 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/auth}:[39m[38;5;3m +7ms[39m
+[32m[Nest] 66395  - [39m07/25/2025, 8:40:39 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/mock-login, GET} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 66395  - [39m07/25/2025, 8:40:39 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/google/signup, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 66395  - [39m07/25/2025, 8:40:39 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/google/signup/redirect, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 66395  - [39m07/25/2025, 8:40:39 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/google/signin, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 66395  - [39m07/25/2025, 8:40:39 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/google/signin/redirect, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 66395  - [39m07/25/2025, 8:40:39 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/profile, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 66395  - [39m07/25/2025, 8:40:39 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/logout, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 66395  - [39m07/25/2025, 8:40:39 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/migrate-guest-data, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 66395  - [39m07/25/2025, 8:40:39 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mUsersController {/users}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 66395  - [39m07/25/2025, 8:40:39 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/users/me, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 66395  - [39m07/25/2025, 8:40:39 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mProgressController {/progress}:[39m[38;5;3m +1ms[39m
+[32m[Nest] 66395  - [39m07/25/2025, 8:40:39 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/progress/stats, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 66395  - [39m07/25/2025, 8:40:39 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/progress/words, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 66395  - [39m07/25/2025, 8:40:39 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/progress/learned-words, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 66395  - [39m07/25/2025, 8:40:39 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/progress/words/:wordId, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 66395  - [39m07/25/2025, 8:40:39 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/progress/words/:wordId, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 66395  - [39m07/25/2025, 8:40:39 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/progress/sessions/start, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 66395  - [39m07/25/2025, 8:40:39 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/progress/sessions/:sessionId/end, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 66395  - [39m07/25/2025, 8:40:39 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/progress/sessions/:sessionId, PUT} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 66395  - [39m07/25/2025, 8:40:39 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/progress/words/:wordId, DELETE} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 66395  - [39m07/25/2025, 8:40:39 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mWordbooksController {/wordbooks}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 66395  - [39m07/25/2025, 8:40:39 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/wordbooks, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 66395  - [39m07/25/2025, 8:40:39 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/wordbooks/my, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 66395  - [39m07/25/2025, 8:40:39 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/wordbooks/public, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 66395  - [39m07/25/2025, 8:40:39 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/wordbooks/shared/:shareCode, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 66395  - [39m07/25/2025, 8:40:39 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/wordbooks/:id, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 66395  - [39m07/25/2025, 8:40:39 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/wordbooks/:id, PUT} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 66395  - [39m07/25/2025, 8:40:39 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/wordbooks/:id, DELETE} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 66395  - [39m07/25/2025, 8:40:39 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/wordbooks/:id/study, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 66395  - [39m07/25/2025, 8:40:39 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mHealthController {/health}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 66395  - [39m07/25/2025, 8:40:39 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/health, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 66395  - [39m07/25/2025, 8:40:39 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/health/api, GET} route[39m[38;5;3m +0ms[39m
+🗄️  Database connected successfully (SQLite in-memory)
+[32m[Nest] 66395  - [39m07/25/2025, 8:40:39 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +113ms[39m
+🚀 Polarist Backend API running on http://localhost:4000

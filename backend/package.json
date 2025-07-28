@@ -1,0 +1,52 @@
+{
+  "name": "polarist-backend",
+  "version": "1.0.0",
+  "description": "Polarist Korean Learning App Backend API",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/main.js",
+    "start:dev": "nodemon --exec ts-node src/main.ts",
+    "db:generate": "drizzle-kit generate",
+    "db:migrate": "drizzle-kit migrate",
+    "db:push": "drizzle-kit push",
+    "db:studio": "drizzle-kit studio",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nestjs",
+    "korean",
+    "learning",
+    "api"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@nestjs/common": "^11.1.5",
+    "@nestjs/config": "^4.0.2",
+    "@nestjs/core": "^11.1.5",
+    "@nestjs/jwt": "^11.0.0",
+    "@nestjs/passport": "^11.0.5",
+    "@nestjs/platform-express": "^11.1.5",
+    "@types/node": "^24.1.0",
+    "@types/passport-google-oauth20": "^2.0.16",
+    "@types/passport-jwt": "^4.0.1",
+    "@types/pg": "^8.15.4",
+    "better-sqlite3": "^12.2.0",
+    "dotenv": "^17.2.0",
+    "drizzle-kit": "^0.31.4",
+    "drizzle-orm": "^0.44.3",
+    "nodemon": "^3.1.10",
+    "passport": "^0.7.0",
+    "passport-google-oauth20": "^2.0.0",
+    "passport-jwt": "^4.0.1",
+    "pg": "^8.16.3",
+    "reflect-metadata": "^0.2.2",
+    "rxjs": "^7.8.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.13"
+  }
+}
