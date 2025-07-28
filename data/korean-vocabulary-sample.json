@@ -1,0 +1,903 @@
+{
+  "metadata": {
+    "title": "한국어 자주 사용되는 단어 샘플 (50개)",
+    "source": "국립국어원 한국어 학습용 어휘 목록 기반 샘플",
+    "last_updated": "2025-07-28T16:58:27.115Z",
+    "total_count": 50,
+    "version": "0.1.0-sample",
+    "methodology": "위키낱말사전 + 샘플 정의 생성",
+    "license": "CC BY-SA 4.0"
+  },
+  "words": [
+    {
+      "id": 1,
+      "word": "이",
+      "pos": "관형사",
+      "frequency_rank": 1,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "체언을 꾸미는 말",
+          "example": "이 사람"
+        }
+      ],
+      "source": "국립국어원_한국어학습용어휘_샘플",
+      "tags": [
+        "수식언",
+        "단음절"
+      ]
+    },
+    {
+      "id": 2,
+      "word": "있다",
+      "pos": "동사",
+      "frequency_rank": 2,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "있다라는 동작을 나타내는 말",
+          "example": "나는 있다."
+        }
+      ],
+      "source": "국립국어원_한국어학습용어휘_샘플",
+      "tags": [
+        "용언",
+        "이음절"
+      ]
+    },
+    {
+      "id": 3,
+      "word": "하다",
+      "pos": "동사",
+      "frequency_rank": 3,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "하다라는 동작을 나타내는 말",
+          "example": "하다지 않았다."
+        }
+      ],
+      "source": "국립국어원_한국어학습용어휘_샘플",
+      "tags": [
+        "용언",
+        "이음절"
+      ]
+    },
+    {
+      "id": 4,
+      "word": "것",
+      "pos": "의존명사",
+      "frequency_rank": 4,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "다른 말에 기대어 쓰이는 명사",
+          "example": "좋은 것이다."
+        }
+      ],
+      "source": "국립국어원_한국어학습용어휘_샘플",
+      "tags": [
+        "단음절"
+      ]
+    },
+    {
+      "id": 5,
+      "word": "들",
+      "pos": "접사",
+      "frequency_rank": 5,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "다른 말에 붙어 새로운 의미를 만드는 말",
+          "example": "예쁘들"
+        }
+      ],
+      "source": "국립국어원_한국어학습용어휘_샘플",
+      "tags": [
+        "단음절"
+      ]
+    },
+    {
+      "id": 6,
+      "word": "그",
+      "pos": "관형사",
+      "frequency_rank": 6,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "체언을 꾸미는 말",
+          "example": "그 사람"
+        }
+      ],
+      "source": "국립국어원_한국어학습용어휘_샘플",
+      "tags": [
+        "수식언",
+        "단음절"
+      ]
+    },
+    {
+      "id": 7,
+      "word": "되다",
+      "pos": "동사",
+      "frequency_rank": 7,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "되다하는 행위",
+          "example": "되다고 싶다."
+        }
+      ],
+      "source": "국립국어원_한국어학습용어휘_샘플",
+      "tags": [
+        "용언",
+        "이음절"
+      ]
+    },
+    {
+      "id": 8,
+      "word": "수",
+      "pos": "의존명사",
+      "frequency_rank": 8,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "다른 말에 기대어 쓰이는 명사",
+          "example": "할 수 있다."
+        }
+      ],
+      "source": "국립국어원_한국어학습용어휘_샘플",
+      "tags": [
+        "단음절"
+      ]
+    },
+    {
+      "id": 9,
+      "word": "이",
+      "pos": "조사",
+      "frequency_rank": 9,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "단어들의 관계를 나타내는 말",
+          "example": "학교이 가다."
+        }
+      ],
+      "source": "국립국어원_한국어학습용어휘_샘플",
+      "tags": [
+        "단음절"
+      ]
+    },
+    {
+      "id": 10,
+      "word": "보다",
+      "pos": "동사",
+      "frequency_rank": 10,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "보다하는 행위",
+          "example": "나는 보다."
+        }
+      ],
+      "source": "국립국어원_한국어학습용어휘_샘플",
+      "tags": [
+        "용언",
+        "이음절"
+      ]
+    },
+    {
+      "id": 11,
+      "word": "나",
+      "pos": "대명사",
+      "frequency_rank": 11,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "사람이나 사물을 가리키는 말",
+          "example": "나가 좋다."
+        }
+      ],
+      "source": "국립국어원_한국어학습용어휘_샘플",
+      "tags": [
+        "체언",
+        "단음절"
+      ]
+    },
+    {
+      "id": 12,
+      "word": "주다",
+      "pos": "동사",
+      "frequency_rank": 12,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "주다라는 동작을 나타내는 말",
+          "example": "나는 주다."
+        }
+      ],
+      "source": "국립국어원_한국어학습용어휘_샘플",
+      "tags": [
+        "용언",
+        "이음절"
+      ]
+    },
+    {
+      "id": 13,
+      "word": "아니다",
+      "pos": "형용사",
+      "frequency_rank": 13,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "아니다라는 특성을 나타내는 말",
+          "example": "아니다한 사람"
+        }
+      ],
+      "source": "국립국어원_한국어학습용어휘_샘플",
+      "tags": [
+        "용언",
+        "다음절"
+      ]
+    },
+    {
+      "id": 14,
+      "word": "등",
+      "pos": "의존명사",
+      "frequency_rank": 14,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "다른 말에 기대어 쓰이는 명사",
+          "example": "할 등 있다."
+        }
+      ],
+      "source": "국립국어원_한국어학습용어휘_샘플",
+      "tags": [
+        "단음절"
+      ]
+    },
+    {
+      "id": 15,
+      "word": "같다",
+      "pos": "형용사",
+      "frequency_rank": 15,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "같다한 상태나 성질",
+          "example": "날씨가 같다."
+        }
+      ],
+      "source": "국립국어원_한국어학습용어휘_샘플",
+      "tags": [
+        "용언",
+        "이음절"
+      ]
+    },
+    {
+      "id": 16,
+      "word": "가다",
+      "pos": "동사",
+      "frequency_rank": 16,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "가다라는 동작을 나타내는 말",
+          "example": "가다지 않았다."
+        }
+      ],
+      "source": "국립국어원_한국어학습용어휘_샘플",
+      "tags": [
+        "용언",
+        "이음절"
+      ]
+    },
+    {
+      "id": 17,
+      "word": "이렇다",
+      "pos": "형용사",
+      "frequency_rank": 17,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "이렇다한 상태나 성질",
+          "example": "이렇다한 사람"
+        }
+      ],
+      "source": "국립국어원_한국어학습용어휘_샘플",
+      "tags": [
+        "용언",
+        "다음절"
+      ]
+    },
+    {
+      "id": 18,
+      "word": "그렇다",
+      "pos": "형용사",
+      "frequency_rank": 18,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "그렇다한 상태나 성질",
+          "example": "매우 그렇다다."
+        }
+      ],
+      "source": "국립국어원_한국어학습용어휘_샘플",
+      "tags": [
+        "용언",
+        "다음절"
+      ]
+    },
+    {
+      "id": 19,
+      "word": "어떻다",
+      "pos": "형용사",
+      "frequency_rank": 19,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "어떻다라는 특성을 나타내는 말",
+          "example": "매우 어떻다다."
+        }
+      ],
+      "source": "국립국어원_한국어학습용어휘_샘플",
+      "tags": [
+        "용언",
+        "다음절"
+      ]
+    },
+    {
+      "id": 20,
+      "word": "오다",
+      "pos": "동사",
+      "frequency_rank": 20,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "오다라는 동작을 나타내는 말",
+          "example": "오다고 싶다."
+        }
+      ],
+      "source": "국립국어원_한국어학습용어휘_샘플",
+      "tags": [
+        "용언",
+        "이음절"
+      ]
+    },
+    {
+      "id": 21,
+      "word": "다시",
+      "pos": "부사",
+      "frequency_rank": 21,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "동작이나 상태를 다시하게 꾸미는 말",
+          "example": "다시 빠르다."
+        }
+      ],
+      "source": "국립국어원_한국어학습용어휘_샘플",
+      "tags": [
+        "수식언",
+        "이음절"
+      ]
+    },
+    {
+      "id": 22,
+      "word": "말",
+      "pos": "명사",
+      "frequency_rank": 22,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "말를 가리키는 말",
+          "example": "그 말는 크다."
+        }
+      ],
+      "source": "국립국어원_한국어학습용어휘_샘플",
+      "tags": [
+        "체언",
+        "단음절"
+      ]
+    },
+    {
+      "id": 23,
+      "word": "때",
+      "pos": "의존명사",
+      "frequency_rank": 23,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "다른 말에 기대어 쓰이는 명사",
+          "example": "할 때 있다."
+        }
+      ],
+      "source": "국립국어원_한국어학습용어휘_샘플",
+      "tags": [
+        "단음절"
+      ]
+    },
+    {
+      "id": 24,
+      "word": "문제",
+      "pos": "명사",
+      "frequency_rank": 24,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "문제를 가리키는 말",
+          "example": "문제가 있다."
+        }
+      ],
+      "source": "국립국어원_한국어학습용어휘_샘플",
+      "tags": [
+        "체언",
+        "이음절"
+      ]
+    },
+    {
+      "id": 25,
+      "word": "더",
+      "pos": "부사",
+      "frequency_rank": 25,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "동작이나 상태를 더하게 꾸미는 말",
+          "example": "더 해보자."
+        }
+      ],
+      "source": "국립국어원_한국어학습용어휘_샘플",
+      "tags": [
+        "수식언",
+        "단음절"
+      ]
+    },
+    {
+      "id": 26,
+      "word": "사람",
+      "pos": "명사",
+      "frequency_rank": 26,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "사람라는 사물이나 개념",
+          "example": "그 사람는 크다."
+        }
+      ],
+      "source": "국립국어원_한국어학습용어휘_샘플",
+      "tags": [
+        "체언",
+        "이음절"
+      ]
+    },
+    {
+      "id": 27,
+      "word": "년",
+      "pos": "의존명사",
+      "frequency_rank": 27,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "다른 말에 기대어 쓰이는 명사",
+          "example": "할 년 있다."
+        }
+      ],
+      "source": "국립국어원_한국어학습용어휘_샘플",
+      "tags": [
+        "단음절"
+      ]
+    },
+    {
+      "id": 28,
+      "word": "가지다",
+      "pos": "동사",
+      "frequency_rank": 28,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "가지다하는 행위",
+          "example": "가지다지 않았다."
+        }
+      ],
+      "source": "국립국어원_한국어학습용어휘_샘플",
+      "tags": [
+        "용언",
+        "다음절"
+      ]
+    },
+    {
+      "id": 29,
+      "word": "자신",
+      "pos": "명사",
+      "frequency_rank": 29,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "자신라는 사물이나 개념",
+          "example": "자신를 보았다."
+        }
+      ],
+      "source": "국립국어원_한국어학습용어휘_샘플",
+      "tags": [
+        "체언",
+        "이음절"
+      ]
+    },
+    {
+      "id": 30,
+      "word": "일",
+      "pos": "명사",
+      "frequency_rank": 30,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "일라는 사물이나 개념",
+          "example": "일가 있다."
+        }
+      ],
+      "source": "국립국어원_한국어학습용어휘_샘플",
+      "tags": [
+        "체언",
+        "단음절"
+      ]
+    },
+    {
+      "id": 31,
+      "word": "생각",
+      "pos": "명사",
+      "frequency_rank": 31,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "생각를 가리키는 말",
+          "example": "그 생각는 크다."
+        }
+      ],
+      "source": "국립국어원_한국어학습용어휘_샘플",
+      "tags": [
+        "체언",
+        "이음절"
+      ]
+    },
+    {
+      "id": 32,
+      "word": "시간",
+      "pos": "명사",
+      "frequency_rank": 32,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "시간를 가리키는 말",
+          "example": "시간가 있다."
+        }
+      ],
+      "source": "국립국어원_한국어학습용어휘_샘플",
+      "tags": [
+        "체언",
+        "이음절"
+      ]
+    },
+    {
+      "id": 33,
+      "word": "새롭다",
+      "pos": "형용사",
+      "frequency_rank": 33,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "새롭다라는 특성을 나타내는 말",
+          "example": "새롭다한 사람"
+        }
+      ],
+      "source": "국립국어원_한국어학습용어휘_샘플",
+      "tags": [
+        "용언",
+        "다음절"
+      ]
+    },
+    {
+      "id": 34,
+      "word": "앞",
+      "pos": "명사",
+      "frequency_rank": 34,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "앞라는 사물이나 개념",
+          "example": "그 앞는 크다."
+        }
+      ],
+      "source": "국립국어원_한국어학습용어휘_샘플",
+      "tags": [
+        "체언",
+        "단음절"
+      ]
+    },
+    {
+      "id": 35,
+      "word": "경우",
+      "pos": "명사",
+      "frequency_rank": 35,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "경우를 가리키는 말",
+          "example": "그 경우는 크다."
+        }
+      ],
+      "source": "국립국어원_한국어학습용어휘_샘플",
+      "tags": [
+        "체언",
+        "이음절"
+      ]
+    },
+    {
+      "id": 36,
+      "word": "중",
+      "pos": "의존명사",
+      "frequency_rank": 36,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "다른 말에 기대어 쓰이는 명사",
+          "example": "할 중 있다."
+        }
+      ],
+      "source": "국립국어원_한국어학습용어휘_샘플",
+      "tags": [
+        "단음절"
+      ]
+    },
+    {
+      "id": 37,
+      "word": "약",
+      "pos": "부사",
+      "frequency_rank": 37,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "동작이나 상태를 약하게 꾸미는 말",
+          "example": "약 해보자."
+        }
+      ],
+      "source": "국립국어원_한국어학습용어휘_샘플",
+      "tags": [
+        "수식언",
+        "단음절"
+      ]
+    },
+    {
+      "id": 38,
+      "word": "또",
+      "pos": "부사",
+      "frequency_rank": 38,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "동작이나 상태를 또하게 꾸미는 말",
+          "example": "또 해보자."
+        }
+      ],
+      "source": "국립국어원_한국어학습용어휘_샘플",
+      "tags": [
+        "수식언",
+        "단음절"
+      ]
+    },
+    {
+      "id": 39,
+      "word": "다른",
+      "pos": "관형사",
+      "frequency_rank": 39,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "체언을 꾸미는 말",
+          "example": "다른 것"
+        }
+      ],
+      "source": "국립국어원_한국어학습용어휘_샘플",
+      "tags": [
+        "수식언",
+        "이음절"
+      ]
+    },
+    {
+      "id": 40,
+      "word": "많다",
+      "pos": "형용사",
+      "frequency_rank": 40,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "많다라는 특성을 나타내는 말",
+          "example": "매우 많다다."
+        }
+      ],
+      "source": "국립국어원_한국어학습용어휘_샘플",
+      "tags": [
+        "용언",
+        "이음절"
+      ]
+    },
+    {
+      "id": 41,
+      "word": "그러나",
+      "pos": "접속부사",
+      "frequency_rank": 41,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "문장과 문장을 연결하는 부사",
+          "example": "그러나 가야 한다."
+        }
+      ],
+      "source": "국립국어원_한국어학습용어휘_샘플",
+      "tags": [
+        "다음절"
+      ]
+    },
+    {
+      "id": 42,
+      "word": "놓다",
+      "pos": "동사",
+      "frequency_rank": 42,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "놓다라는 동작을 나타내는 말",
+          "example": "나는 놓다."
+        }
+      ],
+      "source": "국립국어원_한국어학습용어휘_샘플",
+      "tags": [
+        "용언",
+        "이음절"
+      ]
+    },
+    {
+      "id": 43,
+      "word": "국가",
+      "pos": "명사",
+      "frequency_rank": 43,
+      "level": 2,
+      "meanings": [
+        {
+          "definition": "국가라는 사물이나 개념",
+          "example": "국가를 보았다."
+        }
+      ],
+      "source": "국립국어원_한국어학습용어휘_샘플",
+      "tags": [
+        "체언",
+        "이음절"
+      ]
+    },
+    {
+      "id": 44,
+      "word": "집",
+      "pos": "명사",
+      "frequency_rank": 44,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "집를 가리키는 말",
+          "example": "집를 보았다."
+        }
+      ],
+      "source": "국립국어원_한국어학습용어휘_샘플",
+      "tags": [
+        "체언",
+        "단음절"
+      ]
+    },
+    {
+      "id": 45,
+      "word": "여자",
+      "pos": "명사",
+      "frequency_rank": 45,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "여자를 가리키는 말",
+          "example": "여자를 보았다."
+        }
+      ],
+      "source": "국립국어원_한국어학습용어휘_샘플",
+      "tags": [
+        "체언",
+        "이음절"
+      ]
+    },
+    {
+      "id": 46,
+      "word": "안",
+      "pos": "명사",
+      "frequency_rank": 46,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "안를 가리키는 말",
+          "example": "그 안는 크다."
+        }
+      ],
+      "source": "국립국어원_한국어학습용어휘_샘플",
+      "tags": [
+        "체언",
+        "단음절"
+      ]
+    },
+    {
+      "id": 47,
+      "word": "씨",
+      "pos": "의존명사",
+      "frequency_rank": 47,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "다른 말에 기대어 쓰이는 명사",
+          "example": "할 씨 있다."
+        }
+      ],
+      "source": "국립국어원_한국어학습용어휘_샘플",
+      "tags": [
+        "단음절"
+      ]
+    },
+    {
+      "id": 48,
+      "word": "모든",
+      "pos": "관형사",
+      "frequency_rank": 48,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "체언을 꾸미는 말",
+          "example": "모든 것"
+        }
+      ],
+      "source": "국립국어원_한국어학습용어휘_샘플",
+      "tags": [
+        "수식언",
+        "이음절"
+      ]
+    },
+    {
+      "id": 49,
+      "word": "만들다",
+      "pos": "동사",
+      "frequency_rank": 49,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "만들다라는 동작을 나타내는 말",
+          "example": "나는 만들다."
+        }
+      ],
+      "source": "국립국어원_한국어학습용어휘_샘플",
+      "tags": [
+        "용언",
+        "다음절"
+      ]
+    },
+    {
+      "id": 50,
+      "word": "손",
+      "pos": "명사",
+      "frequency_rank": 50,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "손라는 사물이나 개념",
+          "example": "손가 있다."
+        }
+      ],
+      "source": "국립국어원_한국어학습용어휘_샘플",
+      "tags": [
+        "체언",
+        "단음절"
+      ]
+    }
+  ]
+}
