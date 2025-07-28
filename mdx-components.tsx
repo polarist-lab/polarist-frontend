@@ -54,7 +54,7 @@ export function useMDXComponents(components: MDXComponents): MDXComponents {
         <h1 id={id} className="text-2xl font-bold text-gray-900 mt-8 mb-4 border-b border-gray-200 pb-2 group">
           <button 
             onClick={() => scrollToHeading(id)}
-            className="flex items-center hover:text-blue-600 transition-colors cursor-pointer text-left w-full"
+            className="inline-flex items-center hover:text-blue-600 transition-colors cursor-pointer"
           >
             {children}
             <span className="ml-2 opacity-0 group-hover:opacity-100 transition-opacity text-blue-500">#</span>
@@ -68,7 +68,7 @@ export function useMDXComponents(components: MDXComponents): MDXComponents {
         <h2 id={id} className="text-xl font-semibold text-gray-900 mt-6 mb-3 group">
           <button 
             onClick={() => scrollToHeading(id)}
-            className="flex items-center hover:text-blue-600 transition-colors cursor-pointer text-left w-full"
+            className="inline-flex items-center hover:text-blue-600 transition-colors cursor-pointer"
           >
             {children}
             <span className="ml-2 opacity-0 group-hover:opacity-100 transition-opacity text-blue-500">#</span>
@@ -82,7 +82,7 @@ export function useMDXComponents(components: MDXComponents): MDXComponents {
         <h3 id={id} className="text-lg font-medium text-gray-900 mt-4 mb-2 group">
           <button 
             onClick={() => scrollToHeading(id)}
-            className="flex items-center hover:text-blue-600 transition-colors cursor-pointer text-left w-full"
+            className="inline-flex items-center hover:text-blue-600 transition-colors cursor-pointer"
           >
             {children}
             <span className="ml-2 opacity-0 group-hover:opacity-100 transition-opacity text-blue-500">#</span>
