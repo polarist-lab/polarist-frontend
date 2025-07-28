@@ -1,0 +1,329 @@
+{
+  "metadata": {
+    "title": "한국어 자주 사용되는 단어 크롤링 테스트 (20개)",
+    "source": "표준국어대사전 크롤링 테스트",
+    "last_updated": "2025-07-28T17:05:38.420Z",
+    "total_count": 20,
+    "version": "0.2.0-test",
+    "methodology": "표준국어대사전 웹 크롤링",
+    "license": "CC BY-SA 4.0"
+  },
+  "words": [
+    {
+      "id": 1,
+      "word": "이",
+      "pos": "관형사",
+      "frequency_rank": 1,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "『동물』 이목의 곤충을 통틀어 이르는 말. 몸의 길이는 1~4mm이고 편평한 방추형이다. 날개는 없고 머리 양쪽에 홑눈이 한 개씩 있다. 사람의 몸에 기생하면서 피를 빨아 먹는다. 잇과, 짐승닛과, 털닛과 따위가 있다.",
+          "category": "1"
+        },
+        {
+          "definition": "『생명』 척추동물의 입안에 있으며 무엇을 물거나 음식물을 씹는 역할을 하는 기관.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": []
+    },
+    {
+      "id": 2,
+      "word": "있다",
+      "pos": "동사",
+      "frequency_rank": 2,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "사람이나 동물이 어느 곳에서 떠나거나 벗어나지 아니하고 머물다.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": []
+    },
+    {
+      "id": 3,
+      "word": "하다",
+      "pos": "동사",
+      "frequency_rank": 3,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "사람이나 동물, 물체 따위가 행동이나 작용을 이루다.",
+          "category": "1"
+        },
+        {
+          "definition": "동사를 만드는 접미사.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": []
+    },
+    {
+      "id": 4,
+      "word": "것",
+      "pos": "의존명사",
+      "frequency_rank": 4,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "사물, 일, 현상 따위를 추상적으로 이르는 말.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": []
+    },
+    {
+      "id": 5,
+      "word": "들",
+      "pos": "접사",
+      "frequency_rank": 5,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "편평하고 넓게 트인 땅.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": []
+    },
+    {
+      "id": 6,
+      "word": "그",
+      "pos": "관형사",
+      "frequency_rank": 6,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "말하는 이와 듣는 이가 아닌 사람을 가리키는 삼인칭 대명사. 앞에서 이미 이야기하였거나 듣는 이가 생각하고 있는 사람을 가리킨다. 주로 남자를 가리킬 때 쓴다.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": []
+    },
+    {
+      "id": 7,
+      "word": "되다",
+      "pos": "동사",
+      "frequency_rank": 7,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "다른 상태나 성질로 바뀌거나 변하다.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": []
+    },
+    {
+      "id": 8,
+      "word": "수",
+      "pos": "의존명사",
+      "frequency_rank": 8,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "수을/를 나타내는 말",
+          "category": "의존명사"
+        }
+      ],
+      "source": "테스트_크롤링",
+      "tags": []
+    },
+    {
+      "id": 9,
+      "word": "이",
+      "pos": "조사",
+      "frequency_rank": 9,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "『동물』 이목의 곤충을 통틀어 이르는 말. 몸의 길이는 1~4mm이고 편평한 방추형이다. 날개는 없고 머리 양쪽에 홑눈이 한 개씩 있다. 사람의 몸에 기생하면서 피를 빨아 먹는다. 잇과, 짐승닛과, 털닛과 따위가 있다.",
+          "category": "1"
+        },
+        {
+          "definition": "『생명』 척추동물의 입안에 있으며 무엇을 물거나 음식물을 씹는 역할을 하는 기관.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": []
+    },
+    {
+      "id": 10,
+      "word": "보다",
+      "pos": "동사",
+      "frequency_rank": 10,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "눈으로 대상의 존재나 형태적 특징을 알다.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": []
+    },
+    {
+      "id": 11,
+      "word": "나",
+      "pos": "대명사",
+      "frequency_rank": 11,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "나을/를 나타내는 말",
+          "category": "대명사"
+        }
+      ],
+      "source": "테스트_크롤링",
+      "tags": []
+    },
+    {
+      "id": 12,
+      "word": "주다",
+      "pos": "동사",
+      "frequency_rank": 12,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "물건 따위를 남에게 건네어 가지거나 누리게 하다.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": []
+    },
+    {
+      "id": 13,
+      "word": "아니다",
+      "pos": "형용사",
+      "frequency_rank": 13,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "어떤 사실을 부정하는 뜻을 나타내는 말.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": []
+    },
+    {
+      "id": 14,
+      "word": "등",
+      "pos": "의존명사",
+      "frequency_rank": 14,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "사람이나 동물의 몸통에서 가슴과 배의 반대쪽 부분.≒배부.",
+          "category": "1"
+        },
+        {
+          "definition": "높고 낮음이나 좋고 나쁨 따위의 차이를 여러 층으로 구분한 단계.=등급.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": []
+    },
+    {
+      "id": 15,
+      "word": "같다",
+      "pos": "형용사",
+      "frequency_rank": 15,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "같다을/를 나타내는 말",
+          "category": "형용사"
+        }
+      ],
+      "source": "테스트_크롤링",
+      "tags": []
+    },
+    {
+      "id": 16,
+      "word": "가다",
+      "pos": "동사",
+      "frequency_rank": 16,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "한곳에서 다른 곳으로 장소를 이동하다.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": []
+    },
+    {
+      "id": 17,
+      "word": "이렇다",
+      "pos": "형용사",
+      "frequency_rank": 17,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "이렇다을/를 나타내는 말",
+          "category": "형용사"
+        }
+      ],
+      "source": "테스트_크롤링",
+      "tags": []
+    },
+    {
+      "id": 18,
+      "word": "그렇다",
+      "pos": "형용사",
+      "frequency_rank": 18,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "상태, 모양, 성질 따위가 그와 같다.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": []
+    },
+    {
+      "id": 19,
+      "word": "어떻다",
+      "pos": "형용사",
+      "frequency_rank": 19,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "어떻다을/를 나타내는 말",
+          "category": "형용사"
+        }
+      ],
+      "source": "테스트_크롤링",
+      "tags": []
+    },
+    {
+      "id": 20,
+      "word": "오다",
+      "pos": "동사",
+      "frequency_rank": 20,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "어떤 사람이 말하는 사람 혹은 기준이 되는 사람이 있는 쪽으로 움직여 위치를 옮기다.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": []
+    }
+  ]
+}
