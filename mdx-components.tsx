@@ -51,7 +51,7 @@ export function useMDXComponents(components: MDXComponents): MDXComponents {
     h1: ({ children }) => {
       const id = slugify(getTextContent(children));
       return (
-        <h1 id={id} className="text-2xl font-bold text-slate-900 dark:text-slate-100 mt-8 mb-4 border-b border-gray-200 dark:border-slate-700 pb-2 group">
+        <h1 id={id} className="text-2xl font-bold text-gray-900 dark:text-white mt-8 mb-4 border-b border-gray-200 dark:border-gray-700 pb-2 group">
           <button 
             onClick={() => scrollToHeading(id)}
             className="inline-flex items-center hover:text-blue-600 dark:hover:text-blue-400 transition-colors cursor-pointer"
@@ -65,7 +65,7 @@ export function useMDXComponents(components: MDXComponents): MDXComponents {
     h2: ({ children }) => {
       const id = slugify(getTextContent(children));
       return (
-        <h2 id={id} className="text-xl font-semibold text-slate-900 dark:text-slate-100 mt-6 mb-3 group">
+        <h2 id={id} className="text-xl font-semibold text-gray-900 dark:text-white mt-6 mb-3 group">
           <button 
             onClick={() => scrollToHeading(id)}
             className="inline-flex items-center hover:text-blue-600 dark:hover:text-blue-400 transition-colors cursor-pointer"
@@ -79,7 +79,7 @@ export function useMDXComponents(components: MDXComponents): MDXComponents {
     h3: ({ children }) => {
       const id = slugify(getTextContent(children));
       return (
-        <h3 id={id} className="text-lg font-medium text-slate-900 dark:text-slate-100 mt-4 mb-2 group">
+        <h3 id={id} className="text-lg font-medium text-gray-900 dark:text-white mt-4 mb-2 group">
           <button 
             onClick={() => scrollToHeading(id)}
             className="inline-flex items-center hover:text-blue-600 dark:hover:text-blue-400 transition-colors cursor-pointer"
@@ -91,12 +91,12 @@ export function useMDXComponents(components: MDXComponents): MDXComponents {
       );
     },
     p: ({ children }) => (
-      <p className="mb-6 leading-relaxed text-slate-700 dark:text-slate-300">
+      <p className="mb-6 leading-relaxed text-gray-700 dark:text-gray-300">
         {children}
       </p>
     ),
     blockquote: ({ children }) => (
-      <blockquote className="border-l-4 border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800/50 pl-6 py-4 my-6 italic text-slate-800 dark:text-slate-200">
+      <blockquote className="border-l-4 border-gray-200 dark:border-gray-600 bg-gray-50 dark:bg-gray-800/50 pl-6 py-4 my-6 italic text-gray-800 dark:text-gray-200">
         {children}
       </blockquote>
     ),
@@ -104,7 +104,7 @@ export function useMDXComponents(components: MDXComponents): MDXComponents {
       const isInline = !className;
       if (isInline) {
         return (
-          <code className="bg-slate-100 dark:bg-slate-800 text-slate-800 dark:text-slate-200 px-1.5 py-0.5 rounded text-sm font-mono">
+          <code className="bg-gray-100 dark:bg-gray-800 text-gray-800 dark:text-gray-100 px-1.5 py-0.5 rounded text-sm font-mono">
             {children}
           </code>
         );
@@ -116,39 +116,39 @@ export function useMDXComponents(components: MDXComponents): MDXComponents {
       );
     },
     pre: ({ children }) => (
-      <pre className="bg-slate-900 dark:bg-slate-950 text-slate-100 dark:text-slate-200 p-4 rounded-lg overflow-x-auto my-6 border border-slate-200 dark:border-slate-700">
+      <pre className="bg-gray-900 dark:bg-black text-gray-100 dark:text-gray-100 p-4 rounded-lg overflow-x-auto my-6 border border-gray-200 dark:border-gray-700">
         {children}
       </pre>
     ),
     ul: ({ children }) => (
-      <ul className="list-disc list-inside space-y-2 my-4 ml-4 text-slate-700 dark:text-slate-300">
+      <ul className="list-disc list-inside space-y-2 my-4 ml-4 text-gray-700 dark:text-gray-300">
         {children}
       </ul>
     ),
     ol: ({ children }) => (
-      <ol className="list-decimal list-inside space-y-2 my-4 ml-4 text-slate-700 dark:text-slate-300">
+      <ol className="list-decimal list-inside space-y-2 my-4 ml-4 text-gray-700 dark:text-gray-300">
         {children}
       </ol>
     ),
     li: ({ children }) => (
-      <li className="text-slate-700 dark:text-slate-300">
+      <li className="text-gray-700 dark:text-gray-300">
         {children}
       </li>
     ),
     table: ({ children }) => (
       <div className="overflow-x-auto my-6">
-        <table className="min-w-full border border-slate-200 dark:border-slate-700 rounded-lg">
+        <table className="min-w-full border border-gray-200 dark:border-gray-700 rounded-lg">
           {children}
         </table>
       </div>
     ),
     th: ({ children }) => (
-      <th className="bg-slate-50 dark:bg-slate-800 border-b border-slate-200 dark:border-slate-700 px-4 py-3 text-left font-semibold text-slate-900 dark:text-slate-100">
+      <th className="bg-gray-50 dark:bg-gray-800 border-b border-gray-200 dark:border-gray-700 px-4 py-3 text-left font-semibold text-gray-900 dark:text-white">
         {children}
       </th>
     ),
     td: ({ children }) => (
-      <td className="border-b border-slate-200 dark:border-slate-700 px-4 py-3 text-slate-700 dark:text-slate-300">
+      <td className="border-b border-gray-200 dark:border-gray-700 px-4 py-3 text-gray-700 dark:text-gray-300">
         {children}
       </td>
     ),
