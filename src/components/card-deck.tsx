@@ -12,6 +12,7 @@ interface CardDeckProps {
   onNext?: () => void;
   onPrevious?: () => void;
   showFullInfo?: boolean;
+  showNavigation?: boolean;
   onProgress?: (current: number, total: number) => void;
   locale?: string;
 }
@@ -23,6 +24,7 @@ export function CardDeck({
   onNext: externalOnNext,
   onPrevious: externalOnPrevious,
   showFullInfo: externalShowFullInfo,
+  showNavigation = false,
   onProgress,
   locale = 'en'
 }: CardDeckProps) {
@@ -217,7 +219,7 @@ export function CardDeck({
         onToggle={handleCardToggle}
         onNext={!isLastCard ? handleNext : undefined}
         onPrevious={currentIndex > 0 ? handlePrevious : undefined}
-        showNavigation={true}
+        showNavigation={showNavigation}
         locale={locale}
       />
 

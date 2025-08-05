@@ -21,13 +21,13 @@ export function Navigation() {
   const isRankingPage = pathname.includes('/ranking');
 
   return (
-    <nav className="bg-white/80 dark:bg-black/80 backdrop-blur-md border-b border-gray-200/20 dark:border-gray-800/20 sticky top-0 z-50 transition-colors duration-200 supports-[backdrop-filter]:bg-white/60 supports-[backdrop-filter]:dark:bg-black/60">
+    <nav className="bg-[var(--color-background)]/80 dark:bg-[var(--color-background-dark)]/80 backdrop-blur-md border-b border-[var(--color-border)]/20 dark:border-[var(--color-border-dark)]/20 sticky top-0 z-50 transition-colors duration-200 supports-[backdrop-filter]:bg-[var(--color-background)]/60 supports-[backdrop-filter]:dark:bg-[var(--color-background-dark)]/60">
       <div className="max-w-6xl mx-auto flex justify-between items-center px-6 h-20">
         {/* Left: Polarist Logo */}
         <div className="flex items-center">
           <Link 
             href={`/${validLocale}`}
-            className="text-xl font-semibold text-gray-900 dark:text-white hover:text-gray-700 dark:hover:text-gray-300 transition-colors duration-200 cursor-pointer"
+            className="text-xl font-semibold text-[var(--color-foreground)] dark:text-[var(--color-foreground-dark)] hover:text-[var(--color-foreground-secondary)] dark:hover:text-[var(--color-foreground-secondary-dark)] transition-colors duration-200 cursor-pointer"
           >
             Polarist
           </Link>
@@ -39,8 +39,8 @@ export function Navigation() {
             href={`/${validLocale}`}
             className={`relative py-2 font-medium transition-all duration-200 cursor-pointer ${
               isStudyPage 
-                ? 'text-gray-900 dark:text-white after:absolute after:bottom-0 after:left-0 after:w-full after:h-0.5 after:bg-gray-900 dark:after:bg-white' 
-                : 'text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-300'
+                ? 'text-[var(--color-foreground)] dark:text-[var(--color-foreground-dark)] after:absolute after:bottom-0 after:left-0 after:w-full after:h-0.5 after:bg-[var(--color-foreground)] dark:after:bg-[var(--color-foreground-dark)]' 
+                : 'text-[var(--color-foreground-secondary)] dark:text-[var(--color-foreground-secondary-dark)] hover:text-[var(--color-foreground)] dark:hover:text-[var(--color-foreground-dark)]'
             }`}
           >
             {t('common.study')}
@@ -50,8 +50,8 @@ export function Navigation() {
             href={`/${validLocale}/community`}
             className={`relative py-2 font-medium transition-all duration-200 cursor-pointer ${
               isCommunityPage 
-                ? 'text-gray-900 dark:text-white after:absolute after:bottom-0 after:left-0 after:w-full after:h-0.5 after:bg-gray-900 dark:after:bg-white' 
-                : 'text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-300'
+                ? 'text-[var(--color-foreground)] dark:text-[var(--color-foreground-dark)] after:absolute after:bottom-0 after:left-0 after:w-full after:h-0.5 after:bg-[var(--color-foreground)] dark:after:bg-[var(--color-foreground-dark)]' 
+                : 'text-[var(--color-foreground-secondary)] dark:text-[var(--color-foreground-secondary-dark)] hover:text-[var(--color-foreground)] dark:hover:text-[var(--color-foreground-dark)]'
             }`}
           >
             {t('common.community')}
@@ -61,8 +61,8 @@ export function Navigation() {
             href={`/${validLocale}/progress`}
             className={`relative py-2 font-medium transition-all duration-200 cursor-pointer ${
               isProgressPage 
-                ? 'text-gray-900 dark:text-white after:absolute after:bottom-0 after:left-0 after:w-full after:h-0.5 after:bg-gray-900 dark:after:bg-white' 
-                : 'text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-300'
+                ? 'text-[var(--color-foreground)] dark:text-[var(--color-foreground-dark)] after:absolute after:bottom-0 after:left-0 after:w-full after:h-0.5 after:bg-[var(--color-foreground)] dark:after:bg-[var(--color-foreground-dark)]' 
+                : 'text-[var(--color-foreground-secondary)] dark:text-[var(--color-foreground-secondary-dark)] hover:text-[var(--color-foreground)] dark:hover:text-[var(--color-foreground-dark)]'
             }`}
           >
             {t('common.progress')}
@@ -72,8 +72,8 @@ export function Navigation() {
             href={`/${validLocale}/ranking`}
             className={`relative py-2 font-medium transition-all duration-200 cursor-pointer ${
               isRankingPage 
-                ? 'text-gray-900 dark:text-white after:absolute after:bottom-0 after:left-0 after:w-full after:h-0.5 after:bg-gray-900 dark:after:bg-white' 
-                : 'text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-300'
+                ? 'text-[var(--color-foreground)] dark:text-[var(--color-foreground-dark)] after:absolute after:bottom-0 after:left-0 after:w-full after:h-0.5 after:bg-[var(--color-foreground)] dark:after:bg-[var(--color-foreground-dark)]' 
+                : 'text-[var(--color-foreground-secondary)] dark:text-[var(--color-foreground-secondary-dark)] hover:text-[var(--color-foreground)] dark:hover:text-[var(--color-foreground-dark)]'
             }`}
           >
             {t('common.ranking')}

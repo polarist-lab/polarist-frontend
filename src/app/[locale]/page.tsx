@@ -23,45 +23,44 @@ export default function HomePage() {
   const studyCategories: StudyCategory[] = [
     {
       id: 'roadmap',
-      title: 'Learning Roadmap',
-      description: 'Structured learning path with Iron 5 system and progressive lessons',
+      title: t('home.learningRoadmap'),
+      description: t('home.learningRoadmapDesc'),
       icon: '🗺️',
       href: `/${validLocale}/roadmap`
     },
     {
       id: 'words',
-      title: 'Vocabulary',
-      description: 'Master Korean words with interactive flashcards and spaced repetition',
+      title: t('home.vocabulary'),
+      description: t('home.vocabularyDesc'),
       icon: '📖',
-      href: `/${validLocale}/study/words`
+      href: `/${validLocale}/study/vocabulary`
     },
     {
       id: 'sentences',
-      title: 'Sentences',
-      description: 'Practice with real Korean sentences and natural conversation patterns',
+      title: t('home.sentences'),
+      description: t('home.sentencesDesc'),
       icon: '💬',
-      href: `/${validLocale}/study/sentences`,
-      comingSoon: true
+      href: `/${validLocale}/study/sentences`
     },
     {
       id: 'grammar',
-      title: 'Grammar',
-      description: 'Understand Korean grammar patterns and sentence structures',
+      title: t('home.grammar'),
+      description: t('home.grammarDesc'),
       icon: '📝',
       href: `/${validLocale}/study/grammar`,
       comingSoon: true
     },
     {
       id: 'iron5',
-      title: 'Iron 5 Challenge',
-      description: 'Complete the foundational Korean learning system',
+      title: t('home.iron5Challenge'),
+      description: t('home.iron5ChallengeDesc'),
       icon: '⚡',
       href: `/${validLocale}/iron5`
     },
     {
       id: 'community',
-      title: 'Community',
-      description: 'Connect with other learners and share your progress',
+      title: t('home.community'),
+      description: t('home.communityDesc'),
       icon: '👥',
       href: `/${validLocale}/community`
     }
@@ -75,34 +74,33 @@ export default function HomePage() {
   };
 
   return (
-    <div className="min-h-screen bg-gray-50 dark:bg-gray-900">
+    <div className="min-h-screen bg-[var(--color-background-secondary)] dark:bg-[var(--color-background-secondary-dark)]">
       {/* Hero Section */}
-      <div className="relative overflow-hidden bg-white dark:bg-gray-800">
-        <div className="absolute inset-0 bg-gradient-to-br from-blue-50 to-indigo-100 dark:from-gray-800 dark:to-gray-900"></div>
+      <div className="relative overflow-hidden bg-[var(--color-background)] dark:bg-[var(--color-background-dark)]">
+        <div className="absolute inset-0 bg-gradient-to-br from-[var(--color-background-secondary)] to-[var(--color-background-tertiary)] dark:from-[var(--color-background-dark)] dark:to-[var(--color-background-secondary-dark)]"></div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-24">
           <div className="text-center">
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 dark:text-white mb-6">
-              Learn Korean
-              <span className="block text-blue-600 dark:text-blue-400">Your Way</span>
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-[var(--color-foreground)] dark:text-[var(--color-foreground-dark)] mb-6">
+              {t('home.heroTitle')}
+              <span className="block text-[var(--color-link)] dark:text-[var(--color-link-dark)]">{t('home.heroSubtitle')}</span>
             </h1>
-            <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto mb-8">
-              Master Korean through structured learning paths, interactive practice, and a supportive community. 
-              Start your journey from complete beginner to confident speaker.
+            <p className="text-xl text-[var(--color-foreground-secondary)] dark:text-[var(--color-foreground-secondary-dark)] max-w-3xl mx-auto mb-8">
+              {t('home.heroDescription')}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button
                 onClick={() => router.push(`/${validLocale}/roadmap`)}
-                className="inline-flex items-center px-8 py-3 rounded-lg text-white bg-blue-600 hover:bg-blue-700 font-semibold transition-colors shadow-lg hover:shadow-xl"
+                className="inline-flex items-center px-8 py-3 rounded-lg text-white bg-[var(--color-link)] hover:bg-[var(--color-primary-dark)] font-semibold transition-colors shadow-lg hover:shadow-xl"
               >
                 <span className="mr-2">🚀</span>
-                Start Learning
+                {t('home.startLearning')}
               </button>
               <button
                 onClick={() => router.push(`/${validLocale}/community`)}
-                className="inline-flex items-center px-8 py-3 rounded-lg text-blue-600 dark:text-blue-400 bg-white dark:bg-gray-800 border border-blue-200 dark:border-blue-600 hover:bg-blue-50 dark:hover:bg-gray-700 font-semibold transition-colors"
+                className="inline-flex items-center px-8 py-3 rounded-lg text-[var(--color-link)] dark:text-[var(--color-link-dark)] bg-[var(--color-card)] dark:bg-[var(--color-card-dark)] border border-[var(--color-border)] dark:border-[var(--color-border-dark)] hover:bg-[var(--color-card-hover)] dark:hover:bg-[var(--color-card-hover-dark)] font-semibold transition-colors"
               >
                 <span className="mr-2">👥</span>
-                Join Community
+                {t('home.joinCommunity')}
               </button>
             </div>
           </div>
@@ -112,12 +110,11 @@ export default function HomePage() {
       {/* Categories Grid */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="text-center mb-12">
-          <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-4">
-            Choose Your Learning Path
+          <h2 className="text-3xl font-bold text-[var(--color-foreground)] dark:text-[var(--color-foreground-dark)] mb-4">
+            {t('home.chooseYourPath')}
           </h2>
-          <p className="text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
-            Each category is designed to help you master different aspects of Korean. 
-            Pick what interests you most or follow our structured roadmap.
+          <p className="text-lg text-[var(--color-foreground-secondary)] dark:text-[var(--color-foreground-secondary-dark)] max-w-2xl mx-auto">
+            {t('home.pathDescription')}
           </p>
         </div>
 
@@ -127,17 +124,17 @@ export default function HomePage() {
               key={category.id}
               onClick={() => handleCategoryClick(category)}
               className={`
-                group relative rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 p-6 transition-all duration-200
+                group relative rounded-lg border border-[var(--color-border)] dark:border-[var(--color-border-dark)] bg-[var(--color-card)] dark:bg-[var(--color-card-dark)] p-6 transition-all duration-200
                 ${category.comingSoon 
                   ? 'cursor-not-allowed opacity-60' 
-                  : 'cursor-pointer hover:border-gray-300 dark:hover:border-gray-600 hover:shadow-md'
+                  : 'cursor-pointer hover:border-[var(--color-border)] dark:hover:border-[var(--color-border-dark)] hover:shadow-md hover:bg-[var(--color-card-hover)] dark:hover:bg-[var(--color-card-hover-dark)]'
                 }
               `}
             >
               {/* Coming Soon Badge */}
               {category.comingSoon && (
-                <div className="absolute top-3 right-3 bg-gray-100 dark:bg-gray-700 text-gray-600 dark:text-gray-400 text-xs font-medium px-2 py-1 rounded">
-                  Coming Soon
+                <div className="absolute top-3 right-3 bg-[var(--color-background-secondary)] dark:bg-[var(--color-background-secondary-dark)] text-[var(--color-foreground-secondary)] dark:text-[var(--color-foreground-secondary-dark)] text-xs font-medium px-2 py-1 rounded">
+                  {t('home.comingSoon')}
                 </div>
               )}
 
@@ -147,13 +144,13 @@ export default function HomePage() {
                   {category.icon}
                 </div>
                 <div className="flex-1">
-                  <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-1">
+                  <h3 className="text-lg font-semibold text-[var(--color-foreground)] dark:text-[var(--color-foreground-dark)] mb-1">
                     {category.title}
                   </h3>
                 </div>
                 {!category.comingSoon && (
                   <svg 
-                    className="w-5 h-5 text-gray-400 dark:text-gray-500 transition-transform group-hover:translate-x-1" 
+                    className="w-5 h-5 text-[var(--color-foreground-muted)] dark:text-[var(--color-foreground-muted-dark)] transition-transform group-hover:translate-x-1" 
                     fill="none" 
                     stroke="currentColor" 
                     viewBox="0 0 24 24"
@@ -164,7 +161,7 @@ export default function HomePage() {
               </div>
 
               {/* Description */}
-              <p className="text-sm text-gray-600 dark:text-gray-400 leading-relaxed">
+              <p className="text-sm text-[var(--color-foreground-secondary)] dark:text-[var(--color-foreground-secondary-dark)] leading-relaxed">
                 {category.description}
               </p>
             </div>
@@ -173,33 +170,33 @@ export default function HomePage() {
       </div>
 
       {/* Stats Section */}
-      <div className="bg-white dark:bg-gray-800 border-t border-gray-200 dark:border-gray-700">
+      <div className="bg-[var(--color-card)] dark:bg-[var(--color-card-dark)] border-t border-[var(--color-border)] dark:border-[var(--color-border-dark)]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
           <div className="text-center mb-12">
-            <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
-              Join Thousands of Korean Learners
+            <h3 className="text-2xl font-bold text-[var(--color-foreground)] dark:text-[var(--color-foreground-dark)] mb-4">
+              {t('home.joinThousands')}
             </h3>
-            <p className="text-gray-600 dark:text-gray-400">
-              Our community is growing every day with learners from around the world
+            <p className="text-[var(--color-foreground-secondary)] dark:text-[var(--color-foreground-secondary-dark)]">
+              {t('home.communityGrowing')}
             </p>
           </div>
           
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             <div className="text-center">
-              <div className="text-3xl font-bold text-blue-600 dark:text-blue-400 mb-2">10K+</div>
-              <div className="text-gray-600 dark:text-gray-400">Active Learners</div>
+              <div className="text-3xl font-bold text-[var(--color-link)] dark:text-[var(--color-link-dark)] mb-2">10K+</div>
+              <div className="text-[var(--color-foreground-secondary)] dark:text-[var(--color-foreground-secondary-dark)]">{t('home.activeLearners')}</div>
             </div>
             <div className="text-center">
               <div className="text-3xl font-bold text-green-600 dark:text-green-400 mb-2">50K+</div>
-              <div className="text-gray-600 dark:text-gray-400">Words Learned</div>
+              <div className="text-[var(--color-foreground-secondary)] dark:text-[var(--color-foreground-secondary-dark)]">{t('home.wordsLearned')}</div>
             </div>
             <div className="text-center">
               <div className="text-3xl font-bold text-purple-600 dark:text-purple-400 mb-2">200+</div>
-              <div className="text-gray-600 dark:text-gray-400">Lessons Available</div>
+              <div className="text-[var(--color-foreground-secondary)] dark:text-[var(--color-foreground-secondary-dark)]">{t('home.lessonsAvailable')}</div>
             </div>
             <div className="text-center">
               <div className="text-3xl font-bold text-orange-600 dark:text-orange-400 mb-2">98%</div>
-              <div className="text-gray-600 dark:text-gray-400">Success Rate</div>
+              <div className="text-[var(--color-foreground-secondary)] dark:text-[var(--color-foreground-secondary-dark)]">{t('home.successRate')}</div>
             </div>
           </div>
         </div>

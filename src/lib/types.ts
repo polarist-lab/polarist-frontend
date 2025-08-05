@@ -16,6 +16,7 @@ export interface KoreanWord {
   frequency: number; // Higher number = more frequently used
   hanja?: HanjaInfo;   // 한자 정보 (한자어인 경우만)
   isHanjaOrigin: boolean; // 한자어 여부
+  audioUrl?: string; // 오디오 파일 URL
 }
 
 export interface LearningProgress {

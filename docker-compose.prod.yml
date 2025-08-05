@@ -1,0 +1,66 @@
+# Docker Compose for Production Environment
+# This sets up PostgreSQL for production deployment
+
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: polarist-postgres-prod
+    restart: always
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-polarist_prod}
+      POSTGRES_USER: ${POSTGRES_USER:-polarist_prod}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      POSTGRES_HOST_AUTH_METHOD: md5
+    ports:
+      - "${POSTGRES_PORT:-5433}:5432"  # Use different port to avoid conflicts
+    volumes:
+      - postgres_prod_data:/var/lib/postgresql/data
+      - ./backup:/backup  # For database backups
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-polarist_prod} -d ${POSTGRES_DB:-polarist_prod}"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 60s
+    networks:
+      - polarist-prod-network
+    # Security hardening
+    security_opt:
+      - no-new-privileges:true
+    tmpfs:
+      - /tmp
+      - /var/run/postgresql
+
+  # Production backup service
+  postgres-backup:
+    image: postgres:16-alpine
+    container_name: polarist-postgres-backup
+    restart: "no"
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-polarist_prod}
+      POSTGRES_USER: ${POSTGRES_USER:-polarist_prod}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      PGPASSWORD: ${POSTGRES_PASSWORD}
+    volumes:
+      - ./backup:/backup
+      - ./scripts/backup.sh:/backup.sh:ro
+    depends_on:
+      postgres:
+        condition: service_healthy
+    networks:
+      - polarist-prod-network
+    profiles:
+      - backup  # Only start when specifically requested
+    command: ["sh", "/backup.sh"]
+
+volumes:
+  postgres_prod_data:
+    driver: local
+    name: polarist_postgres_prod_data
+
+networks:
+  polarist-prod-network:
+    driver: bridge
+    name: polarist-prod-network

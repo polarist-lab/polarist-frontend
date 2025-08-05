@@ -1,0 +1,228 @@
+{
+  "id": "colors",
+  "title": "Korean Colors",
+  "description": "Master Korean color vocabulary for describing everything around you. Essential for shopping and artistic expression.",
+  "totalWords": 20,
+  "words": [
+    {
+      "korean": "빨간색",
+      "pronunciation": "ppal-gan-saek",
+      "english": "red",
+      "category": "colors",
+      "difficulty": "absolute-beginner",
+      "frequency": 95,
+      "example": "빨간색 사과가 맛있어요.",
+      "exampleTranslation": "The red apple is delicious.",
+      "notes": "Most basic color word"
+    },
+    {
+      "korean": "파란색",
+      "pronunciation": "pa-ran-saek",
+      "english": "blue",
+      "category": "colors",
+      "difficulty": "absolute-beginner",
+      "frequency": 92,
+      "example": "파란색 하늘이 예뻐요.",
+      "exampleTranslation": "The blue sky is beautiful.",
+      "notes": "Basic primary color"
+    },
+    {
+      "korean": "노란색",
+      "pronunciation": "no-ran-saek",
+      "english": "yellow",
+      "category": "colors",
+      "difficulty": "absolute-beginner",
+      "frequency": 90,
+      "example": "노란색 바나나를 좋아해요.",
+      "exampleTranslation": "I like yellow bananas.",
+      "notes": "Bright primary color"
+    },
+    {
+      "korean": "초록색",
+      "pronunciation": "cho-rok-saek",
+      "english": "green",
+      "category": "colors",
+      "difficulty": "absolute-beginner",
+      "frequency": 88,
+      "example": "초록색 나무가 많아요.",
+      "exampleTranslation": "There are many green trees.",
+      "notes": "Color of nature"
+    },
+    {
+      "korean": "검은색",
+      "pronunciation": "geo-meun-saek",
+      "english": "black",
+      "category": "colors",
+      "difficulty": "absolute-beginner",
+      "frequency": 85,
+      "example": "검은색 옷을 입었어요.",
+      "exampleTranslation": "I'm wearing black clothes.",
+      "notes": "Absence of color"
+    },
+    {
+      "korean": "흰색",
+      "pronunciation": "huin-saek",
+      "english": "white",
+      "category": "colors",
+      "difficulty": "absolute-beginner",
+      "frequency": 83,
+      "example": "흰색 눈이 내려요.",
+      "exampleTranslation": "White snow is falling.",
+      "notes": "Pure color"
+    },
+    {
+      "korean": "분홍색",
+      "pronunciation": "bun-hong-saek",
+      "english": "pink",
+      "category": "colors",
+      "difficulty": "absolute-beginner",
+      "frequency": 80,
+      "example": "분홍색 꽃이 예뻐요.",
+      "exampleTranslation": "The pink flowers are pretty.",
+      "notes": "Feminine color in culture"
+    },
+    {
+      "korean": "주황색",
+      "pronunciation": "ju-hwang-saek",
+      "english": "orange",
+      "category": "colors",
+      "difficulty": "absolute-beginner",
+      "frequency": 78,
+      "example": "주황색 당근을 먹어요.",
+      "exampleTranslation": "I eat orange carrots.",
+      "notes": "Named after the fruit"
+    },
+    {
+      "korean": "보라색",
+      "pronunciation": "bo-ra-saek",
+      "english": "purple",
+      "category": "colors",
+      "difficulty": "beginner",
+      "frequency": 75,
+      "example": "보라색 꽃이 아름다워요.",
+      "exampleTranslation": "Purple flowers are beautiful.",
+      "notes": "Royal color historically"
+    },
+    {
+      "korean": "회색",
+      "pronunciation": "hoe-saek",
+      "english": "gray",
+      "category": "colors",
+      "difficulty": "beginner",
+      "frequency": 72,
+      "example": "회색 구름이 많아요.",
+      "exampleTranslation": "There are many gray clouds.",
+      "notes": "Neutral color"
+    },
+    {
+      "korean": "갈색",
+      "pronunciation": "gal-saek",
+      "english": "brown",
+      "category": "colors",
+      "difficulty": "beginner",
+      "frequency": 70,
+      "example": "갈색 머리가 자연스러워요.",
+      "exampleTranslation": "Brown hair looks natural.",
+      "notes": "Earth tone"
+    },
+    {
+      "korean": "금색",
+      "pronunciation": "geum-saek",
+      "english": "gold",
+      "category": "colors",
+      "difficulty": "beginner",
+      "frequency": 65,
+      "example": "금색 반지가 반짝여요.",
+      "exampleTranslation": "The gold ring sparkles.",
+      "notes": "Precious metal color"
+    },
+    {
+      "korean": "은색",
+      "pronunciation": "eun-saek",
+      "english": "silver",
+      "category": "colors",
+      "difficulty": "beginner",
+      "frequency": 62,
+      "example": "은색 차가 빨라요.",
+      "exampleTranslation": "The silver car is fast.",
+      "notes": "Metallic color"
+    },
+    {
+      "korean": "청록색",
+      "pronunciation": "cheong-rok-saek",
+      "english": "turquoise",
+      "category": "colors",
+      "difficulty": "beginner",
+      "frequency": 58,
+      "example": "청록색 바다가 깨끗해요.",
+      "exampleTranslation": "The turquoise sea is clean.",
+      "notes": "Blue-green color"
+    },
+    {
+      "korean": "청색",
+      "pronunciation": "cheong-saek",
+      "english": "cyan",
+      "category": "colors",
+      "difficulty": "intermediate",
+      "frequency": 55,
+      "example": "청색 하늘이 맑아요.",
+      "exampleTranslation": "The cyan sky is clear.",
+      "notes": "Light blue shade"
+    },
+    {
+      "korean": "자주색",
+      "pronunciation": "ja-ju-saek",
+      "english": "violet",
+      "category": "colors",
+      "difficulty": "intermediate",
+      "frequency": 52,
+      "example": "자주색 드레스가 우아해요.",
+      "exampleTranslation": "The violet dress is elegant.",
+      "notes": "Deep purple shade"
+    },
+    {
+      "korean": "연두색",
+      "pronunciation": "yeon-du-saek",
+      "english": "light green",
+      "category": "colors",
+      "difficulty": "intermediate",
+      "frequency": 50,
+      "example": "연두색 잎이 싱그러워요.",
+      "exampleTranslation": "Light green leaves are fresh.",
+      "notes": "Spring color"
+    },
+    {
+      "korean": "남색",
+      "pronunciation": "nam-saek",
+      "english": "navy blue",
+      "category": "colors",
+      "difficulty": "intermediate",
+      "frequency": 48,
+      "example": "남색 정장이 포멀해요.",
+      "exampleTranslation": "The navy blue suit is formal.",
+      "notes": "Dark blue color"
+    },
+    {
+      "korean": "살색",
+      "pronunciation": "sal-saek",
+      "english": "flesh color",
+      "category": "colors",
+      "difficulty": "advanced",
+      "frequency": 45,
+      "example": "살색 크레용으로 그려요.",
+      "exampleTranslation": "I draw with a flesh-colored crayon.",
+      "notes": "Skin tone color"
+    },
+    {
+      "korean": "무지개색",
+      "pronunciation": "mu-ji-gae-saek",
+      "english": "rainbow color",
+      "category": "colors",
+      "difficulty": "advanced",
+      "frequency": 42,
+      "example": "무지개색 티셔츠가 화려해요.",
+      "exampleTranslation": "The rainbow-colored t-shirt is colorful.",
+      "notes": "Multiple colors like rainbow"
+    }
+  ]
+}

@@ -46,7 +46,7 @@ export function BreadcrumbNav({
         <div className="flex items-center justify-between mb-4 px-4 lg:px-0">
           <button
             onClick={handleBackToRoadmap}
-            className="flex items-center gap-2 text-gray-600 hover:text-gray-800 transition-colors"
+            className="flex items-center gap-2 text-gray-600 hover:text-gray-800 transition-colors cursor-pointer"
           >
             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
@@ -65,23 +65,23 @@ export function BreadcrumbNav({
         <nav className="flex items-center space-x-2 text-sm px-4 lg:px-0">
           <button
             onClick={handleBackToRoadmap}
-            className="text-gray-500 hover:text-gray-700 transition-colors"
+            className="text-gray-500 hover:text-gray-700 transition-colors cursor-pointer"
           >
             Roadmap
           </button>
           
-          <svg className="w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <svg className="w-4 h-4 text-gray-400 cursor-pointer" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
           </svg>
           
           <button
             onClick={handleBackToChapter}
-            className={`hover:opacity-80 transition-colors font-medium ${getTierColor(context.breadcrumb.roadmapTitle)}`}
+            className={`hover:opacity-80 transition-colors font-medium cursor-pointer ${getTierColor(context.breadcrumb.roadmapTitle)}`}
           >
             {context.breadcrumb.roadmapTitle}
           </button>
           
-          <svg className="w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <svg className="w-4 h-4 text-gray-400 cursor-pointer" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
           </svg>
           
@@ -89,7 +89,7 @@ export function BreadcrumbNav({
             Chapter {context.chapterNumber}: {context.breadcrumb.chapterTitle}
           </span>
           
-          <svg className="w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <svg className="w-4 h-4 text-gray-400 cursor-pointer" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
           </svg>
           

@@ -1,0 +1,599 @@
+{
+  "id": "transportation",
+  "title": "Korean Transportation - Comprehensive Collection",
+  "description": "Learn Korean transportation vocabulary for traveling and commuting. Essential for navigating Korea. Includes 50+ vehicles, transport systems, and travel-related terms.",
+  "metadata": {
+    "version": "2.0.0",
+    "lastUpdated": "2025-01-30",
+    "sources": [
+      {
+        "name": "TOPIK Guide",
+        "url": "https://www.topikguide.com/vocabulary-list-for-vehicles-and-their-parts-in-korean/",
+        "description": "Vocabulary list for Vehicles and their parts – In Korean"
+      },
+      {
+        "name": "90DayKorean",
+        "url": "https://www.90daykorean.com/car-in-korean/",
+        "description": "How to Say Car in Korean - Useful mode of transportation"
+      },
+      {
+        "name": "HowToStudyKorean",
+        "url": "https://www.howtostudykorean.com/theme/transportation/",
+        "description": "Theme Unit: Transportation vocabulary"
+      },
+      {
+        "name": "National Institute of Korean Language",
+        "url": "https://www.korean.go.kr/",
+        "description": "Official Korean vocabulary frequency data"
+      }
+    ],
+    "linguisticNotes": {
+      "basicTerms": "차 (cha) = car/vehicle, 교통수단 (gyotong-sudan) = transportation",
+      "culturalContext": "Public transportation is omnipresent in Korea and faster than driving in most cases",
+      "formalVsInformal": "자동차 (jadongcha) formal vs 차 (cha) informal for car"
+    },
+    "difficultyDistribution": {
+      "absolute-beginner": 20,
+      "beginner": 15,
+      "intermediate": 10,
+      "advanced": 5
+    }
+  },
+  "totalWords": 50,
+  "words": [
+    {
+      "korean": "차",
+      "pronunciation": "cha",
+      "english": "car",
+      "category": "transportation",
+      "difficulty": "absolute-beginner",
+      "frequency": 95,
+      "example": "차로 학교에 가요.",
+      "exampleTranslation": "I go to school by car.",
+      "notes": "Most common vehicle"
+    },
+    {
+      "korean": "버스",
+      "pronunciation": "beo-seu",
+      "english": "bus",
+      "category": "transportation",
+      "difficulty": "absolute-beginner",
+      "frequency": 92,
+      "example": "버스를 타고 회사에 가요.",
+      "exampleTranslation": "I take the bus to work.",
+      "notes": "Public transportation",
+      "audioUrl": "http://localhost:4000/audio/%EB%B2%84%EC%8A%A4.mp3"
+    },
+    {
+      "korean": "지하철",
+      "pronunciation": "ji-ha-cheol",
+      "english": "subway",
+      "category": "transportation",
+      "difficulty": "absolute-beginner",
+      "frequency": 90,
+      "example": "지하철이 빨라요.",
+      "exampleTranslation": "The subway is fast.",
+      "notes": "Underground train system"
+    },
+    {
+      "korean": "택시",
+      "pronunciation": "taek-si",
+      "english": "taxi",
+      "category": "transportation",
+      "difficulty": "absolute-beginner",
+      "frequency": 88,
+      "example": "택시를 불러주세요.",
+      "exampleTranslation": "Please call a taxi.",
+      "notes": "Private hire vehicle",
+      "audioUrl": "http://localhost:4000/audio/%ED%83%9D%EC%8B%9C.mp3"
+    },
+    {
+      "korean": "기차",
+      "pronunciation": "gi-cha",
+      "english": "train",
+      "category": "transportation",
+      "difficulty": "absolute-beginner",
+      "frequency": 85,
+      "example": "기차가 역에 도착했어요.",
+      "exampleTranslation": "The train arrived at the station.",
+      "notes": "Long-distance rail transport",
+      "audioUrl": "http://localhost:4000/audio/%EA%B8%B0%EC%B0%A8.mp3"
+    },
+    {
+      "korean": "비행기",
+      "pronunciation": "bi-haeng-gi",
+      "english": "airplane",
+      "category": "transportation",
+      "difficulty": "absolute-beginner",
+      "frequency": 82,
+      "example": "비행기로 부산에 가요.",
+      "exampleTranslation": "I'm going to Busan by airplane.",
+      "notes": "Air transportation",
+      "audioUrl": "http://localhost:4000/audio/%EB%B9%84%ED%96%89%EA%B8%B0.mp3"
+    },
+    {
+      "korean": "자전거",
+      "pronunciation": "ja-jeon-geo",
+      "english": "bicycle",
+      "category": "transportation",
+      "difficulty": "absolute-beginner",
+      "frequency": 80,
+      "example": "자전거를 타고 공원에 가요.",
+      "exampleTranslation": "I ride a bicycle to the park.",
+      "notes": "Eco-friendly transport"
+    },
+    {
+      "korean": "오토바이",
+      "pronunciation": "o-to-ba-i",
+      "english": "motorcycle",
+      "category": "transportation",
+      "difficulty": "absolute-beginner",
+      "frequency": 75,
+      "example": "오토바이가 시끄러워요.",
+      "exampleTranslation": "The motorcycle is loud.",
+      "notes": "Two-wheeled motor vehicle"
+    },
+    {
+      "korean": "배",
+      "pronunciation": "bae",
+      "english": "ship",
+      "category": "transportation",
+      "difficulty": "beginner",
+      "frequency": 72,
+      "example": "배로 제주도에 가요.",
+      "exampleTranslation": "I'm going to Jeju Island by ship.",
+      "notes": "Marine transportation"
+    },
+    {
+      "korean": "트럭",
+      "pronunciation": "teu-reok",
+      "english": "truck",
+      "category": "transportation",
+      "difficulty": "beginner",
+      "frequency": 70,
+      "example": "트럭이 짐을 실어요.",
+      "exampleTranslation": "The truck carries cargo.",
+      "notes": "Commercial vehicle"
+    },
+    {
+      "korean": "헬리콥터",
+      "pronunciation": "hel-li-kop-teo",
+      "english": "helicopter",
+      "category": "transportation",
+      "difficulty": "beginner",
+      "frequency": 65,
+      "example": "헬리콥터가 하늘을 날아요.",
+      "exampleTranslation": "The helicopter flies in the sky.",
+      "notes": "Vertical flight aircraft"
+    },
+    {
+      "korean": "스쿠터",
+      "pronunciation": "seu-ku-teo",
+      "english": "scooter",
+      "category": "transportation",
+      "difficulty": "beginner",
+      "frequency": 62,
+      "example": "스쿠터로 편의점에 가요.",
+      "exampleTranslation": "I go to the convenience store by scooter.",
+      "notes": "Small motorcycle"
+    },
+    {
+      "korean": "전차",
+      "pronunciation": "jeon-cha",
+      "english": "tram",
+      "category": "transportation",
+      "difficulty": "beginner",
+      "frequency": 60,
+      "example": "전차가 선로를 따라 가요.",
+      "exampleTranslation": "The tram goes along the tracks.",
+      "notes": "Electric streetcar"
+    },
+    {
+      "korean": "구급차",
+      "pronunciation": "gu-geup-cha",
+      "english": "ambulance",
+      "category": "transportation",
+      "difficulty": "beginner",
+      "frequency": 58,
+      "example": "구급차가 병원으로 가요.",
+      "exampleTranslation": "The ambulance goes to the hospital.",
+      "notes": "Emergency medical vehicle"
+    },
+    {
+      "korean": "소방차",
+      "pronunciation": "so-bang-cha",
+      "english": "fire truck",
+      "category": "transportation",
+      "difficulty": "beginner",
+      "frequency": 55,
+      "example": "소방차가 불을 끄러 가요.",
+      "exampleTranslation": "The fire truck goes to put out the fire.",
+      "notes": "Emergency firefighting vehicle"
+    },
+    {
+      "korean": "경찰차",
+      "pronunciation": "gyeong-chal-cha",
+      "english": "police car",
+      "category": "transportation",
+      "difficulty": "beginner",
+      "frequency": 52,
+      "example": "경찰차가 순찰을 해요.",
+      "exampleTranslation": "The police car patrols.",
+      "notes": "Law enforcement vehicle"
+    },
+    {
+      "korean": "밴",
+      "pronunciation": "baen",
+      "english": "van",
+      "category": "transportation",
+      "difficulty": "beginner",
+      "frequency": 50,
+      "example": "밴으로 이사를 해요.",
+      "exampleTranslation": "We move with a van.",
+      "notes": "Multi-purpose vehicle"
+    },
+    {
+      "korean": "리무진",
+      "pronunciation": "ri-mu-jin",
+      "english": "limousine",
+      "category": "transportation",
+      "difficulty": "intermediate",
+      "frequency": 45,
+      "example": "리무진이 공항에서 기다려요.",
+      "exampleTranslation": "The limousine waits at the airport.",
+      "notes": "Luxury vehicle"
+    },
+    {
+      "korean": "케이블카",
+      "pronunciation": "ke-i-beul-ka",
+      "english": "cable car",
+      "category": "transportation",
+      "difficulty": "intermediate",
+      "frequency": 42,
+      "example": "케이블카로 산 위에 올라가요.",
+      "exampleTranslation": "We go up the mountain by cable car.",
+      "notes": "Mountain transportation"
+    },
+    {
+      "korean": "요트",
+      "pronunciation": "yo-teu",
+      "english": "yacht",
+      "category": "transportation",
+      "difficulty": "intermediate",
+      "frequency": 40,
+      "example": "요트를 타고 바다를 구경해요.",
+      "exampleTranslation": "We ride a yacht and see the ocean.",
+      "notes": "Recreational boat"
+    },
+    {
+      "korean": "페리",
+      "pronunciation": "pe-ri",
+      "english": "ferry",
+      "category": "transportation",
+      "difficulty": "intermediate",
+      "frequency": 38,
+      "example": "페리로 섬에 가요.",
+      "exampleTranslation": "We go to the island by ferry.",
+      "notes": "Passenger ship"
+    },
+    {
+      "korean": "롤러스케이트",
+      "pronunciation": "rol-leo-seu-ke-i-teu",
+      "english": "roller skates",
+      "category": "transportation",
+      "difficulty": "intermediate",
+      "frequency": 35,
+      "example": "롤러스케이트를 타고 공원을 돌아요.",
+      "exampleTranslation": "I skate around the park on roller skates.",
+      "notes": "Recreational transport"
+    },
+    {
+      "korean": "스케이트보드",
+      "pronunciation": "seu-ke-i-teu-bo-deu",
+      "english": "skateboard",
+      "category": "transportation",
+      "difficulty": "intermediate",
+      "frequency": 32,
+      "example": "스케이트보드로 학교에 가요.",
+      "exampleTranslation": "I go to school on a skateboard.",
+      "notes": "Youth transportation"
+    },
+    {
+      "korean": "세그웨이",
+      "pronunciation": "se-geu-we-i",
+      "english": "Segway",
+      "category": "transportation",
+      "difficulty": "intermediate",
+      "frequency": 30,
+      "example": "세그웨이로 관광을 해요.",
+      "exampleTranslation": "We tour by Segway.",
+      "notes": "Self-balancing vehicle"
+    },
+    {
+      "korean": "킥보드",
+      "pronunciation": "kik-bo-deu",
+      "english": "kick scooter",
+      "category": "transportation",
+      "difficulty": "intermediate",
+      "frequency": 28,
+      "example": "킥보드를 타고 편의점에 가요.",
+      "exampleTranslation": "I ride a kick scooter to the convenience store.",
+      "notes": "Manual scooter"
+    },
+    {
+      "korean": "전기차",
+      "pronunciation": "jeon-gi-cha",
+      "english": "electric car",
+      "category": "transportation",
+      "difficulty": "advanced",
+      "frequency": 25,
+      "example": "전기차는 환경에 좋아요.",
+      "exampleTranslation": "Electric cars are good for the environment.",
+      "notes": "Eco-friendly vehicle"
+    },
+    {
+      "korean": "하이브리드",
+      "pronunciation": "ha-i-beu-ri-deu",
+      "english": "hybrid car",
+      "category": "transportation",
+      "difficulty": "advanced",
+      "frequency": 22,
+      "example": "하이브리드 차는 연료를 적게 써요.",
+      "exampleTranslation": "Hybrid cars use less fuel.",
+      "notes": "Dual-power vehicle"
+    },
+    {
+      "korean": "무인항공기",
+      "pronunciation": "mu-in-hang-gong-gi",
+      "english": "drone",
+      "category": "transportation",
+      "difficulty": "advanced",
+      "frequency": 20,
+      "example": "무인항공기로 택배를 배송해요.",
+      "exampleTranslation": "Drones deliver packages.",
+      "notes": "Unmanned aircraft"
+    },
+    {
+      "korean": "자율주행차",
+      "pronunciation": "ja-yul-ju-haeng-cha",
+      "english": "self-driving car",
+      "category": "transportation",
+      "difficulty": "advanced",
+      "frequency": 18,
+      "example": "자율주행차가 미래의 교통수단이에요.",
+      "exampleTranslation": "Self-driving cars are future transportation.",
+      "notes": "Autonomous vehicle"
+    },
+    {
+      "korean": "호버보드",
+      "pronunciation": "ho-beo-bo-deu",
+      "english": "hoverboard",
+      "category": "transportation",
+      "difficulty": "advanced",
+      "frequency": 15,
+      "example": "호버보드를 타고 놀아요.",
+      "exampleTranslation": "I play riding a hoverboard.",
+      "notes": "Self-balancing board"
+    },
+    {
+      "korean": "자동차",
+      "pronunciation": "ja-dong-cha",
+      "english": "automobile",
+      "category": "transportation",
+      "difficulty": "beginner",
+      "frequency": 85,
+      "example": "자동차로 여행을 가요.",
+      "exampleTranslation": "I go on a trip by automobile.",
+      "notes": "Formal term for car"
+    },
+    {
+      "korean": "승용차",
+      "pronunciation": "seung-yong-cha",
+      "english": "passenger car",
+      "category": "transportation",
+      "difficulty": "intermediate",
+      "frequency": 55,
+      "example": "승용차가 편해요.",
+      "exampleTranslation": "Passenger cars are comfortable.",
+      "notes": "Personal vehicle for passengers"
+    },
+    {
+      "korean": "화물차",
+      "pronunciation": "hwa-mul-cha",
+      "english": "freight truck",
+      "category": "transportation",
+      "difficulty": "intermediate",
+      "frequency": 45,
+      "example": "화물차가 짐을 운반해요.",
+      "exampleTranslation": "Freight trucks transport cargo.",
+      "notes": "Commercial cargo vehicle"
+    },
+    {
+      "korean": "덤프트럭",
+      "pronunciation": "deom-peu-teu-reok",
+      "english": "dump truck",
+      "category": "transportation",
+      "difficulty": "intermediate",
+      "frequency": 35,
+      "example": "덤프트럭이 흙을 운반해요.",
+      "exampleTranslation": "Dump trucks transport soil.",
+      "notes": "Construction vehicle"
+    },
+    {
+      "korean": "견인차",
+      "pronunciation": "gyeon-in-cha",
+      "english": "tow truck",
+      "category": "transportation",
+      "difficulty": "advanced",
+      "frequency": 25,
+      "example": "견인차가 고장난 차를 끌어가요.",
+      "exampleTranslation": "The tow truck pulls away the broken car.",
+      "notes": "Vehicle recovery service"
+    },
+    {
+      "korean": "쓰레기차",
+      "pronunciation": "sseu-re-gi-cha",
+      "english": "garbage truck",
+      "category": "transportation",
+      "difficulty": "beginner",
+      "frequency": 40,
+      "example": "쓰레기차가 매주 와요.",
+      "exampleTranslation": "The garbage truck comes every week.",
+      "notes": "Waste collection vehicle"
+    },
+    {
+      "korean": "우유차",
+      "pronunciation": "u-yu-cha",
+      "english": "milk truck",
+      "category": "transportation",
+      "difficulty": "beginner",
+      "frequency": 30,
+      "example": "우유차가 아침에 와요.",
+      "exampleTranslation": "The milk truck comes in the morning.",
+      "notes": "Dairy delivery vehicle"
+    },
+    {
+      "korean": "배달차",
+      "pronunciation": "bae-dal-cha",
+      "english": "delivery truck",
+      "category": "transportation",
+      "difficulty": "beginner",
+      "frequency": 65,
+      "example": "배달차가 음식을 가져와요.",
+      "exampleTranslation": "The delivery truck brings food.",
+      "notes": "Food/package delivery"
+    },
+    {
+      "korean": "픽업트럭",
+      "pronunciation": "pi-keop-teu-reok",
+      "english": "pickup truck",
+      "category": "transportation",
+      "difficulty": "intermediate",
+      "frequency": 38,
+      "example": "픽업트럭으로 짐을 운반해요.",
+      "exampleTranslation": "I transport cargo with a pickup truck.",
+      "notes": "Small utility truck"
+    },
+    {
+      "korean": "고속버스",
+      "pronunciation": "go-sok-beo-seu",
+      "english": "express bus",
+      "category": "transportation",
+      "difficulty": "beginner",
+      "frequency": 68,
+      "example": "고속버스로 부산에 가요.",
+      "exampleTranslation": "I go to Busan by express bus.",
+      "notes": "Long-distance bus service"
+    },
+    {
+      "korean": "시내버스",
+      "pronunciation": "si-nae-beo-seu",
+      "english": "city bus",
+      "category": "transportation",
+      "difficulty": "beginner",
+      "frequency": 75,
+      "example": "시내버스를 타고 학교에 가요.",
+      "exampleTranslation": "I take the city bus to school.",
+      "notes": "Urban public transport"
+    },
+    {
+      "korean": "마을버스",
+      "pronunciation": "ma-eul-beo-seu",
+      "english": "village bus",
+      "category": "transportation",
+      "difficulty": "intermediate",
+      "frequency": 45,
+      "example": "마을버스가 시골을 다녀요.",
+      "exampleTranslation": "Village buses serve rural areas.",
+      "notes": "Rural community transport"
+    },
+    {
+      "korean": "관광버스",
+      "pronunciation": "gwan-gwang-beo-seu",
+      "english": "tour bus",
+      "category": "transportation",
+      "difficulty": "intermediate",
+      "frequency": 42,
+      "example": "관광버스로 여행을 해요.",
+      "exampleTranslation": "I travel by tour bus.",
+      "notes": "Tourist transport"
+    },
+    {
+      "korean": "스쿨버스",
+      "pronunciation": "seu-kul-beo-seu",
+      "english": "school bus",
+      "category": "transportation",
+      "difficulty": "beginner",
+      "frequency": 52,
+      "example": "스쿨버스가 아이들을 데려가요.",
+      "exampleTranslation": "The school bus takes children.",
+      "notes": "Student transportation"
+    },
+    {
+      "korean": "장거리버스",
+      "pronunciation": "jang-geo-ri-beo-seu",
+      "english": "long-distance bus",
+      "category": "transportation",
+      "difficulty": "intermediate",
+      "frequency": 35,
+      "example": "장거리버스로 먼 곳에 가요.",
+      "exampleTranslation": "I go to distant places by long-distance bus.",
+      "notes": "Inter-city transport"
+    },
+    {
+      "korean": "전철",
+      "pronunciation": "jeon-cheol",
+      "english": "electric train",
+      "category": "transportation",
+      "difficulty": "beginner",
+      "frequency": 78,
+      "example": "전철을 타고 서울에 가요.",
+      "exampleTranslation": "I take the electric train to Seoul.",
+      "notes": "Suburban rail system"
+    },
+    {
+      "korean": "고속철도",
+      "pronunciation": "go-sok-cheol-do",
+      "english": "high-speed rail",
+      "category": "transportation",
+      "difficulty": "intermediate",
+      "frequency": 48,
+      "example": "고속철도가 빨라요.",
+      "exampleTranslation": "High-speed rail is fast.",
+      "notes": "KTX bullet train"
+    },
+    {
+      "korean": "화물열차",
+      "pronunciation": "hwa-mul-yeol-cha",
+      "english": "freight train",
+      "category": "transportation",
+      "difficulty": "intermediate",
+      "frequency": 32,
+      "example": "화물열차가 물건을 운반해요.",
+      "exampleTranslation": "Freight trains transport goods.",
+      "notes": "Cargo rail transport"
+    },
+    {
+      "korean": "무궁화호",
+      "pronunciation": "mu-gung-hwa-ho",
+      "english": "Mugunghwa train",
+      "category": "transportation",
+      "difficulty": "advanced",
+      "frequency": 28,
+      "example": "무궁화호는 일반 기차예요.",
+      "exampleTranslation": "Mugunghwa is a regular train.",
+      "notes": "Korean standard train service"
+    },
+    {
+      "korean": "새마을호",
+      "pronunciation": "sae-ma-eul-ho",
+      "english": "Saemaul train",
+      "category": "transportation",
+      "difficulty": "advanced",
+      "frequency": 25,
+      "example": "새마을호가 무궁화호보다 빨라요.",
+      "exampleTranslation": "Saemaul trains are faster than Mugunghwa.",
+      "notes": "Korean express train service"
+    }
+  ]
+}

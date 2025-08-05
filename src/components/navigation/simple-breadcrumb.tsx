@@ -35,13 +35,13 @@ export function SimpleBreadcrumb({
             {showMobileMenu && (
               <button
                 type="button"
-                className="flex items-center justify-center w-8 h-8 -m-1 text-gray-700 hover:text-gray-900 hover:bg-gray-100 rounded-md transition-colors duration-200 active:scale-95"
+                className="flex items-center justify-center w-8 h-8 -m-1 text-gray-700 hover:text-gray-900 hover:bg-gray-100 rounded-md transition-colors duration-200 active:scale-95 cursor-pointer"
                 onClick={onMobileMenuClick}
               >
                 <span className="sr-only">Toggle menu</span>
-                <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor">
+                <svg className="w-5 h-5 transition-transform duration-200" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor">
                   {isMobileMenuOpen ? (
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 15L12 18.75 15.75 15" />
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 15.75l7.5-7.5 7.5 7.5" />
                   ) : (
                     <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
                   )}
