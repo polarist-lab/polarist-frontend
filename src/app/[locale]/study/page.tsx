@@ -34,18 +34,18 @@ export default function StudyPage() {
     {
       id: 'words',
       title: 'Vocabulary',
-      description: 'Learn Korean words with interactive flashcards',
+      description: 'Learn Korean words with interactive flashcards and spaced repetition',
       icon: '📖',
-      href: `/${validLocale}/study/words`,
+      href: `/${validLocale}/study/vocabulary`,
       progress: 60
     },
     {
       id: 'sentences',
       title: 'Sentences',
-      description: 'Practice with real Korean sentences and contexts',
+      description: 'Practice with real Korean sentences and natural conversation patterns',
       icon: '💬',
       href: `/${validLocale}/study/sentences`,
-      comingSoon: true
+      progress: 35
     },
     {
       id: 'grammar',

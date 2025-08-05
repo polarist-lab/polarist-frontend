@@ -86,6 +86,18 @@ export const en: Translation = {
     kPopCulture: 'K-Pop & Korean Culture',
     healthBody: 'Health & Body',
     technologyModern: 'Technology & Modern Life',
+    koreanHighFrequency: 'Korean High-Frequency Words',
+    
+    // 새로운 테마 기반 단어장들
+    fruits: 'Fruits',
+    animals: 'Animals',
+    colors: 'Colors',
+    family: 'Family',
+    foodDishes: 'Korean Dishes',
+    transportation: 'Transportation',
+    homeFurniture: 'Home & Furniture',
+    clothing: 'Clothing',
+    jobs: 'Jobs & Professions',
     
     // 단어장 설명들
     absoluteBeginnerDesc: 'Perfect for complete beginners. Start with the most basic and essential Korean words.',
@@ -100,6 +112,18 @@ export const en: Translation = {
     kPopCultureDesc: 'Dive into Korean pop culture with music, entertainment, and cultural terms.',
     healthBodyDesc: 'Medical and health-related vocabulary for describing symptoms and body parts.',
     technologyModernDesc: 'Modern technology and digital life vocabulary for contemporary Korean.',
+    koreanHighFrequencyDesc: 'Essential high-frequency Korean words from authentic sources. Perfect for building a strong foundation with real Korean vocabulary.',
+    
+    // 새로운 테마 기반 단어장 설명들
+    fruitsDesc: 'Learn Korean fruit names from common apples to exotic dragon fruits. Perfect for grocery shopping and healthy conversations.',
+    animalsDesc: 'Discover Korean animal vocabulary from household pets to wild animals. Great for nature lovers and pet owners.',
+    colorsDesc: 'Master Korean color vocabulary for describing everything around you. Essential for shopping and artistic expression.',
+    familyDesc: 'Learn Korean family terms and relationship vocabulary. Understand Korean culture through family connections.',
+    foodDishesDesc: 'Explore authentic Korean cuisine vocabulary. From kimchi to bulgogi, learn to talk about delicious Korean food.',
+    transportationDesc: 'Navigate Korea with confidence using transportation vocabulary. From buses to KTX trains.',
+    homeFurnitureDesc: 'Learn vocabulary for describing your living space and furniture. Perfect for apartment hunting in Korea.',
+    clothingDesc: 'Fashion and clothing vocabulary for shopping and describing outfits. From casual wear to traditional hanbok.',
+    jobsDesc: 'Professional vocabulary covering various occupations and careers. Useful for job interviews and networking.',
   },
 
   sentences: {
@@ -108,12 +132,20 @@ export const en: Translation = {
     dailyConversations: 'Daily Conversations',
     restaurantOrdering: 'Restaurant Ordering',
     shoppingMarket: 'Shopping & Market Talk',
+    travelTransportation: 'Travel & Transportation',
+    schoolWork: 'School & Work',
+    healthMedical: 'Health & Medical',
+    emotionsOpinions: 'Emotions & Opinions',
     
     // 문장집 설명들
     greetingsBasicDesc: 'Essential sentences for polite greetings and basic interactions.',
     dailyConversationsDesc: 'Common sentences used in everyday Korean conversations.',
     restaurantOrderingDesc: 'Master the art of ordering food at Korean restaurants.',
     shoppingMarketDesc: 'Navigate Korean markets and shops with confidence.',
+    travelTransportationDesc: 'Essential phrases for travel and using public transportation.',
+    schoolWorkDesc: 'Professional and academic expressions for formal settings.',
+    healthMedicalDesc: 'Important sentences for medical situations and health discussions.',
+    emotionsOpinionsDesc: 'Express feelings, thoughts, and complex opinions in Korean.',
     
     // 문장집 일반
     selectSentences: 'Select Sentence Collection',
@@ -122,6 +154,9 @@ export const en: Translation = {
     sentenceCount: '{{count}} sentences',
     grammarFocus: 'Grammar Focus: {{grammar}}',
     vocabularyLevel: 'Vocabulary Level: {{level}}',
+    beginnerLevel: 'Beginner Level',
+    intermediateLevel: 'Intermediate Level',
+    advancedLevel: 'Advanced Level',
   },
 
   roadmaps: {
@@ -167,6 +202,40 @@ export const en: Translation = {
     mostCommonWordsDesc: 'Learn the most frequently used Korean words that appear in everyday conversations.',
     interactiveCardsDesc: 'Beautiful 3D flip animations make learning engaging and memorable.',
     mobileFriendlyDesc: 'Study anywhere, anytime with our responsive mobile-optimized design.',
+    
+    // 메인 페이지 히어로 섹션
+    heroTitle: 'Learn Korean',
+    heroSubtitle: 'Your Way',
+    heroDescription: 'Master Korean through structured learning paths, interactive practice, and a supportive community. Start your journey from complete beginner to confident speaker.',
+    startLearning: 'Start Learning',
+    joinCommunity: 'Join Community',
+    
+    // 카테고리 섹션
+    chooseYourPath: 'Choose Your Learning Path',
+    pathDescription: 'Each category is designed to help you master different aspects of Korean. Pick what interests you most or follow our structured roadmap.',
+    comingSoon: 'Coming Soon',
+    
+    // 카테고리별 제목과 설명
+    learningRoadmap: 'Learning Roadmap',
+    learningRoadmapDesc: 'Structured learning path with Iron 5 system and progressive lessons',
+    vocabulary: 'Vocabulary',
+    vocabularyDesc: 'Master Korean words with interactive flashcards and spaced repetition',
+    sentences: 'Sentences',
+    sentencesDesc: 'Practice with real Korean sentences and natural conversation patterns',
+    grammar: 'Grammar',
+    grammarDesc: 'Understand Korean grammar patterns and sentence structures',
+    iron5Challenge: 'Iron 5 Challenge',
+    iron5ChallengeDesc: 'Complete the foundational Korean learning system',
+    community: 'Community',
+    communityDesc: 'Connect with other learners and share your progress',
+    
+    // 통계 섹션
+    joinThousands: 'Join Thousands of Korean Learners',
+    communityGrowing: 'Our community is growing every day with learners from around the world',
+    activeLearners: 'Active Learners',
+    wordsLearned: 'Words Learned',
+    lessonsAvailable: 'Lessons Available',
+    successRate: 'Success Rate',
   },
 
   study: {
@@ -404,6 +473,11 @@ export const en: Translation = {
     holidays: 'Holidays',
     religion: 'Religion',
     politics: 'Politics',
+    
+    // 새로운 카테고리 그룹들
+    dailyLife: 'Daily Life',
+    natureAnimals: 'Nature & Animals',
+    societyWork: 'Society & Work',
   },
 
   difficulty: {
@@ -419,6 +493,13 @@ export const en: Translation = {
     title: 'Polarist - Learn Korean with Flashcards',
     description: 'Master the most common Korean words with interactive flashcards. Perfect for English speakers starting their Korean language journey.',
     keywords: 'Korean,language learning,flashcards,K-pop,K-drama,한국어',
+  },
+
+  footer: {
+    about: 'About',
+    privacy: 'Privacy',
+    terms: 'Terms',
+    contact: 'Contact',
   },
 
   targetLanguage: {
