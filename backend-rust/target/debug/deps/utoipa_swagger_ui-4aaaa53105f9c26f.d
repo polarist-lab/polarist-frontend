@@ -1,0 +1,14 @@
+/Users/x/github/polarist/polarist-nextjs/backend-rust/target/debug/deps/libutoipa_swagger_ui-4aaaa53105f9c26f.rmeta: /Users/x/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/utoipa-swagger-ui-8.1.0/src/lib.rs /Users/x/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/utoipa-swagger-ui-8.1.0/src/actix.rs /Users/x/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/utoipa-swagger-ui-8.1.0/src/axum.rs /Users/x/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/utoipa-swagger-ui-8.1.0/src/oauth.rs /Users/x/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/utoipa-swagger-ui-8.1.0/src/rocket.rs /Users/x/github/polarist/polarist-nextjs/backend-rust/target/debug/build/utoipa-swagger-ui-652f0e16f40fc126/out/embed.rs
+
+/Users/x/github/polarist/polarist-nextjs/backend-rust/target/debug/deps/libutoipa_swagger_ui-4aaaa53105f9c26f.rlib: /Users/x/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/utoipa-swagger-ui-8.1.0/src/lib.rs /Users/x/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/utoipa-swagger-ui-8.1.0/src/actix.rs /Users/x/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/utoipa-swagger-ui-8.1.0/src/axum.rs /Users/x/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/utoipa-swagger-ui-8.1.0/src/oauth.rs /Users/x/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/utoipa-swagger-ui-8.1.0/src/rocket.rs /Users/x/github/polarist/polarist-nextjs/backend-rust/target/debug/build/utoipa-swagger-ui-652f0e16f40fc126/out/embed.rs
+
+/Users/x/github/polarist/polarist-nextjs/backend-rust/target/debug/deps/utoipa_swagger_ui-4aaaa53105f9c26f.d: /Users/x/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/utoipa-swagger-ui-8.1.0/src/lib.rs /Users/x/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/utoipa-swagger-ui-8.1.0/src/actix.rs /Users/x/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/utoipa-swagger-ui-8.1.0/src/axum.rs /Users/x/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/utoipa-swagger-ui-8.1.0/src/oauth.rs /Users/x/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/utoipa-swagger-ui-8.1.0/src/rocket.rs /Users/x/github/polarist/polarist-nextjs/backend-rust/target/debug/build/utoipa-swagger-ui-652f0e16f40fc126/out/embed.rs
+
+/Users/x/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/utoipa-swagger-ui-8.1.0/src/lib.rs:
+/Users/x/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/utoipa-swagger-ui-8.1.0/src/actix.rs:
+/Users/x/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/utoipa-swagger-ui-8.1.0/src/axum.rs:
+/Users/x/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/utoipa-swagger-ui-8.1.0/src/oauth.rs:
+/Users/x/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/utoipa-swagger-ui-8.1.0/src/rocket.rs:
+/Users/x/github/polarist/polarist-nextjs/backend-rust/target/debug/build/utoipa-swagger-ui-652f0e16f40fc126/out/embed.rs:
+
+# env-dep:OUT_DIR=/Users/x/github/polarist/polarist-nextjs/backend-rust/target/debug/build/utoipa-swagger-ui-652f0e16f40fc126/out

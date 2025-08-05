@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect, useRef, useCallback } from 'react';
+import { useState, useEffect, useRef, useCallback, useMemo } from 'react';
 import { BilingualPost, KoreanLearnerProfile, PostFilter } from '@/lib/korean-sns/types';
 import { BilingualPostCard } from '../posts/BilingualPostCard';
 import { Button } from '../ui/Button';
@@ -70,46 +70,50 @@ export function FeedContainer({
     };
   }, [handleIntersection, showLoadMore, isInfiniteScrollEnabled]);
 
-  // Filter posts based on current filter
-  const filteredPosts = posts.filter(post => {
-    if (!filter) return true;
-    
-    if (filter.category && post.category !== filter.category) return false;
-    if (filter.difficulty && post.difficulty !== filter.difficulty) return false;
-    if (filter.language && post.originalLanguage !== filter.language) return false;
-    if (filter.needsCorrection !== undefined && post.needsCorrection !== filter.needsCorrection) return false;
-    
-    if (filter.authorTopikLevel && filter.authorTopikLevel.length > 0) {
-      if (!filter.authorTopikLevel.includes(post.author.topikLevel)) return false;
-    }
-    
-    if (filter.tags && filter.tags.length > 0) {
-      const hasMatchingTag = filter.tags.some(tag => 
-        post.tags.some(postTag => postTag.toLowerCase().includes(tag.toLowerCase()))
-      );
-      if (!hasMatchingTag) return false;
-    }
-    
-    return true;
-  });
+  // Memoized filtered posts to avoid re-filtering on every render
+  const filteredPosts = useMemo(() => {
+    return posts.filter(post => {
+      if (!filter) return true;
+      
+      if (filter.category && post.category !== filter.category) return false;
+      if (filter.difficulty && post.difficulty !== filter.difficulty) return false;
+      if (filter.language && post.originalLanguage !== filter.language) return false;
+      if (filter.needsCorrection !== undefined && post.needsCorrection !== filter.needsCorrection) return false;
+      
+      if (filter.authorTopikLevel && filter.authorTopikLevel.length > 0) {
+        if (!filter.authorTopikLevel.includes(post.author.topikLevel)) return false;
+      }
+      
+      if (filter.tags && filter.tags.length > 0) {
+        const hasMatchingTag = filter.tags.some(tag => 
+          post.tags.some(postTag => postTag.toLowerCase().includes(tag.toLowerCase()))
+        );
+        if (!hasMatchingTag) return false;
+      }
+      
+      return true;
+    });
+  }, [posts, filter]);
 
-  // Sort posts based on filter
-  const sortedPosts = [...filteredPosts].sort((a, b) => {
-    switch (filter?.sortBy) {
-      case 'popular':
-        return (b.likes + b.comments) - (a.likes + a.comments);
-      case 'needs-help':
-        return Number(b.needsCorrection) - Number(a.needsCorrection);
-      case 'trending':
-        // Simple trending algorithm based on recent activity
-        const aScore = a.likes + a.comments + (Date.now() - a.createdAt.getTime()) / (1000 * 60 * 60);
-        const bScore = b.likes + b.comments + (Date.now() - b.createdAt.getTime()) / (1000 * 60 * 60);
-        return bScore - aScore;
-      case 'recent':
-      default:
-        return b.createdAt.getTime() - a.createdAt.getTime();
-    }
-  });
+  // Memoized sorted posts to avoid re-sorting on every render
+  const sortedPosts = useMemo(() => {
+    return [...filteredPosts].sort((a, b) => {
+      switch (filter?.sortBy) {
+        case 'popular':
+          return (b.likes + b.comments) - (a.likes + a.comments);
+        case 'needs-help':
+          return Number(b.needsCorrection) - Number(a.needsCorrection);
+        case 'trending':
+          // Simple trending algorithm based on recent activity
+          const aScore = a.likes + a.comments + (Date.now() - a.createdAt.getTime()) / (1000 * 60 * 60);
+          const bScore = b.likes + b.comments + (Date.now() - b.createdAt.getTime()) / (1000 * 60 * 60);
+          return bScore - aScore;
+        case 'recent':
+        default:
+          return b.createdAt.getTime() - a.createdAt.getTime();
+      }
+    });
+  }, [filteredPosts, filter?.sortBy]);
 
   if (isLoading && posts.length === 0) {
     return (

@@ -7,52 +7,275 @@
 [33m[nodemon] watching path(s): *.*[39m
 [33m[nodemon] watching extensions: ts,json[39m
 [32m[nodemon] starting `ts-node src/main.ts`[39m
-[dotenv@17.2.0] injecting env (0) from .env (tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`)
-[32m[Nest] 66395  - [39m07/25/2025, 8:40:39 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
-[32m[Nest] 66395  - [39m07/25/2025, 8:40:39 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +19ms[39m
-[32m[Nest] 66395  - [39m07/25/2025, 8:40:39 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mDatabaseModule dependencies initialized[39m[38;5;3m +0ms[39m
-[32m[Nest] 66395  - [39m07/25/2025, 8:40:39 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPassportModule dependencies initialized[39m[38;5;3m +1ms[39m
-[32m[Nest] 66395  - [39m07/25/2025, 8:40:39 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +2ms[39m
-[32m[Nest] 66395  - [39m07/25/2025, 8:40:39 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mJwtModule dependencies initialized[39m[38;5;3m +0ms[39m
-[32m[Nest] 66395  - [39m07/25/2025, 8:40:39 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mHealthModule dependencies initialized[39m[38;5;3m +5ms[39m
-[32m[Nest] 66395  - [39m07/25/2025, 8:40:39 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +2ms[39m
-[32m[Nest] 66395  - [39m07/25/2025, 8:40:39 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mUsersModule dependencies initialized[39m[38;5;3m +1ms[39m
-[32m[Nest] 66395  - [39m07/25/2025, 8:40:39 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mProgressModule dependencies initialized[39m[38;5;3m +0ms[39m
-[32m[Nest] 66395  - [39m07/25/2025, 8:40:39 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mWordbooksModule dependencies initialized[39m[38;5;3m +0ms[39m
-[32m[Nest] 66395  - [39m07/25/2025, 8:40:39 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +0ms[39m
-[32m[Nest] 66395  - [39m07/25/2025, 8:40:39 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/auth}:[39m[38;5;3m +7ms[39m
-[32m[Nest] 66395  - [39m07/25/2025, 8:40:39 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/mock-login, GET} route[39m[38;5;3m +2ms[39m
-[32m[Nest] 66395  - [39m07/25/2025, 8:40:39 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/google/signup, GET} route[39m[38;5;3m +1ms[39m
-[32m[Nest] 66395  - [39m07/25/2025, 8:40:39 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/google/signup/redirect, GET} route[39m[38;5;3m +0ms[39m
-[32m[Nest] 66395  - [39m07/25/2025, 8:40:39 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/google/signin, GET} route[39m[38;5;3m +1ms[39m
-[32m[Nest] 66395  - [39m07/25/2025, 8:40:39 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/google/signin/redirect, GET} route[39m[38;5;3m +0ms[39m
-[32m[Nest] 66395  - [39m07/25/2025, 8:40:39 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/profile, GET} route[39m[38;5;3m +1ms[39m
-[32m[Nest] 66395  - [39m07/25/2025, 8:40:39 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/logout, GET} route[39m[38;5;3m +0ms[39m
-[32m[Nest] 66395  - [39m07/25/2025, 8:40:39 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/migrate-guest-data, POST} route[39m[38;5;3m +0ms[39m
-[32m[Nest] 66395  - [39m07/25/2025, 8:40:39 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mUsersController {/users}:[39m[38;5;3m +0ms[39m
-[32m[Nest] 66395  - [39m07/25/2025, 8:40:39 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/users/me, GET} route[39m[38;5;3m +1ms[39m
-[32m[Nest] 66395  - [39m07/25/2025, 8:40:39 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mProgressController {/progress}:[39m[38;5;3m +1ms[39m
-[32m[Nest] 66395  - [39m07/25/2025, 8:40:39 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/progress/stats, GET} route[39m[38;5;3m +0ms[39m
-[32m[Nest] 66395  - [39m07/25/2025, 8:40:39 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/progress/words, GET} route[39m[38;5;3m +1ms[39m
-[32m[Nest] 66395  - [39m07/25/2025, 8:40:39 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/progress/learned-words, GET} route[39m[38;5;3m +0ms[39m
-[32m[Nest] 66395  - [39m07/25/2025, 8:40:39 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/progress/words/:wordId, GET} route[39m[38;5;3m +0ms[39m
-[32m[Nest] 66395  - [39m07/25/2025, 8:40:39 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/progress/words/:wordId, POST} route[39m[38;5;3m +0ms[39m
-[32m[Nest] 66395  - [39m07/25/2025, 8:40:39 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/progress/sessions/start, POST} route[39m[38;5;3m +0ms[39m
-[32m[Nest] 66395  - [39m07/25/2025, 8:40:39 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/progress/sessions/:sessionId/end, POST} route[39m[38;5;3m +1ms[39m
-[32m[Nest] 66395  - [39m07/25/2025, 8:40:39 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/progress/sessions/:sessionId, PUT} route[39m[38;5;3m +0ms[39m
-[32m[Nest] 66395  - [39m07/25/2025, 8:40:39 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/progress/words/:wordId, DELETE} route[39m[38;5;3m +1ms[39m
-[32m[Nest] 66395  - [39m07/25/2025, 8:40:39 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mWordbooksController {/wordbooks}:[39m[38;5;3m +0ms[39m
-[32m[Nest] 66395  - [39m07/25/2025, 8:40:39 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/wordbooks, POST} route[39m[38;5;3m +0ms[39m
-[32m[Nest] 66395  - [39m07/25/2025, 8:40:39 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/wordbooks/my, GET} route[39m[38;5;3m +0ms[39m
-[32m[Nest] 66395  - [39m07/25/2025, 8:40:39 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/wordbooks/public, GET} route[39m[38;5;3m +0ms[39m
-[32m[Nest] 66395  - [39m07/25/2025, 8:40:39 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/wordbooks/shared/:shareCode, GET} route[39m[38;5;3m +0ms[39m
-[32m[Nest] 66395  - [39m07/25/2025, 8:40:39 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/wordbooks/:id, GET} route[39m[38;5;3m +0ms[39m
-[32m[Nest] 66395  - [39m07/25/2025, 8:40:39 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/wordbooks/:id, PUT} route[39m[38;5;3m +0ms[39m
-[32m[Nest] 66395  - [39m07/25/2025, 8:40:39 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/wordbooks/:id, DELETE} route[39m[38;5;3m +0ms[39m
-[32m[Nest] 66395  - [39m07/25/2025, 8:40:39 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/wordbooks/:id/study, POST} route[39m[38;5;3m +0ms[39m
-[32m[Nest] 66395  - [39m07/25/2025, 8:40:39 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mHealthController {/health}:[39m[38;5;3m +0ms[39m
-[32m[Nest] 66395  - [39m07/25/2025, 8:40:39 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/health, GET} route[39m[38;5;3m +0ms[39m
-[32m[Nest] 66395  - [39m07/25/2025, 8:40:39 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/health/api, GET} route[39m[38;5;3m +0ms[39m
-🗄️  Database connected successfully (SQLite in-memory)
-[32m[Nest] 66395  - [39m07/25/2025, 8:40:39 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +113ms[39m
-🚀 Polarist Backend API running on http://localhost:4000
+/Users/x/github/polarist/polarist-nextjs/backend/node_modules/ts-node/src/index.ts:859
+    return new TSError(diagnosticText, diagnosticCodes, diagnostics);
+           ^
+TSError: ⨯ Unable to compile TypeScript:
+src/main.ts(6,32): error TS1141: String literal expected.
+src/main.ts(18,5): error TS2561: Object literal may only specify known properties, but 'forbidNonWhiteListed' does not exist in type 'ValidationPipeOptions'. Did you mean to write 'forbidNonWhitelisted'?
+src/main.ts(6,32): error TS1005: 'from' expected.
+src/main.ts(6,38): error TS1005: ';' expected.
+
+    at createTSError (/Users/x/github/polarist/polarist-nextjs/backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/x/github/polarist/polarist-nextjs/backend/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/Users/x/github/polarist/polarist-nextjs/backend/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/Users/x/github/polarist/polarist-nextjs/backend/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/Users/x/github/polarist/polarist-nextjs/backend/node_modules/ts-node/src/index.ts:1617:30)
+    at loadTS (node:internal/modules/cjs/loader:1826:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/x/github/polarist/polarist-nextjs/backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1469:32)
+    at Function._load (node:internal/modules/cjs/loader:1286:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14) {
+  diagnosticCodes: [ 1141, 2561, 1005, 1005 ]
+}
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node src/main.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node src/main.ts`[39m
+Error: Cannot find module '@/infrastructure/infrastructure.module'
+Require stack:
+- /Users/x/github/polarist/polarist-nextjs/backend/src/app.module.ts
+- /Users/x/github/polarist/polarist-nextjs/backend/src/main.ts
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1405:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename] (/Users/x/github/polarist/polarist-nextjs/backend/node_modules/@cspotcode/source-map-support/source-map-support.js:811:30)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1061:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1066:22)
+    at Function._load (node:internal/modules/cjs/loader:1215:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.require (node:internal/modules/cjs/loader:1491:12)
+    at require (node:internal/modules/helpers:135:16)
+    at Object.<anonymous> (/Users/x/github/polarist/polarist-nextjs/backend/src/app.module.ts:6:1) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/x/github/polarist/polarist-nextjs/backend/src/app.module.ts',
+    '/Users/x/github/polarist/polarist-nextjs/backend/src/main.ts'
+  ]
+}
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node src/main.ts`[39m
+/Users/x/github/polarist/polarist-nextjs/backend/node_modules/ts-node/src/index.ts:859
+    return new TSError(diagnosticText, diagnosticCodes, diagnostics);
+           ^
+TSError: ⨯ Unable to compile TypeScript:
+src/infrastructure/database/database.service.ts(2,27): error TS2724: '"./drizzle/config"' has no exported member named 'DRIZZLE_DATABASE'. Did you mean 'DrizzleDatabase'?
+
+    at createTSError (/Users/x/github/polarist/polarist-nextjs/backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/x/github/polarist/polarist-nextjs/backend/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/Users/x/github/polarist/polarist-nextjs/backend/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/Users/x/github/polarist/polarist-nextjs/backend/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/Users/x/github/polarist/polarist-nextjs/backend/node_modules/ts-node/src/index.ts:1617:30)
+    at loadTS (node:internal/modules/cjs/loader:1826:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/x/github/polarist/polarist-nextjs/backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1469:32)
+    at Function._load (node:internal/modules/cjs/loader:1286:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14) {
+  diagnosticCodes: [ 2724 ]
+}
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node src/main.ts`[39m
+/Users/x/github/polarist/polarist-nextjs/backend/node_modules/ts-node/src/index.ts:859
+    return new TSError(diagnosticText, diagnosticCodes, diagnostics);
+           ^
+TSError: ⨯ Unable to compile TypeScript:
+src/shared/exceptions/domain.exception.ts(9,12): error TS2416: Property 'code' in type 'EntityNotFoundDomainException' is not assignable to the same property in base type 'DomainException'.
+  Type '"ENTITY_NOT_FOUND"' is not assignable to type '"DOMAIN_ERROR"'.
+src/shared/exceptions/domain.exception.ts(10,12): error TS2416: Property 'statusCode' in type 'EntityNotFoundDomainException' is not assignable to the same property in base type 'DomainException'.
+  Type '404' is not assignable to type '400'.
+src/shared/exceptions/domain.exception.ts(14,10): error TS2540: Cannot assign to 'context' because it is a read-only property.
+src/shared/exceptions/domain.exception.ts(19,12): error TS2416: Property 'code' in type 'InvalidDomainDataException' is not assignable to the same property in base type 'DomainException'.
+  Type '"INVALID_DOMAIN_DATA"' is not assignable to type '"DOMAIN_ERROR"'.
+src/shared/exceptions/domain.exception.ts(24,10): error TS2540: Cannot assign to 'context' because it is a read-only property.
+src/shared/exceptions/domain.exception.ts(29,12): error TS2416: Property 'code' in type 'BusinessRuleViolationException' is not assignable to the same property in base type 'DomainException'.
+  Type '"BUSINESS_RULE_VIOLATION"' is not assignable to type '"DOMAIN_ERROR"'.
+src/shared/exceptions/domain.exception.ts(33,10): error TS2540: Cannot assign to 'context' because it is a read-only property.
+src/shared/exceptions/domain.exception.ts(38,12): error TS2416: Property 'code' in type 'DomainConflictException' is not assignable to the same property in base type 'DomainException'.
+  Type '"DOMAIN_CONFLICT"' is not assignable to type '"DOMAIN_ERROR"'.
+src/shared/exceptions/domain.exception.ts(39,12): error TS2416: Property 'statusCode' in type 'DomainConflictException' is not assignable to the same property in base type 'DomainException'.
+  Type '409' is not assignable to type '400'.
+src/shared/exceptions/domain.exception.ts(43,10): error TS2540: Cannot assign to 'context' because it is a read-only property.
+
+    at createTSError (/Users/x/github/polarist/polarist-nextjs/backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/x/github/polarist/polarist-nextjs/backend/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/Users/x/github/polarist/polarist-nextjs/backend/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/Users/x/github/polarist/polarist-nextjs/backend/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/Users/x/github/polarist/polarist-nextjs/backend/node_modules/ts-node/src/index.ts:1617:30)
+    at loadTS (node:internal/modules/cjs/loader:1826:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/x/github/polarist/polarist-nextjs/backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1469:32)
+    at Function._load (node:internal/modules/cjs/loader:1286:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14) {
+  diagnosticCodes: [
+    2416, 2416, 2540,
+    2416, 2540, 2416,
+    2540, 2416, 2416,
+    2540
+  ]
+}
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node src/main.ts`[39m
+/Users/x/github/polarist/polarist-nextjs/backend/node_modules/ts-node/src/index.ts:859
+    return new TSError(diagnosticText, diagnosticCodes, diagnostics);
+           ^
+TSError: ⨯ Unable to compile TypeScript:
+src/shared/exceptions/domain.exception.ts(9,12): error TS2416: Property 'code' in type 'EntityNotFoundDomainException' is not assignable to the same property in base type 'DomainException'.
+  Type '"ENTITY_NOT_FOUND"' is not assignable to type '"DOMAIN_ERROR"'.
+src/shared/exceptions/domain.exception.ts(10,12): error TS2416: Property 'statusCode' in type 'EntityNotFoundDomainException' is not assignable to the same property in base type 'DomainException'.
+  Type '404' is not assignable to type '400'.
+src/shared/exceptions/domain.exception.ts(19,12): error TS2416: Property 'code' in type 'InvalidDomainDataException' is not assignable to the same property in base type 'DomainException'.
+  Type '"INVALID_DOMAIN_DATA"' is not assignable to type '"DOMAIN_ERROR"'.
+src/shared/exceptions/domain.exception.ts(29,12): error TS2416: Property 'code' in type 'BusinessRuleViolationException' is not assignable to the same property in base type 'DomainException'.
+  Type '"BUSINESS_RULE_VIOLATION"' is not assignable to type '"DOMAIN_ERROR"'.
+src/shared/exceptions/domain.exception.ts(38,12): error TS2416: Property 'code' in type 'DomainConflictException' is not assignable to the same property in base type 'DomainException'.
+  Type '"DOMAIN_CONFLICT"' is not assignable to type '"DOMAIN_ERROR"'.
+src/shared/exceptions/domain.exception.ts(39,12): error TS2416: Property 'statusCode' in type 'DomainConflictException' is not assignable to the same property in base type 'DomainException'.
+  Type '409' is not assignable to type '400'.
+
+    at createTSError (/Users/x/github/polarist/polarist-nextjs/backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/x/github/polarist/polarist-nextjs/backend/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/Users/x/github/polarist/polarist-nextjs/backend/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/Users/x/github/polarist/polarist-nextjs/backend/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/Users/x/github/polarist/polarist-nextjs/backend/node_modules/ts-node/src/index.ts:1617:30)
+    at loadTS (node:internal/modules/cjs/loader:1826:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/x/github/polarist/polarist-nextjs/backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1469:32)
+    at Function._load (node:internal/modules/cjs/loader:1286:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14) {
+  diagnosticCodes: [ 2416, 2416, 2416, 2416, 2416, 2416 ]
+}
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node src/main.ts`[39m
+/Users/x/github/polarist/polarist-nextjs/backend/node_modules/ts-node/src/index.ts:859
+    return new TSError(diagnosticText, diagnosticCodes, diagnostics);
+           ^
+TSError: ⨯ Unable to compile TypeScript:
+src/shared/exceptions/domain.exception.ts(18,14): error TS2515: Non-abstract class 'InvalidDomainDataException' does not implement inherited abstract member statusCode from class 'DomainException'.
+src/shared/exceptions/domain.exception.ts(28,14): error TS2515: Non-abstract class 'BusinessRuleViolationException' does not implement inherited abstract member statusCode from class 'DomainException'.
+
+    at createTSError (/Users/x/github/polarist/polarist-nextjs/backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/x/github/polarist/polarist-nextjs/backend/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/Users/x/github/polarist/polarist-nextjs/backend/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/Users/x/github/polarist/polarist-nextjs/backend/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/Users/x/github/polarist/polarist-nextjs/backend/node_modules/ts-node/src/index.ts:1617:30)
+    at loadTS (node:internal/modules/cjs/loader:1826:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/x/github/polarist/polarist-nextjs/backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1469:32)
+    at Function._load (node:internal/modules/cjs/loader:1286:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14) {
+  diagnosticCodes: [ 2515, 2515 ]
+}
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node src/main.ts`[39m
+/Users/x/github/polarist/polarist-nextjs/backend/node_modules/ts-node/src/index.ts:859
+    return new TSError(diagnosticText, diagnosticCodes, diagnostics);
+           ^
+TSError: ⨯ Unable to compile TypeScript:
+src/shared/exceptions/infrastructure.exception.ts(9,12): error TS2416: Property 'code' in type 'DatabaseException' is not assignable to the same property in base type 'InfrastructureException'.
+  Type '"DATABASE_ERROR"' is not assignable to type '"INFRASTRUCTURE_ERROR"'.
+src/shared/exceptions/infrastructure.exception.ts(22,12): error TS2416: Property 'code' in type 'ExternalServiceException' is not assignable to the same property in base type 'InfrastructureException'.
+  Type '"EXTERNAL_SERVICE_ERROR"' is not assignable to type '"INFRASTRUCTURE_ERROR"'.
+src/shared/exceptions/infrastructure.exception.ts(23,12): error TS2416: Property 'statusCode' in type 'ExternalServiceException' is not assignable to the same property in base type 'InfrastructureException'.
+  Type '502' is not assignable to type '500'.
+src/shared/exceptions/infrastructure.exception.ts(36,12): error TS2416: Property 'code' in type 'FileSystemException' is not assignable to the same property in base type 'InfrastructureException'.
+  Type '"FILE_SYSTEM_ERROR"' is not assignable to type '"INFRASTRUCTURE_ERROR"'.
+src/shared/exceptions/infrastructure.exception.ts(45,12): error TS2416: Property 'code' in type 'NetworkException' is not assignable to the same property in base type 'InfrastructureException'.
+  Type '"NETWORK_ERROR"' is not assignable to type '"INFRASTRUCTURE_ERROR"'.
+
+    at createTSError (/Users/x/github/polarist/polarist-nextjs/backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/x/github/polarist/polarist-nextjs/backend/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/Users/x/github/polarist/polarist-nextjs/backend/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/Users/x/github/polarist/polarist-nextjs/backend/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/Users/x/github/polarist/polarist-nextjs/backend/node_modules/ts-node/src/index.ts:1617:30)
+    at loadTS (node:internal/modules/cjs/loader:1826:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/x/github/polarist/polarist-nextjs/backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1469:32)
+    at Function._load (node:internal/modules/cjs/loader:1286:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14) {
+  diagnosticCodes: [ 2416, 2416, 2416, 2416, 2416 ]
+}
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node src/main.ts`[39m
+/Users/x/github/polarist/polarist-nextjs/backend/node_modules/ts-node/src/index.ts:859
+    return new TSError(diagnosticText, diagnosticCodes, diagnostics);
+           ^
+TSError: ⨯ Unable to compile TypeScript:
+src/shared/exceptions/infrastructure.exception.ts(8,14): error TS2515: Non-abstract class 'DatabaseException' does not implement inherited abstract member statusCode from class 'InfrastructureException'.
+src/shared/exceptions/infrastructure.exception.ts(35,14): error TS2515: Non-abstract class 'FileSystemException' does not implement inherited abstract member statusCode from class 'InfrastructureException'.
+src/shared/exceptions/infrastructure.exception.ts(44,14): error TS2515: Non-abstract class 'NetworkException' does not implement inherited abstract member statusCode from class 'InfrastructureException'.
+
+    at createTSError (/Users/x/github/polarist/polarist-nextjs/backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/x/github/polarist/polarist-nextjs/backend/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/Users/x/github/polarist/polarist-nextjs/backend/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/Users/x/github/polarist/polarist-nextjs/backend/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/Users/x/github/polarist/polarist-nextjs/backend/node_modules/ts-node/src/index.ts:1617:30)
+    at loadTS (node:internal/modules/cjs/loader:1826:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/x/github/polarist/polarist-nextjs/backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1469:32)
+    at Function._load (node:internal/modules/cjs/loader:1286:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14) {
+  diagnosticCodes: [ 2515, 2515, 2515 ]
+}
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node src/main.ts`[39m
+/Users/x/github/polarist/polarist-nextjs/backend/node_modules/ts-node/src/index.ts:859
+    return new TSError(diagnosticText, diagnosticCodes, diagnostics);
+           ^
+TSError: ⨯ Unable to compile TypeScript:
+src/infrastructure/repositories/progress.repository.ts(129,54): error TS2769: No overload matches this call.
+  Overload 1 of 3, '(left: SQLiteColumn<{ name: "end_time"; tableName: "study_sessions"; dataType: "date"; columnType: "SQLiteTimestamp"; data: Date; driverParam: number; notNull: false; hasDefault: false; isPrimaryKey: false; ... 5 more ...; generated: undefined; }, {}, {}>, right: Date | SQLWrapper): SQL<...>', gave the following error.
+    Argument of type 'null' is not assignable to parameter of type 'Date | SQLWrapper'.
+  Overload 2 of 3, '(left: Aliased<null>, right: SQLWrapper | null): SQL<unknown>', gave the following error.
+    Argument of type 'SQLiteColumn<{ name: "end_time"; tableName: "study_sessions"; dataType: "date"; columnType: "SQLiteTimestamp"; data: Date; driverParam: number; notNull: false; hasDefault: false; isPrimaryKey: false; ... 5 more ...; generated: undefined; }, {}, {}>' is not assignable to parameter of type 'Aliased<null>'.
+      Type 'SQLiteColumn<{ name: "end_time"; tableName: "study_sessions"; dataType: "date"; columnType: "SQLiteTimestamp"; data: Date; driverParam: number; notNull: false; hasDefault: false; isPrimaryKey: false; ... 5 more ...; generated: undefined; }, {}, {}>' is missing the following properties from type 'Aliased<null>': sql, fieldAlias
+  Overload 3 of 3, '(left: never, right: unknown): SQL<unknown>', gave the following error.
+    Argument of type 'SQLiteColumn<{ name: "end_time"; tableName: "study_sessions"; dataType: "date"; columnType: "SQLiteTimestamp"; data: Date; driverParam: number; notNull: false; hasDefault: false; isPrimaryKey: false; ... 5 more ...; generated: undefined; }, {}, {}>' is not assignable to parameter of type 'never'.
+
+    at createTSError (/Users/x/github/polarist/polarist-nextjs/backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/x/github/polarist/polarist-nextjs/backend/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/Users/x/github/polarist/polarist-nextjs/backend/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/Users/x/github/polarist/polarist-nextjs/backend/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/Users/x/github/polarist/polarist-nextjs/backend/node_modules/ts-node/src/index.ts:1617:30)
+    at loadTS (node:internal/modules/cjs/loader:1826:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/x/github/polarist/polarist-nextjs/backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1469:32)
+    at Function._load (node:internal/modules/cjs/loader:1286:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14) {
+  diagnosticCodes: [ 2769 ]
+}
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node src/main.ts`[39m
+/Users/x/github/polarist/polarist-nextjs/backend/node_modules/ts-node/src/index.ts:859
+    return new TSError(diagnosticText, diagnosticCodes, diagnostics);
+           ^
+TSError: ⨯ Unable to compile TypeScript:
+src/infrastructure/repositories/progress.repository.ts(129,54): error TS2769: No overload matches this call.
+  Overload 1 of 3, '(left: SQLiteColumn<{ name: "end_time"; tableName: "study_sessions"; dataType: "date"; columnType: "SQLiteTimestamp"; data: Date; driverParam: number; notNull: false; hasDefault: false; isPrimaryKey: false; ... 5 more ...; generated: undefined; }, {}, {}>, right: Date | SQLWrapper): SQL<...>', gave the following error.
+    Argument of type 'null' is not assignable to parameter of type 'Date | SQLWrapper'.
+  Overload 2 of 3, '(left: Aliased<null>, right: SQLWrapper | null): SQL<unknown>', gave the following error.
+    Argument of type 'SQLiteColumn<{ name: "end_time"; tableName: "study_sessions"; dataType: "date"; columnType: "SQLiteTimestamp"; data: Date; driverParam: number; notNull: false; hasDefault: false; isPrimaryKey: false; ... 5 more ...; generated: undefined; }, {}, {}>' is not assignable to parameter of type 'Aliased<null>'.
+      Type 'SQLiteColumn<{ name: "end_time"; tableName: "study_sessions"; dataType: "date"; columnType: "SQLiteTimestamp"; data: Date; driverParam: number; notNull: false; hasDefault: false; isPrimaryKey: false; ... 5 more ...; generated: undefined; }, {}, {}>' is missing the following properties from type 'Aliased<null>': sql, fieldAlias
+  Overload 3 of 3, '(left: never, right: unknown): SQL<unknown>', gave the following error.
+    Argument of type 'SQLiteColumn<{ name: "end_time"; tableName: "study_sessions"; dataType: "date"; columnType: "SQLiteTimestamp"; data: Date; driverParam: number; notNull: false; hasDefault: false; isPrimaryKey: false; ... 5 more ...; generated: undefined; }, {}, {}>' is not assignable to parameter of type 'never'.
+
+    at createTSError (/Users/x/github/polarist/polarist-nextjs/backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/x/github/polarist/polarist-nextjs/backend/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/Users/x/github/polarist/polarist-nextjs/backend/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/Users/x/github/polarist/polarist-nextjs/backend/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/Users/x/github/polarist/polarist-nextjs/backend/node_modules/ts-node/src/index.ts:1617:30)
+    at loadTS (node:internal/modules/cjs/loader:1826:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/x/github/polarist/polarist-nextjs/backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1469:32)
+    at Function._load (node:internal/modules/cjs/loader:1286:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14) {
+  diagnosticCodes: [ 2769 ]
+}
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m

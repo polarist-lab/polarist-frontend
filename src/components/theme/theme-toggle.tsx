@@ -16,7 +16,7 @@ export function ThemeToggle() {
     <div className="relative">
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="flex items-center gap-2 px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors duration-200 rounded-md hover:bg-gray-100 dark:hover:bg-gray-800 cursor-pointer"
+        className="flex items-center gap-2 px-3 py-2 text-sm font-medium text-[var(--color-foreground-secondary)] dark:text-[var(--color-foreground-secondary-dark)] hover:text-[var(--color-foreground)] dark:hover:text-[var(--color-foreground-dark)] transition-colors duration-200 rounded-md hover:bg-[var(--color-background-secondary)] dark:hover:bg-[var(--color-background-secondary-dark)] cursor-pointer"
         aria-label="Toggle theme"
       >
         {resolvedTheme === 'dark' ? (
@@ -37,11 +37,11 @@ export function ThemeToggle() {
       </button>
 
       {isOpen && (
-        <div className="absolute right-0 bottom-full mb-2 w-36 bg-white dark:bg-gray-800 rounded-lg shadow-lg border border-gray-200 dark:border-gray-700 py-1 z-50">
+        <div className="absolute right-0 bottom-full mb-2 w-36 bg-[var(--color-card)] dark:bg-[var(--color-card-dark)] rounded-lg shadow-lg border border-[var(--color-border)] dark:border-[var(--color-border-dark)] py-1 z-50">
           <button
             onClick={() => handleThemeChange('light')}
-            className={`w-full px-3 py-2 text-left text-sm flex items-center gap-2 hover:bg-gray-100 dark:hover:bg-gray-700 cursor-pointer ${
-              theme === 'light' ? 'text-blue-600 dark:text-blue-400' : 'text-gray-700 dark:text-gray-300'
+            className={`w-full px-3 py-2 text-left text-sm flex items-center gap-2 hover:bg-[var(--color-card-hover)] dark:hover:bg-[var(--color-card-hover-dark)] cursor-pointer ${
+              theme === 'light' ? 'text-[var(--color-link)] dark:text-[var(--color-link-dark)]' : 'text-[var(--color-foreground)] dark:text-[var(--color-foreground-dark)]'
             }`}
           >
             <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -52,8 +52,8 @@ export function ThemeToggle() {
           
           <button
             onClick={() => handleThemeChange('dark')}
-            className={`w-full px-3 py-2 text-left text-sm flex items-center gap-2 hover:bg-gray-100 dark:hover:bg-gray-700 cursor-pointer ${
-              theme === 'dark' ? 'text-blue-600 dark:text-blue-400' : 'text-gray-700 dark:text-gray-300'
+            className={`w-full px-3 py-2 text-left text-sm flex items-center gap-2 hover:bg-[var(--color-card-hover)] dark:hover:bg-[var(--color-card-hover-dark)] cursor-pointer ${
+              theme === 'dark' ? 'text-[var(--color-link)] dark:text-[var(--color-link-dark)]' : 'text-[var(--color-foreground)] dark:text-[var(--color-foreground-dark)]'
             }`}
           >
             <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -64,8 +64,8 @@ export function ThemeToggle() {
           
           <button
             onClick={() => handleThemeChange('system')}
-            className={`w-full px-3 py-2 text-left text-sm flex items-center gap-2 hover:bg-gray-100 dark:hover:bg-gray-700 cursor-pointer ${
-              theme === 'system' ? 'text-blue-600 dark:text-blue-400' : 'text-gray-700 dark:text-gray-300'
+            className={`w-full px-3 py-2 text-left text-sm flex items-center gap-2 hover:bg-[var(--color-card-hover)] dark:hover:bg-[var(--color-card-hover-dark)] cursor-pointer ${
+              theme === 'system' ? 'text-[var(--color-link)] dark:text-[var(--color-link-dark)]' : 'text-[var(--color-foreground)] dark:text-[var(--color-foreground-dark)]'
             }`}
           >
             <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">

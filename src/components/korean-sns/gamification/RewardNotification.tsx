@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useCallback } from 'react';
 import { cn } from '@/lib/utils';
 import { RewardNotification as RewardNotificationType } from '@/lib/korean-sns/types';
 import { TopikBadge } from '../ui/Badge';
@@ -38,15 +38,15 @@ export function RewardNotification({
         return () => clearTimeout(timer);
       }
     }
-  }, [isVisible, autoCloseDelay]);
+  }, [isVisible, autoCloseDelay, handleClose]);
 
-  const handleClose = () => {
+  const handleClose = useCallback(() => {
     setIsAnimating(false);
     setTimeout(() => {
       setShouldRender(false);
       onClose();
     }, 300);
-  };
+  }, [onClose]);
 
   if (!shouldRender) return null;
 

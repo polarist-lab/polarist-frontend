@@ -7,7 +7,9 @@ import { CardDeck } from '@/components/card-deck';
 import WordFilter from '@/components/word-filter';
 import WordSearch from '@/components/word-search';
 import { getRandomWordSet } from '@/data/expanded-korean-words';
-import { KoreanWord } from '@/lib/types';
+import { getRandomKoreanWordSet } from '@/data/korean-vocabulary-loader';
+import { getThemedWordSet, isValidTheme } from '@/data/themed-wordbook-loader';
+import { KoreanWord, Difficulty } from '@/lib/types';
 import { Locale, isValidLocale } from '@/lib/i18n/config';
 import { useTranslations } from '@/lib/i18n';
 import { WORDBOOK_PRESETS } from '@/data/wordbook-presets';
@@ -24,38 +26,111 @@ export default function WordsPageClient() {
   const [showFullInfo, setShowFullInfo] = useState(false);
   const [wordbookTitle, setWordbookTitle] = useState<string>('');
   const [mounted, setMounted] = useState(false);
+  const [selectedDifficulties, setSelectedDifficulties] = useState<Difficulty[]>([]);
+  const [allWords, setAllWords] = useState<KoreanWord[]>([]);
+  const [filteredWords, setFilteredWords] = useState<KoreanWord[]>([]);
 
   // Initialize with words from selected wordbook or default
   useEffect(() => {
     if (mounted) return; // Prevent multiple initializations
     
-    // Get wordbook ID from URL query parameters
+    // Get parameters from URL query
     const urlParams = new URLSearchParams(window.location.search);
     const wordbookId = urlParams.get('wordbook');
+    const themeId = urlParams.get('theme');
+    const difficultiesParam = urlParams.get('difficulties');
     
-    if (wordbookId) {
-      // Load preset wordbook
-      const preset = WORDBOOK_PRESETS.find(p => p.id === wordbookId);
-      if (preset) {
-        const wordbookWords = getRandomWordSet(
-          preset.wordCount,
-          preset.categories || [],
-          preset.difficulties,
-          preset.minFrequency
-        );
-        setWords(wordbookWords);
-        setWordbookTitle(t(preset.titleKey));
-        setMounted(true);
-        return;
+    const loadWords = async () => {
+      // Check for theme-based wordbook first
+      if (themeId && isValidTheme(themeId)) {
+        try {
+          const difficulties = difficultiesParam 
+            ? difficultiesParam.split(',') as Difficulty[]
+            : undefined;
+            
+          const themedWords = await getThemedWordSet(themeId, difficulties);
+          if (themedWords.length > 0) {
+            setAllWords(themedWords);
+            setWords(themedWords);
+            setFilteredWords(themedWords);
+            setWordbookTitle(t(`wordbooks.${themeId}`));
+            console.log(`Successfully fetched ${themedWords.length} themed words. First word: ${themedWords[0]?.word}`);
+            setMounted(true);
+            return;
+          }
+        } catch (error) {
+          console.error('Failed to load themed wordbook:', error);
+        }
       }
-    }
+      
+      // Fallback to preset wordbook
+      if (wordbookId) {
+        const preset = WORDBOOK_PRESETS.find(p => p.id === wordbookId);
+        if (preset) {
+          const wordbookWords = getRandomWordSet(
+            preset.wordCount,
+            preset.categories || [],
+            preset.difficulties,
+            preset.minFrequency
+          );
+          setWords(wordbookWords);
+          setWordbookTitle(t(preset.titleKey));
+          console.log(`Successfully fetched ${wordbookWords.length} preset words. First word: ${wordbookWords[0]?.word}`);
+          setMounted(true);
+          return;
+        }
+      }
+      
+      // Default: Load from Korean vocabulary dataset
+      try {
+        const koreanWords = await getRandomKoreanWordSet(30, [], ['absolute-beginner', 'beginner'], 100);
+        if (koreanWords.length > 0) {
+          setWords(koreanWords);
+          setWordbookTitle('한국어 자주 사용되는 단어 (Korean High-Frequency Words)');
+          console.log(`Successfully fetched ${koreanWords.length} Korean vocabulary words. First word: ${koreanWords[0]?.word}`);
+        } else {
+          // Fallback to expanded words
+          const defaultWords = getRandomWordSet(20, [], ['absolute-beginner', 'beginner'], 50);
+          setWords(defaultWords);
+          setWordbookTitle('Vocabulary Practice');
+          console.log(`Successfully fetched ${defaultWords.length} fallback words. First word: ${defaultWords[0]?.word}`);
+        }
+      } catch (error) {
+        console.error('Error loading Korean vocabulary:', error);
+        // Fallback to expanded words
+        const defaultWords = getRandomWordSet(20, [], ['absolute-beginner', 'beginner'], 50);
+        setWords(defaultWords);
+        setWordbookTitle('Vocabulary Practice');
+        console.log(`Successfully fetched ${defaultWords.length} fallback words. First word: ${defaultWords[0]?.word}`);
+      }
+      
+      setMounted(true);
+    };
     
-    // Default fallback
-    const defaultWords = getRandomWordSet(20, [], ['absolute-beginner', 'beginner'], 50);
-    setWords(defaultWords);
-    setWordbookTitle('Vocabulary Practice');
-    setMounted(true);
+    loadWords();
   }, [mounted, t]);
+
+  // Filter words based on selected difficulties
+  const filterWords = (difficulties: Difficulty[]) => {
+    if (difficulties.length === 0) {
+      return allWords;
+    }
+    return allWords.filter(word => difficulties.includes(word.difficulty));
+  };
+
+  // Handle difficulty filter toggle
+  const handleDifficultyToggle = (difficulty: Difficulty) => {
+    const newSelectedDifficulties = selectedDifficulties.includes(difficulty)
+      ? selectedDifficulties.filter(d => d !== difficulty)
+      : [...selectedDifficulties, difficulty];
+    
+    setSelectedDifficulties(newSelectedDifficulties);
+    const filtered = filterWords(newSelectedDifficulties);
+    setWords(filtered);
+    setFilteredWords(filtered);
+    setCurrentIndex(0);
+    setShowFullInfo(false);
+  };
 
   const handleWordsChange = (newWords: KoreanWord[]) => {
     setWords(newWords);
@@ -126,80 +201,81 @@ export default function WordsPageClient() {
       {/* Header */}
       <div className="bg-white dark:bg-gray-800 border-b border-gray-200 dark:border-gray-700">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
-          <div className="flex items-center justify-between">
-            <div>
-              <button
-                onClick={handleBackToStudy}
-                className="flex items-center text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors mb-2"
-              >
-                <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
-                </svg>
-                Back to Study Center
-              </button>
-              <h1 className="text-2xl font-bold text-gray-900 dark:text-white">
-                📖 {wordbookTitle}
-              </h1>
-            </div>
-            <div className="text-right">
-              <div className="text-sm text-gray-600 dark:text-gray-400">
-                Card {currentIndex + 1} of {words.length}
-              </div>
-            </div>
+          <div className="flex items-center">
+            <button
+              onClick={handleBackToStudy}
+              className="flex items-center justify-center w-9 h-9 mr-4 text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white hover:bg-gray-100 dark:hover:bg-gray-800 rounded-lg transition-all duration-200 active:scale-95 cursor-pointer"
+            >
+              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+              </svg>
+            </button>
+            <h1 className="text-2xl font-bold text-gray-900 dark:text-white">
+              📖 {wordbookTitle}
+            </h1>
           </div>
         </div>
       </div>
 
       {/* Main Content */}
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-          {/* Left Sidebar - Controls */}
-          <div className="lg:col-span-1 space-y-6">
-            {/* Word Search */}
-            <div className="bg-white dark:bg-gray-800 rounded-xl shadow-sm border border-gray-200 dark:border-gray-700 p-4">
-              <h3 className="text-sm font-semibold text-gray-900 dark:text-white mb-3">
-                Search Words
-              </h3>
-              <WordSearch 
-                onSelectWord={handleSelectWord}
-                onSelectAll={handleSelectAllSearchResults}
-              />
+      <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        {/* Threads-style Filter Tags */}
+        {allWords.length > 0 && (
+          <div className="mb-8">
+            <div className="flex flex-wrap gap-3">
+              <button
+                onClick={() => {
+                  setSelectedDifficulties([]);
+                  setWords(allWords);
+                  setFilteredWords(allWords);
+                  setCurrentIndex(0);
+                  setShowFullInfo(false);
+                }}
+                className={`px-4 py-2 rounded-full text-sm font-medium transition-all duration-200 cursor-pointer ${
+                  selectedDifficulties.length === 0
+                    ? 'bg-blue-500 text-white shadow-md'
+                    : 'bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700'
+                }`}
+              >
+                All ({allWords.length})
+              </button>
+              
+              {['absolute-beginner', 'beginner', 'intermediate', 'advanced'].map((difficulty) => {
+                const count = allWords.filter(word => word.difficulty === difficulty).length;
+                if (count === 0) return null;
+                
+                const isSelected = selectedDifficulties.includes(difficulty as Difficulty);
+                const difficultyColors = {
+                  'absolute-beginner': isSelected ? 'bg-green-500 text-white shadow-md' : 'bg-green-100 dark:bg-green-900/30 text-green-800 dark:text-green-300 hover:bg-green-200 dark:hover:bg-green-900/50',
+                  'beginner': isSelected ? 'bg-blue-500 text-white shadow-md' : 'bg-blue-100 dark:bg-blue-900/30 text-blue-800 dark:text-blue-300 hover:bg-blue-200 dark:hover:bg-blue-900/50',
+                  'intermediate': isSelected ? 'bg-yellow-500 text-white shadow-md' : 'bg-yellow-100 dark:bg-yellow-900/30 text-yellow-800 dark:text-yellow-300 hover:bg-yellow-200 dark:hover:bg-yellow-900/50',
+                  'advanced': isSelected ? 'bg-purple-500 text-white shadow-md' : 'bg-purple-100 dark:bg-purple-900/30 text-purple-800 dark:text-purple-300 hover:bg-purple-200 dark:hover:bg-purple-900/50'
+                };
+                
+                return (
+                  <button
+                    key={difficulty}
+                    onClick={() => handleDifficultyToggle(difficulty as Difficulty)}
+                    className={`px-4 py-2 rounded-full text-sm font-medium transition-all duration-200 cursor-pointer ${difficultyColors[difficulty as keyof typeof difficultyColors]}`}
+                  >
+                    {difficulty === 'absolute-beginner' ? 'Abs. Beginner' : difficulty.charAt(0).toUpperCase() + difficulty.slice(1)} ({count})
+                  </button>
+                );
+              })}
             </div>
             
-            {/* Word Filter */}
-            <div className="bg-white dark:bg-gray-800 rounded-xl shadow-sm border border-gray-200 dark:border-gray-700 p-4">
-              <h3 className="text-sm font-semibold text-gray-900 dark:text-white mb-3">
-                Filter Words
-              </h3>
-              <WordFilter onWordsChange={handleWordsChange} />
-            </div>
-
-            {/* Study Stats */}
-            <div className="bg-white dark:bg-gray-800 rounded-xl shadow-sm border border-gray-200 dark:border-gray-700 p-4">
-              <h3 className="text-sm font-semibold text-gray-900 dark:text-white mb-3">
-                Session Stats
-              </h3>
-              <div className="space-y-2">
-                <div className="flex justify-between text-sm">
-                  <span className="text-gray-600 dark:text-gray-400">Total Words:</span>
-                  <span className="font-medium text-gray-900 dark:text-white">{words.length}</span>
-                </div>
-                <div className="flex justify-between text-sm">
-                  <span className="text-gray-600 dark:text-gray-400">Current:</span>
-                  <span className="font-medium text-gray-900 dark:text-white">{currentIndex + 1}</span>
-                </div>
-                <div className="flex justify-between text-sm">
-                  <span className="text-gray-600 dark:text-gray-400">Progress:</span>
-                  <span className="font-medium text-gray-900 dark:text-white">
-                    {Math.round(((currentIndex + 1) / words.length) * 100)}%
-                  </span>
-                </div>
+            {/* Active filters summary */}
+            {selectedDifficulties.length > 0 && (
+              <div className="mt-3 text-sm text-gray-600 dark:text-gray-400">
+                Showing {words.length} words • {selectedDifficulties.length} filter{selectedDifficulties.length !== 1 ? 's' : ''} active
               </div>
-            </div>
+            )}
           </div>
+        )}
 
-          {/* Center - Flashcard */}
-          <div className="lg:col-span-2">
+        {/* Flashcard - Full Width */}
+        <div className="flex justify-center">
+          <div className="w-full max-w-2xl">
             <CardDeck 
               words={words} 
               currentIndex={currentIndex}
@@ -207,8 +283,31 @@ export default function WordsPageClient() {
               onNext={handleNext}
               onPrevious={handlePrevious}
               showFullInfo={showFullInfo}
+              showNavigation={true}
               locale={validLocale}
             />
+          </div>
+        </div>
+
+        {/* Stats Bar */}
+        <div className="mt-8 flex justify-center">
+          <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-sm border border-gray-200 dark:border-gray-700 px-6 py-4">
+            <div className="flex items-center gap-8 text-sm">
+              <div className="text-center">
+                <div className="font-semibold text-gray-900 dark:text-white">{words.length}</div>
+                <div className="text-gray-500 dark:text-gray-400">Total Words</div>
+              </div>
+              <div className="text-center">
+                <div className="font-semibold text-gray-900 dark:text-white">{currentIndex + 1}</div>
+                <div className="text-gray-500 dark:text-gray-400">Current</div>
+              </div>
+              <div className="text-center">
+                <div className="font-semibold text-gray-900 dark:text-white">
+                  {Math.round(((currentIndex + 1) / words.length) * 100)}%
+                </div>
+                <div className="text-gray-500 dark:text-gray-400">Progress</div>
+              </div>
+            </div>
           </div>
         </div>
       </div>

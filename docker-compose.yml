@@ -1,0 +1,59 @@
+# Docker Compose for Development Environment
+# This sets up PostgreSQL for local development
+
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: polarist-postgres-dev
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: polarist_dev
+      POSTGRES_USER: polarist_dev
+      POSTGRES_PASSWORD: dev_password_123
+      POSTGRES_HOST_AUTH_METHOD: md5
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_dev_data:/var/lib/postgresql/data
+      - ./backend-rust/migrations/postgres:/docker-entrypoint-initdb.d
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U polarist_dev -d polarist_dev"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - polarist-network
+
+  # Optional: PostgreSQL Admin Interface
+  pgadmin:
+    image: dpage/pgadmin4:8
+    container_name: polarist-pgadmin-dev
+    restart: unless-stopped
+    environment:
+      PGADMIN_DEFAULT_EMAIL: admin@polarist.dev
+      PGADMIN_DEFAULT_PASSWORD: admin123
+      PGADMIN_CONFIG_SERVER_MODE: 'False'
+    ports:
+      - "5050:80"
+    volumes:
+      - pgadmin_dev_data:/var/lib/pgadmin
+    depends_on:
+      postgres:
+        condition: service_healthy
+    networks:
+      - polarist-network
+
+volumes:
+  postgres_dev_data:
+    driver: local
+    name: polarist_postgres_dev_data
+  pgadmin_dev_data:
+    driver: local
+    name: polarist_pgadmin_dev_data
+
+networks:
+  polarist-network:
+    driver: bridge
+    name: polarist-dev-network

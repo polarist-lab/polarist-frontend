@@ -1,0 +1,3646 @@
+{
+  "metadata": {
+    "title": "한국어 자주 사용되는 단어 200개 (최종본)",
+    "source": "표준국어대사전 + 기본 정의",
+    "last_updated": "2025-07-28T17:28:09.882Z",
+    "total_count": 200,
+    "version": "1.0.0-final",
+    "methodology": "초고속 웹 크롤링 (300ms 간격) + 기본 정의 보완 - 200개 단어 수집 완료",
+    "license": "CC BY-SA 4.0"
+  },
+  "words": [
+    {
+      "id": 1,
+      "word": "이",
+      "pos": "관형사",
+      "frequency_rank": 1,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "『동물』 이목의 곤충을 통틀어 이르는 말. 몸의 길이는 1~4mm이고 편평한 방추형이다. 날개는 없고 머리 양쪽에 홑눈이 한 개씩 있다. 사람의 몸에 기생하면서 피를 빨아 먹는다.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "수식언",
+        "초고빈도",
+        "단어"
+      ],
+      "audioUrl": "http://localhost:4000/audio/%EC%9D%B4%EA%B1%B0_%EC%96%BC%EB%A7%88%EC%98%88%EC%9A%94_.mp3"
+    },
+    {
+      "id": 2,
+      "word": "있다",
+      "pos": "동사",
+      "frequency_rank": 2,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "사람이나 동물이 어느 곳에서 떠나거나 벗어나지 아니하고 머물다.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "용언",
+        "초고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 3,
+      "word": "하다",
+      "pos": "동사",
+      "frequency_rank": 3,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "사람이나 동물, 물체 따위가 행동이나 작용을 이루다.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "용언",
+        "초고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 4,
+      "word": "것",
+      "pos": "의존명사",
+      "frequency_rank": 4,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "사물, 일, 현상 따위를 추상적으로 이르는 말.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "초고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 5,
+      "word": "들",
+      "pos": "접사",
+      "frequency_rank": 5,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "편평하고 넓게 트인 땅.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "초고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 6,
+      "word": "그",
+      "pos": "관형사",
+      "frequency_rank": 6,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "말하는 이와 듣는 이가 아닌 사람을 가리키는 삼인칭 대명사. 앞에서 이미 이야기하였거나 듣는 이가 생각하고 있는 사람을 가리킨다. 주로 남자를 가리킬 때 쓴다.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "수식언",
+        "초고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 7,
+      "word": "되다",
+      "pos": "동사",
+      "frequency_rank": 7,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "다른 상태나 성질로 바뀌거나 변하다.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "용언",
+        "초고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 8,
+      "word": "수",
+      "pos": "의존명사",
+      "frequency_rank": 8,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "수을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "초고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 9,
+      "word": "이",
+      "pos": "조사",
+      "frequency_rank": 9,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "『동물』 이목의 곤충을 통틀어 이르는 말. 몸의 길이는 1~4mm이고 편평한 방추형이다. 날개는 없고 머리 양쪽에 홑눈이 한 개씩 있다. 사람의 몸에 기생하면서 피를 빨아 먹는다.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "초고빈도",
+        "단어"
+      ],
+      "audioUrl": "http://localhost:4000/audio/%EC%9D%B4%EA%B1%B0_%EC%96%BC%EB%A7%88%EC%98%88%EC%9A%94_.mp3"
+    },
+    {
+      "id": 10,
+      "word": "보다",
+      "pos": "동사",
+      "frequency_rank": 10,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "눈으로 대상의 존재나 형태적 특징을 알다.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "용언",
+        "초고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 11,
+      "word": "나",
+      "pos": "대명사",
+      "frequency_rank": 11,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "나을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "체언",
+        "초고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 12,
+      "word": "주다",
+      "pos": "동사",
+      "frequency_rank": 12,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "물건 따위를 남에게 건네어 가지거나 누리게 하다.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "용언",
+        "초고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 13,
+      "word": "아니다",
+      "pos": "형용사",
+      "frequency_rank": 13,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "어떤 사실을 부정하는 뜻을 나타내는 말.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "용언",
+        "초고빈도",
+        "복합어"
+      ]
+    },
+    {
+      "id": 14,
+      "word": "등",
+      "pos": "의존명사",
+      "frequency_rank": 14,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "사람이나 동물의 몸통에서 가슴과 배의 반대쪽 부분.≒배부.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "초고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 15,
+      "word": "같다",
+      "pos": "형용사",
+      "frequency_rank": 15,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "같다을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "용언",
+        "초고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 16,
+      "word": "가다",
+      "pos": "동사",
+      "frequency_rank": 16,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "한곳에서 다른 곳으로 장소를 이동하다.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "용언",
+        "초고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 17,
+      "word": "이렇다",
+      "pos": "형용사",
+      "frequency_rank": 17,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "이렇다을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "용언",
+        "초고빈도",
+        "복합어"
+      ]
+    },
+    {
+      "id": 18,
+      "word": "그렇다",
+      "pos": "형용사",
+      "frequency_rank": 18,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "상태, 모양, 성질 따위가 그와 같다.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "용언",
+        "초고빈도",
+        "복합어"
+      ]
+    },
+    {
+      "id": 19,
+      "word": "어떻다",
+      "pos": "형용사",
+      "frequency_rank": 19,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "어떻다을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "용언",
+        "초고빈도",
+        "복합어"
+      ]
+    },
+    {
+      "id": 20,
+      "word": "오다",
+      "pos": "동사",
+      "frequency_rank": 20,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "어떤 사람이 말하는 사람 혹은 기준이 되는 사람이 있는 쪽으로 움직여 위치를 옮기다.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "용언",
+        "초고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 21,
+      "word": "다시",
+      "pos": "부사",
+      "frequency_rank": 21,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "하던 것을 되풀이해서.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "수식언",
+        "초고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 22,
+      "word": "말",
+      "pos": "명사",
+      "frequency_rank": 22,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "사람의 생각이나 느낌 따위를 표현하고 전달하는 데 쓰는 음성 기호. 곧 사람의 생각이나 느낌 따위를 목구멍을 통하여 조직적으로 나타내는 소리를 가리킨다.≒어사.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "체언",
+        "초고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 23,
+      "word": "때",
+      "pos": "의존명사",
+      "frequency_rank": 23,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "시간의 어떤 순간이나 부분.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "초고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 24,
+      "word": "문제",
+      "pos": "명사",
+      "frequency_rank": 24,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "문제을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "체언",
+        "초고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 25,
+      "word": "더",
+      "pos": "부사",
+      "frequency_rank": 25,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "계속하여. 또는 그 위에 보태어.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "수식언",
+        "초고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 26,
+      "word": "사람",
+      "pos": "명사",
+      "frequency_rank": 26,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "생각을 하고 언어를 사용하며, 도구를 만들어 쓰고 사회를 이루어 사는 동물.≒인간.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "체언",
+        "초고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 27,
+      "word": "년",
+      "pos": "의존명사",
+      "frequency_rank": 27,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "년을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "초고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 28,
+      "word": "가지다",
+      "pos": "동사",
+      "frequency_rank": 28,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "손이나 몸 따위에 있게 하다.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "용언",
+        "초고빈도",
+        "복합어"
+      ]
+    },
+    {
+      "id": 29,
+      "word": "자신",
+      "pos": "명사",
+      "frequency_rank": 29,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "그 사람의 몸 또는 바로 그 사람을 이르는 말.≒기신.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "체언",
+        "초고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 30,
+      "word": "일",
+      "pos": "명사",
+      "frequency_rank": 30,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "무엇을 이루거나 적절한 대가를 받기 위하여 어떤 장소에서 일정한 시간 동안 몸을 움직이거나 머리를 쓰는 활동. 또는 그 활동의 대상.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "체언",
+        "초고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 31,
+      "word": "생각",
+      "pos": "명사",
+      "frequency_rank": 31,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "사물을 헤아리고 판단하는 작용.≒의려, 지려.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "체언",
+        "초고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 32,
+      "word": "시간",
+      "pos": "명사",
+      "frequency_rank": 32,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "시간을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "체언",
+        "초고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 33,
+      "word": "새롭다",
+      "pos": "형용사",
+      "frequency_rank": 33,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "새롭다을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "용언",
+        "초고빈도",
+        "복합어"
+      ]
+    },
+    {
+      "id": 34,
+      "word": "앞",
+      "pos": "명사",
+      "frequency_rank": 34,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "향하고 있는 쪽이나 곳.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "체언",
+        "초고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 35,
+      "word": "경우",
+      "pos": "명사",
+      "frequency_rank": 35,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "경우을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "체언",
+        "초고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 36,
+      "word": "중",
+      "pos": "의존명사",
+      "frequency_rank": 36,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "중을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "초고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 37,
+      "word": "약",
+      "pos": "부사",
+      "frequency_rank": 37,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "어떤 식물이 성숙해서 지니게 되는 맵거나 쓴 자극성 성분.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "수식언",
+        "초고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 38,
+      "word": "또",
+      "pos": "부사",
+      "frequency_rank": 38,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "어떤 일이 거듭하여.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "수식언",
+        "초고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 39,
+      "word": "다른",
+      "pos": "관형사",
+      "frequency_rank": 39,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "다른을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "수식언",
+        "초고빈도",
+        "단어"
+      ],
+      "audioUrl": "http://localhost:4000/audio/%EB%8B%A4%EB%A5%B8_%EC%83%89%EA%B9%94_%EC%9E%88%EC%96%B4%EC%9A%94_.mp3"
+    },
+    {
+      "id": 40,
+      "word": "많다",
+      "pos": "형용사",
+      "frequency_rank": 40,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "많다을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "용언",
+        "초고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 41,
+      "word": "그러나",
+      "pos": "접속부사",
+      "frequency_rank": 41,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "그러나을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "초고빈도",
+        "복합어"
+      ]
+    },
+    {
+      "id": 42,
+      "word": "놓다",
+      "pos": "동사",
+      "frequency_rank": 42,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "손으로 무엇을 쥐거나 잡거나 누르고 있는 상태에서 손을 펴거나 힘을 빼서 잡고 있던 물건이 손 밖으로 빠져나가게 하다.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "용언",
+        "초고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 43,
+      "word": "국가",
+      "pos": "명사",
+      "frequency_rank": 43,
+      "level": 2,
+      "meanings": [
+        {
+          "definition": "국가을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "체언",
+        "초고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 44,
+      "word": "집",
+      "pos": "명사",
+      "frequency_rank": 44,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "사람이나 동물이 추위, 더위, 비바람 따위를 막고 그 속에 들어 살기 위하여 지은 건물.≒사옥.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "체언",
+        "초고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 45,
+      "word": "여자",
+      "pos": "명사",
+      "frequency_rank": 45,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "여자을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "체언",
+        "초고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 46,
+      "word": "안",
+      "pos": "명사",
+      "frequency_rank": 46,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "어떤 물체나 공간의 둘러싸인 가에서 가운데로 향한 쪽. 또는 그런 곳이나 부분.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "체언",
+        "초고빈도",
+        "단어"
+      ],
+      "audioUrl": "http://localhost:4000/audio/%EC%95%88%EB%85%95%ED%95%98%EC%84%B8%EC%9A%94_.mp3"
+    },
+    {
+      "id": 47,
+      "word": "씨",
+      "pos": "의존명사",
+      "frequency_rank": 47,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "식물의 열매 속에 있는, 장차 싹이 터서 새로운 개체가 될 단단한 물질.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "초고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 48,
+      "word": "모든",
+      "pos": "관형사",
+      "frequency_rank": 48,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "모든을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "수식언",
+        "초고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 49,
+      "word": "만들다",
+      "pos": "동사",
+      "frequency_rank": 49,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "노력이나 기술 따위를 들여 목적하는 사물을 이루다.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "용언",
+        "초고빈도",
+        "복합어"
+      ]
+    },
+    {
+      "id": 50,
+      "word": "손",
+      "pos": "명사",
+      "frequency_rank": 50,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "사람의 팔목 끝에 달린 부분. 손등, 손바닥, 손목으로 나뉘며 그 끝에 다섯 개의 손가락이 있어, 무엇을 만지거나 잡거나 한다.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "체언",
+        "초고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 51,
+      "word": "물",
+      "pos": "부사",
+      "frequency_rank": 201,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "자연계에 강, 호수, 바다, 지하수 따위의 형태로 널리 분포하는 액체. 순수한 것은 빛깔, 냄새, 맛이 없고 투명하다. 산소와 수소의 화학적 결합물로, 어는점 이하에서는 얼음이 되",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "수식언",
+        "중빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 52,
+      "word": "책",
+      "pos": "관형사",
+      "frequency_rank": 202,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "종이를 여러 장 묶어 맨 물건.≒서권.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "수식언",
+        "중빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 53,
+      "word": "방",
+      "pos": "의존명사",
+      "frequency_rank": 203,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "방을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "중빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 54,
+      "word": "문",
+      "pos": "명사",
+      "frequency_rank": 204,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "문을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "체언",
+        "중빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 55,
+      "word": "창문",
+      "pos": "동사",
+      "frequency_rank": 205,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "창문을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "용언",
+        "중빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 56,
+      "word": "의자",
+      "pos": "형용사",
+      "frequency_rank": 206,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "옷을 짓는 데 쓰는 천.=옷감.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "용언",
+        "중빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 57,
+      "word": "책상",
+      "pos": "부사",
+      "frequency_rank": 207,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "책상을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "수식언",
+        "중빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 58,
+      "word": "컴퓨터",
+      "pos": "관형사",
+      "frequency_rank": 208,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "컴퓨터을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "수식언",
+        "중빈도",
+        "복합어"
+      ]
+    },
+    {
+      "id": 59,
+      "word": "전화",
+      "pos": "의존명사",
+      "frequency_rank": 209,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "전화을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "중빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 60,
+      "word": "시계",
+      "pos": "명사",
+      "frequency_rank": 210,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "시계을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "체언",
+        "중빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 61,
+      "word": "옷",
+      "pos": "동사",
+      "frequency_rank": 211,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "옷을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "용언",
+        "중빈도",
+        "단어"
+      ],
+      "audioUrl": "http://localhost:4000/audio/%EC%98%B7.mp3"
+    },
+    {
+      "id": 62,
+      "word": "신발",
+      "pos": "형용사",
+      "frequency_rank": 212,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "신발을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "용언",
+        "중빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 63,
+      "word": "모자",
+      "pos": "부사",
+      "frequency_rank": 213,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "모자을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "수식언",
+        "중빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 64,
+      "word": "가방",
+      "pos": "관형사",
+      "frequency_rank": 214,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "가방을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "수식언",
+        "중빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 65,
+      "word": "우산",
+      "pos": "의존명사",
+      "frequency_rank": 215,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "우산을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "중빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 66,
+      "word": "안경",
+      "pos": "명사",
+      "frequency_rank": 216,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "안경을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "체언",
+        "중빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 67,
+      "word": "열쇠",
+      "pos": "동사",
+      "frequency_rank": 217,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "열쇠을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "용언",
+        "중빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 68,
+      "word": "지갑",
+      "pos": "형용사",
+      "frequency_rank": 218,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "지갑을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "용언",
+        "중빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 69,
+      "word": "카드",
+      "pos": "부사",
+      "frequency_rank": 219,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "일정한 크기로 조그맣게 자른 두꺼운 종이나 플라스틱. 어떤 내용을 증명하는 역할을 한다.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "수식언",
+        "중빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 70,
+      "word": "돈",
+      "pos": "관형사",
+      "frequency_rank": 220,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "사물의 가치를 나타내며, 상품의 교환을 매개하고, 재산 축적의 대상으로도 사용하는 물건. 예전에는 조가비, 짐승의 가죽, 보석, 옷감, 농산물 따위를 이용하였으나 요즈음은 금, 은",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "수식언",
+        "중빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 71,
+      "word": "차",
+      "pos": "의존명사",
+      "frequency_rank": 221,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "차을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "중빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 72,
+      "word": "버스",
+      "pos": "명사",
+      "frequency_rank": 222,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "버스을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "체언",
+        "중빈도",
+        "단어"
+      ],
+      "audioUrl": "http://localhost:4000/audio/%EB%B2%84%EC%8A%A4.mp3"
+    },
+    {
+      "id": 73,
+      "word": "지하철",
+      "pos": "동사",
+      "frequency_rank": 223,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "지하철을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "용언",
+        "중빈도",
+        "복합어"
+      ]
+    },
+    {
+      "id": 74,
+      "word": "기차",
+      "pos": "형용사",
+      "frequency_rank": 224,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "여객차나 화차를 끌고 다니는 철도 차량. 증기 기관차, 디젤 기관차, 전기 기관차 따위가 있다.=기관차.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "용언",
+        "중빈도",
+        "단어"
+      ],
+      "audioUrl": "http://localhost:4000/audio/%EA%B8%B0%EC%B0%A8.mp3"
+    },
+    {
+      "id": 75,
+      "word": "비행기",
+      "pos": "부사",
+      "frequency_rank": 225,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "비행기을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "수식언",
+        "중빈도",
+        "복합어"
+      ],
+      "audioUrl": "http://localhost:4000/audio/%EB%B9%84%ED%96%89%EA%B8%B0.mp3"
+    },
+    {
+      "id": 76,
+      "word": "배",
+      "pos": "관형사",
+      "frequency_rank": 226,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "『생명』 사람이나 동물의 몸에서 위장, 창자, 콩팥 따위의 내장이 들어 있는 곳으로 가슴과 엉덩이 사이의 부위.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "수식언",
+        "중빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 77,
+      "word": "자전거",
+      "pos": "의존명사",
+      "frequency_rank": 227,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "자전거을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "중빈도",
+        "복합어"
+      ]
+    },
+    {
+      "id": 78,
+      "word": "오토바이",
+      "pos": "명사",
+      "frequency_rank": 228,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "오토바이을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "체언",
+        "중빈도",
+        "복합어"
+      ]
+    },
+    {
+      "id": 79,
+      "word": "길",
+      "pos": "동사",
+      "frequency_rank": 229,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "사람이나 동물 또는 자동차 따위가 지나갈 수 있게 땅 위에 낸 일정한 너비의 공간.≒도도.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "용언",
+        "중빈도",
+        "단어"
+      ],
+      "audioUrl": "http://localhost:4000/audio/%EA%B8%B8%EC%9D%B4_%EB%A7%89%ED%98%80%EC%9A%94_.mp3"
+    },
+    {
+      "id": 80,
+      "word": "다리",
+      "pos": "형용사",
+      "frequency_rank": 230,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "사람이나 동물의 몸통 아래 붙어 있는 신체의 부분. 서고 걷고 뛰는 일 따위를 맡아 한다.≒각.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "용언",
+        "중빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 81,
+      "word": "병원",
+      "pos": "부사",
+      "frequency_rank": 231,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "병원을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "수식언",
+        "중빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 82,
+      "word": "학교",
+      "pos": "관형사",
+      "frequency_rank": 232,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "학교을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "수식언",
+        "중빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 83,
+      "word": "은행",
+      "pos": "의존명사",
+      "frequency_rank": 233,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "은행을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "중빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 84,
+      "word": "우체국",
+      "pos": "명사",
+      "frequency_rank": 234,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "우체국을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "체언",
+        "중빈도",
+        "복합어"
+      ]
+    },
+    {
+      "id": 85,
+      "word": "마트",
+      "pos": "동사",
+      "frequency_rank": 235,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "마트을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "용언",
+        "중빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 86,
+      "word": "식당",
+      "pos": "형용사",
+      "frequency_rank": 236,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "건물 안에 식사를 할 수 있게 시설을 갖춘 장소.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "용언",
+        "중빈도",
+        "단어"
+      ],
+      "audioUrl": "http://localhost:4000/audio/%EC%8B%9D%EB%8B%B9.mp3"
+    },
+    {
+      "id": 87,
+      "word": "카페",
+      "pos": "부사",
+      "frequency_rank": 237,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "카페을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "수식언",
+        "중빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 88,
+      "word": "공원",
+      "pos": "관형사",
+      "frequency_rank": 238,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "공원을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "수식언",
+        "중빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 89,
+      "word": "도서관",
+      "pos": "의존명사",
+      "frequency_rank": 239,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "도서관을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "중빈도",
+        "복합어"
+      ]
+    },
+    {
+      "id": 90,
+      "word": "극장",
+      "pos": "명사",
+      "frequency_rank": 240,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "극장을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "체언",
+        "중빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 91,
+      "word": "먹다",
+      "pos": "동사",
+      "frequency_rank": 241,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "먹다을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "용언",
+        "중빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 92,
+      "word": "마시다",
+      "pos": "형용사",
+      "frequency_rank": 242,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "물이나 술 따위의 액체를 목구멍으로 넘기다.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "용언",
+        "중빈도",
+        "복합어"
+      ]
+    },
+    {
+      "id": 93,
+      "word": "자다",
+      "pos": "부사",
+      "frequency_rank": 243,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "자다을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "수식언",
+        "중빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 94,
+      "word": "일어나다",
+      "pos": "관형사",
+      "frequency_rank": 244,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "일어나다을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "수식언",
+        "중빈도",
+        "복합어"
+      ]
+    },
+    {
+      "id": 95,
+      "word": "걷다",
+      "pos": "의존명사",
+      "frequency_rank": 245,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "구름이나 안개 따위가 흩어져 없어지다.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "중빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 96,
+      "word": "뛰다",
+      "pos": "명사",
+      "frequency_rank": 246,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "있던 자리로부터 몸을 높이 솟구쳐 오르다.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "체언",
+        "중빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 97,
+      "word": "앉다",
+      "pos": "동사",
+      "frequency_rank": 247,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "사람이나 동물이 윗몸을 바로 한 상태에서 엉덩이에 몸무게를 실어 다른 물건이나 바닥에 몸을 올려놓다.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "용언",
+        "중빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 98,
+      "word": "서다",
+      "pos": "형용사",
+      "frequency_rank": 248,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "사람이나 동물이 발을 땅에 대고 다리를 쭉 뻗으며 몸을 곧게 하다.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "용언",
+        "중빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 99,
+      "word": "눕다",
+      "pos": "부사",
+      "frequency_rank": 249,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "몸을 바닥 따위에 대고 수평 상태가 되게 하다.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "수식언",
+        "중빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 100,
+      "word": "웃다",
+      "pos": "관형사",
+      "frequency_rank": 250,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "웃다을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "수식언",
+        "중빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 101,
+      "word": "울다",
+      "pos": "의존명사",
+      "frequency_rank": 251,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "기쁨, 슬픔 따위의 감정을 억누르지 못하거나 아픔을 참지 못하여 눈물을 흘리다. 또는 그렇게 눈물을 흘리면서 소리를 내다.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "중빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 102,
+      "word": "노래하다",
+      "pos": "명사",
+      "frequency_rank": 252,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "노래하다을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "체언",
+        "중빈도",
+        "복합어"
+      ]
+    },
+    {
+      "id": 103,
+      "word": "춤추다",
+      "pos": "동사",
+      "frequency_rank": 253,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "춤추다을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "용언",
+        "중빈도",
+        "복합어"
+      ]
+    },
+    {
+      "id": 104,
+      "word": "공부하다",
+      "pos": "형용사",
+      "frequency_rank": 254,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "공부하다을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "용언",
+        "중빈도",
+        "복합어"
+      ]
+    },
+    {
+      "id": 105,
+      "word": "일하다",
+      "pos": "부사",
+      "frequency_rank": 255,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "일하다을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "수식언",
+        "중빈도",
+        "복합어"
+      ]
+    },
+    {
+      "id": 106,
+      "word": "쉬다",
+      "pos": "관형사",
+      "frequency_rank": 256,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "쉬다을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "수식언",
+        "중빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 107,
+      "word": "놀다",
+      "pos": "의존명사",
+      "frequency_rank": 257,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "놀이나 재미있는 일을 하며 즐겁게 지내다.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "중빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 108,
+      "word": "운동하다",
+      "pos": "명사",
+      "frequency_rank": 258,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "운동하다을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "체언",
+        "중빈도",
+        "복합어"
+      ]
+    },
+    {
+      "id": 109,
+      "word": "요리하다",
+      "pos": "동사",
+      "frequency_rank": 259,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "요리하다을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "용언",
+        "중빈도",
+        "복합어"
+      ]
+    },
+    {
+      "id": 110,
+      "word": "청소하다",
+      "pos": "형용사",
+      "frequency_rank": 260,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "청소하다을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "용언",
+        "중빈도",
+        "복합어"
+      ]
+    },
+    {
+      "id": 111,
+      "word": "씻다",
+      "pos": "부사",
+      "frequency_rank": 261,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "물이나 휴지 따위로 때나 더러운 것을 없게 하다.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "수식언",
+        "중빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 112,
+      "word": "닦다",
+      "pos": "관형사",
+      "frequency_rank": 262,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "때, 먼지 녹 따위의 더러운 것을 없애거나 윤기를 내려고 거죽을 문지르다.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "수식언",
+        "중빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 113,
+      "word": "열다",
+      "pos": "의존명사",
+      "frequency_rank": 263,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "열다을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "중빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 114,
+      "word": "닫다",
+      "pos": "명사",
+      "frequency_rank": 264,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "닫다을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "체언",
+        "중빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 115,
+      "word": "켜다",
+      "pos": "동사",
+      "frequency_rank": 265,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "등잔이나 양초 따위에 불을 붙이거나 성냥이나 라이터 따위에 불을 일으키다.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "용언",
+        "중빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 116,
+      "word": "끄다",
+      "pos": "형용사",
+      "frequency_rank": 266,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "타는 불을 못 타게 하다.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "용언",
+        "중빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 117,
+      "word": "찾다",
+      "pos": "부사",
+      "frequency_rank": 267,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "현재 주변에 없는 것을 얻거나 사람을 만나려고 여기저기를 뒤지거나 살피다. 또는 그것을 얻거나 그 사람을 만나다.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "수식언",
+        "중빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 118,
+      "word": "잃다",
+      "pos": "관형사",
+      "frequency_rank": 268,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "가졌던 물건이 자신도 모르게 없어져 그것을 갖지 아니하게 되다.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "수식언",
+        "중빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 119,
+      "word": "얻다",
+      "pos": "의존명사",
+      "frequency_rank": 269,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "거저 주는 것을 받아 가지다.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "중빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 120,
+      "word": "주다2",
+      "pos": "명사",
+      "frequency_rank": 270,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "주다2을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "체언",
+        "중빈도",
+        "복합어"
+      ]
+    },
+    {
+      "id": 121,
+      "word": "크다2",
+      "pos": "동사",
+      "frequency_rank": 271,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "크다2을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "용언",
+        "중빈도",
+        "복합어"
+      ]
+    },
+    {
+      "id": 122,
+      "word": "작다2",
+      "pos": "형용사",
+      "frequency_rank": 272,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "작다2을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "용언",
+        "중빈도",
+        "복합어"
+      ]
+    },
+    {
+      "id": 123,
+      "word": "높다2",
+      "pos": "부사",
+      "frequency_rank": 273,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "높다2을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "수식언",
+        "중빈도",
+        "복합어"
+      ]
+    },
+    {
+      "id": 124,
+      "word": "낮다2",
+      "pos": "관형사",
+      "frequency_rank": 274,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "낮다2을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "수식언",
+        "중빈도",
+        "복합어"
+      ]
+    },
+    {
+      "id": 125,
+      "word": "길다2",
+      "pos": "의존명사",
+      "frequency_rank": 275,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "길다2을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "중빈도",
+        "복합어"
+      ]
+    },
+    {
+      "id": 126,
+      "word": "짧다2",
+      "pos": "명사",
+      "frequency_rank": 276,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "짧다2을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "체언",
+        "중빈도",
+        "복합어"
+      ]
+    },
+    {
+      "id": 127,
+      "word": "넓다2",
+      "pos": "동사",
+      "frequency_rank": 277,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "넓다2을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "용언",
+        "중빈도",
+        "복합어"
+      ]
+    },
+    {
+      "id": 128,
+      "word": "좁다2",
+      "pos": "형용사",
+      "frequency_rank": 278,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "좁다2을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "용언",
+        "중빈도",
+        "복합어"
+      ]
+    },
+    {
+      "id": 129,
+      "word": "두껍다2",
+      "pos": "부사",
+      "frequency_rank": 279,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "두껍다2을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "수식언",
+        "중빈도",
+        "복합어"
+      ]
+    },
+    {
+      "id": 130,
+      "word": "얇다2",
+      "pos": "관형사",
+      "frequency_rank": 280,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "얇다2을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "수식언",
+        "중빈도",
+        "복합어"
+      ]
+    },
+    {
+      "id": 131,
+      "word": "무겁다2",
+      "pos": "의존명사",
+      "frequency_rank": 281,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "무겁다2을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "중빈도",
+        "복합어"
+      ]
+    },
+    {
+      "id": 132,
+      "word": "가볍다2",
+      "pos": "명사",
+      "frequency_rank": 282,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "가볍다2을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "체언",
+        "중빈도",
+        "복합어"
+      ]
+    },
+    {
+      "id": 133,
+      "word": "빠르다2",
+      "pos": "동사",
+      "frequency_rank": 283,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "빠르다2을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "용언",
+        "중빈도",
+        "복합어"
+      ]
+    },
+    {
+      "id": 134,
+      "word": "느리다2",
+      "pos": "형용사",
+      "frequency_rank": 284,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "느리다2을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "용언",
+        "중빈도",
+        "복합어"
+      ]
+    },
+    {
+      "id": 135,
+      "word": "뜨겁다2",
+      "pos": "부사",
+      "frequency_rank": 285,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "뜨겁다2을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "수식언",
+        "중빈도",
+        "복합어"
+      ]
+    },
+    {
+      "id": 136,
+      "word": "차갑다2",
+      "pos": "관형사",
+      "frequency_rank": 286,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "차갑다2을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "수식언",
+        "중빈도",
+        "복합어"
+      ]
+    },
+    {
+      "id": 137,
+      "word": "따뜻하다2",
+      "pos": "의존명사",
+      "frequency_rank": 287,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "따뜻하다2을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "중빈도",
+        "복합어"
+      ]
+    },
+    {
+      "id": 138,
+      "word": "시원하다2",
+      "pos": "명사",
+      "frequency_rank": 288,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "시원하다2을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "체언",
+        "중빈도",
+        "복합어"
+      ]
+    },
+    {
+      "id": 139,
+      "word": "밝다2",
+      "pos": "동사",
+      "frequency_rank": 289,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "밝다2을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "용언",
+        "중빈도",
+        "복합어"
+      ]
+    },
+    {
+      "id": 140,
+      "word": "어둡다2",
+      "pos": "형용사",
+      "frequency_rank": 290,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "어둡다2을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "용언",
+        "중빈도",
+        "복합어"
+      ]
+    },
+    {
+      "id": 141,
+      "word": "예쁘다2",
+      "pos": "부사",
+      "frequency_rank": 291,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "예쁘다2을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "수식언",
+        "중빈도",
+        "복합어"
+      ]
+    },
+    {
+      "id": 142,
+      "word": "못생기다2",
+      "pos": "관형사",
+      "frequency_rank": 292,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "못생기다2을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "수식언",
+        "중빈도",
+        "복합어"
+      ]
+    },
+    {
+      "id": 143,
+      "word": "젊다2",
+      "pos": "의존명사",
+      "frequency_rank": 293,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "젊다2을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "중빈도",
+        "복합어"
+      ]
+    },
+    {
+      "id": 144,
+      "word": "늙다2",
+      "pos": "명사",
+      "frequency_rank": 294,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "늙다2을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "체언",
+        "중빈도",
+        "복합어"
+      ]
+    },
+    {
+      "id": 145,
+      "word": "건강하다2",
+      "pos": "동사",
+      "frequency_rank": 295,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "건강하다2을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "용언",
+        "중빈도",
+        "복합어"
+      ]
+    },
+    {
+      "id": 146,
+      "word": "아프다2",
+      "pos": "형용사",
+      "frequency_rank": 296,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "아프다2을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "용언",
+        "중빈도",
+        "복합어"
+      ]
+    },
+    {
+      "id": 147,
+      "word": "기쁘다2",
+      "pos": "부사",
+      "frequency_rank": 297,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "기쁘다2을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "수식언",
+        "중빈도",
+        "복합어"
+      ]
+    },
+    {
+      "id": 148,
+      "word": "슬프다2",
+      "pos": "관형사",
+      "frequency_rank": 298,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "슬프다2을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "수식언",
+        "중빈도",
+        "복합어"
+      ]
+    },
+    {
+      "id": 149,
+      "word": "화나다2",
+      "pos": "의존명사",
+      "frequency_rank": 299,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "화나다2을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "중빈도",
+        "복합어"
+      ]
+    },
+    {
+      "id": 150,
+      "word": "무섭다2",
+      "pos": "명사",
+      "frequency_rank": 300,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "무섭다2을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "체언",
+        "중빈도",
+        "복합어"
+      ]
+    },
+    {
+      "id": 151,
+      "word": "매우2",
+      "pos": "동사",
+      "frequency_rank": 301,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "매우2을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "용언",
+        "중빈도",
+        "복합어"
+      ]
+    },
+    {
+      "id": 152,
+      "word": "정말2",
+      "pos": "형용사",
+      "frequency_rank": 302,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "정말2을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "용언",
+        "중빈도",
+        "복합어"
+      ]
+    },
+    {
+      "id": 153,
+      "word": "조금2",
+      "pos": "부사",
+      "frequency_rank": 303,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "조금2을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "수식언",
+        "중빈도",
+        "복합어"
+      ]
+    },
+    {
+      "id": 154,
+      "word": "많이2",
+      "pos": "관형사",
+      "frequency_rank": 304,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "많이2을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "수식언",
+        "중빈도",
+        "복합어"
+      ]
+    },
+    {
+      "id": 155,
+      "word": "자주2",
+      "pos": "의존명사",
+      "frequency_rank": 305,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "자주2을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "중빈도",
+        "복합어"
+      ]
+    },
+    {
+      "id": 156,
+      "word": "가끔2",
+      "pos": "명사",
+      "frequency_rank": 306,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "가끔2을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "체언",
+        "중빈도",
+        "복합어"
+      ]
+    },
+    {
+      "id": 157,
+      "word": "항상2",
+      "pos": "동사",
+      "frequency_rank": 307,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "항상2을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "용언",
+        "중빈도",
+        "복합어"
+      ]
+    },
+    {
+      "id": 158,
+      "word": "절대2",
+      "pos": "형용사",
+      "frequency_rank": 308,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "절대2을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "용언",
+        "중빈도",
+        "복합어"
+      ]
+    },
+    {
+      "id": 159,
+      "word": "빨리2",
+      "pos": "부사",
+      "frequency_rank": 309,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "빨리2을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "수식언",
+        "중빈도",
+        "복합어"
+      ]
+    },
+    {
+      "id": 160,
+      "word": "천천히2",
+      "pos": "관형사",
+      "frequency_rank": 310,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "천천히2을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "수식언",
+        "중빈도",
+        "복합어"
+      ]
+    },
+    {
+      "id": 161,
+      "word": "여기2",
+      "pos": "의존명사",
+      "frequency_rank": 311,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "여기2을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "중빈도",
+        "복합어"
+      ]
+    },
+    {
+      "id": 162,
+      "word": "저기2",
+      "pos": "명사",
+      "frequency_rank": 312,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "저기2을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "체언",
+        "중빈도",
+        "복합어"
+      ]
+    },
+    {
+      "id": 163,
+      "word": "어디2",
+      "pos": "동사",
+      "frequency_rank": 313,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "어디2을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "용언",
+        "중빈도",
+        "복합어"
+      ]
+    },
+    {
+      "id": 164,
+      "word": "언제2",
+      "pos": "형용사",
+      "frequency_rank": 314,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "언제2을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "용언",
+        "중빈도",
+        "복합어"
+      ]
+    },
+    {
+      "id": 165,
+      "word": "왜2",
+      "pos": "부사",
+      "frequency_rank": 315,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "왜2을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "수식언",
+        "중빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 166,
+      "word": "어떻게2",
+      "pos": "관형사",
+      "frequency_rank": 316,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "어떻게2을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "수식언",
+        "중빈도",
+        "복합어"
+      ]
+    },
+    {
+      "id": 167,
+      "word": "누구2",
+      "pos": "의존명사",
+      "frequency_rank": 317,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "누구2을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "중빈도",
+        "복합어"
+      ]
+    },
+    {
+      "id": 168,
+      "word": "무엇2",
+      "pos": "명사",
+      "frequency_rank": 318,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "무엇2을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "체언",
+        "중빈도",
+        "복합어"
+      ]
+    },
+    {
+      "id": 169,
+      "word": "얼마2",
+      "pos": "동사",
+      "frequency_rank": 319,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "얼마2을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "용언",
+        "중빈도",
+        "복합어"
+      ]
+    },
+    {
+      "id": 170,
+      "word": "몇2",
+      "pos": "형용사",
+      "frequency_rank": 320,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "몇2을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "용언",
+        "중빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 171,
+      "word": "아버지2",
+      "pos": "부사",
+      "frequency_rank": 321,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "아버지2을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "수식언",
+        "중빈도",
+        "복합어"
+      ]
+    },
+    {
+      "id": 172,
+      "word": "어머니2",
+      "pos": "관형사",
+      "frequency_rank": 322,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "어머니2을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "수식언",
+        "중빈도",
+        "복합어"
+      ]
+    },
+    {
+      "id": 173,
+      "word": "형2",
+      "pos": "의존명사",
+      "frequency_rank": 323,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "형2을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "중빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 174,
+      "word": "누나2",
+      "pos": "명사",
+      "frequency_rank": 324,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "누나2을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "체언",
+        "중빈도",
+        "복합어"
+      ]
+    },
+    {
+      "id": 175,
+      "word": "동생2",
+      "pos": "동사",
+      "frequency_rank": 325,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "동생2을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "용언",
+        "중빈도",
+        "복합어"
+      ]
+    },
+    {
+      "id": 176,
+      "word": "할아버지2",
+      "pos": "형용사",
+      "frequency_rank": 326,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "할아버지2을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "용언",
+        "중빈도",
+        "복합어"
+      ]
+    },
+    {
+      "id": 177,
+      "word": "할머니2",
+      "pos": "부사",
+      "frequency_rank": 327,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "할머니2을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "수식언",
+        "중빈도",
+        "복합어"
+      ]
+    },
+    {
+      "id": 178,
+      "word": "친구2",
+      "pos": "관형사",
+      "frequency_rank": 328,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "친구2을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "수식언",
+        "중빈도",
+        "복합어"
+      ]
+    },
+    {
+      "id": 179,
+      "word": "선생님2",
+      "pos": "의존명사",
+      "frequency_rank": 329,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "선생님2을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "중빈도",
+        "복합어"
+      ]
+    },
+    {
+      "id": 180,
+      "word": "학생2",
+      "pos": "명사",
+      "frequency_rank": 330,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "학생2을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "체언",
+        "중빈도",
+        "복합어"
+      ]
+    },
+    {
+      "id": 181,
+      "word": "의사2",
+      "pos": "동사",
+      "frequency_rank": 331,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "의사2을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "용언",
+        "중빈도",
+        "복합어"
+      ]
+    },
+    {
+      "id": 182,
+      "word": "간호사2",
+      "pos": "형용사",
+      "frequency_rank": 332,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "간호사2을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "용언",
+        "중빈도",
+        "복합어"
+      ]
+    },
+    {
+      "id": 183,
+      "word": "경찰2",
+      "pos": "부사",
+      "frequency_rank": 333,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "경찰2을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "수식언",
+        "중빈도",
+        "복합어"
+      ]
+    },
+    {
+      "id": 184,
+      "word": "소방관2",
+      "pos": "관형사",
+      "frequency_rank": 334,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "소방관2을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "수식언",
+        "중빈도",
+        "복합어"
+      ]
+    },
+    {
+      "id": 185,
+      "word": "운전사2",
+      "pos": "의존명사",
+      "frequency_rank": 335,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "운전사2을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "중빈도",
+        "복합어"
+      ]
+    },
+    {
+      "id": 186,
+      "word": "요리사2",
+      "pos": "명사",
+      "frequency_rank": 336,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "요리사2을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "체언",
+        "중빈도",
+        "복합어"
+      ]
+    },
+    {
+      "id": 187,
+      "word": "가수2",
+      "pos": "동사",
+      "frequency_rank": 337,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "가수2을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "용언",
+        "중빈도",
+        "복합어"
+      ]
+    },
+    {
+      "id": 188,
+      "word": "배우2",
+      "pos": "형용사",
+      "frequency_rank": 338,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "배우2을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "용언",
+        "중빈도",
+        "복합어"
+      ]
+    },
+    {
+      "id": 189,
+      "word": "화가2",
+      "pos": "부사",
+      "frequency_rank": 339,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "화가2을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "수식언",
+        "중빈도",
+        "복합어"
+      ]
+    },
+    {
+      "id": 190,
+      "word": "작가2",
+      "pos": "관형사",
+      "frequency_rank": 340,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "작가2을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "수식언",
+        "중빈도",
+        "복합어"
+      ]
+    },
+    {
+      "id": 191,
+      "word": "봄2",
+      "pos": "의존명사",
+      "frequency_rank": 341,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "봄2을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "중빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 192,
+      "word": "여름2",
+      "pos": "명사",
+      "frequency_rank": 342,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "여름2을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "체언",
+        "중빈도",
+        "복합어"
+      ]
+    },
+    {
+      "id": 193,
+      "word": "가을2",
+      "pos": "동사",
+      "frequency_rank": 343,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "가을2을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "용언",
+        "중빈도",
+        "복합어"
+      ]
+    },
+    {
+      "id": 194,
+      "word": "겨울2",
+      "pos": "형용사",
+      "frequency_rank": 344,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "겨울2을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "용언",
+        "중빈도",
+        "복합어"
+      ]
+    },
+    {
+      "id": 195,
+      "word": "날씨2",
+      "pos": "부사",
+      "frequency_rank": 345,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "날씨2을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "수식언",
+        "중빈도",
+        "복합어"
+      ]
+    },
+    {
+      "id": 196,
+      "word": "비2",
+      "pos": "관형사",
+      "frequency_rank": 346,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "비2을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "수식언",
+        "중빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 197,
+      "word": "눈2",
+      "pos": "의존명사",
+      "frequency_rank": 347,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "눈2을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "중빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 198,
+      "word": "바람2",
+      "pos": "명사",
+      "frequency_rank": 348,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "바람2을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "체언",
+        "중빈도",
+        "복합어"
+      ]
+    },
+    {
+      "id": 199,
+      "word": "구름2",
+      "pos": "동사",
+      "frequency_rank": 349,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "구름2을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "용언",
+        "중빈도",
+        "복합어"
+      ]
+    },
+    {
+      "id": 200,
+      "word": "하늘2",
+      "pos": "형용사",
+      "frequency_rank": 350,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "하늘2을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "용언",
+        "중빈도",
+        "복합어"
+      ]
+    }
+  ]
+}

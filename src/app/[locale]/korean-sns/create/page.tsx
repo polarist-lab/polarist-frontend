@@ -5,35 +5,19 @@ import { useRouter } from 'next/navigation';
 import { KoreanSNSLayout } from '@/components/korean-sns/layout/KoreanSNSLayout';
 import { BilingualPostEditor } from '@/components/korean-sns/posts/BilingualPostEditor';
 import { RewardNotification, useRewardNotifications } from '@/components/korean-sns/gamification/RewardNotification';
-import { BilingualPost, KoreanLearnerProfile } from '@/lib/korean-sns/types';
-
-// Mock user data - in a real app, this would come from authentication context
-const mockUser: KoreanLearnerProfile = {
-  id: '1',
-  username: 'john_doe',
-  displayName: 'John Doe',
-  email: 'john@example.com',
-  nativeLanguage: 'en',
-  topikLevel: 3,
-  joinedAt: new Date('2024-01-15'),
-  lastActiveAt: new Date(),
-  bio: 'Learning Korean for 2 years',
-  learningGoals: ['Daily conversation', 'Business Korean'],
-  specialties: [],
-  mentorshipPreference: 'receive',
-  studyStreak: 15,
-  totalPoints: 1250,
-  badges: [],
-  totalCorrectionsGiven: 0,
-  totalCorrectionsReceived: 12,
-  helpfulCorrectionsCount: 0,
-  isVerified: false
-};
+import { AlertModal, ConfirmModal } from '@/components/korean-sns/ui/Modal';
+import { BilingualPost } from '@/lib/korean-sns/types';
+import { mockUser } from '@/lib/korean-sns/mock-data';
 
 export default function CreatePostPage() {
   const router = useRouter();
   const { notifications, showReward, hideReward } = useRewardNotifications();
   const [isSubmitting, setIsSubmitting] = useState(false);
+  
+  // Modal states
+  const [showErrorModal, setShowErrorModal] = useState(false);
+  const [showCancelConfirm, setShowCancelConfirm] = useState(false);
+  const [errorMessage, setErrorMessage] = useState('');
 
   const handleSubmit = async (postData: Omit<BilingualPost, 'id' | 'createdAt' | 'updatedAt'>) => {
     setIsSubmitting(true);
@@ -67,16 +51,19 @@ export default function CreatePostPage() {
       
     } catch (error) {
       console.error('Error creating post:', error);
-      alert('Failed to create post. Please try again.');
+      setErrorMessage('Failed to create post. Please try again.');
+      setShowErrorModal(true);
     } finally {
       setIsSubmitting(false);
     }
   };
 
   const handleCancel = () => {
-    if (window.confirm('Are you sure you want to cancel? Your changes will be lost.')) {
-      router.push('/korean-sns');
-    }
+    setShowCancelConfirm(true);
+  };
+
+  const handleConfirmCancel = () => {
+    router.push('/korean-sns');
   };
 
   const handleSaveDraft = (draftData: Partial<BilingualPost>) => {
@@ -168,6 +155,29 @@ export default function CreatePostPage() {
           className="fixed top-4 right-4 z-50 max-w-sm"
         />
       ))}
+
+      {/* Error Modal */}
+      <AlertModal
+        isOpen={showErrorModal}
+        onClose={() => setShowErrorModal(false)}
+        title="Error"
+        message={errorMessage}
+        variant="error"
+        locale="en"
+      />
+
+      {/* Cancel Confirmation Modal */}
+      <ConfirmModal
+        isOpen={showCancelConfirm}
+        onClose={() => setShowCancelConfirm(false)}
+        onConfirm={handleConfirmCancel}
+        title="Cancel Post"
+        message="Are you sure you want to cancel? Your changes will be lost."
+        confirmText="Yes, Cancel"
+        cancelText="Keep Editing"
+        variant="danger"
+        locale="en"
+      />
     </>
   );
 }

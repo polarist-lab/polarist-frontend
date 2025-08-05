@@ -216,12 +216,39 @@ h1[id], h2[id], h3[id], h4[id], h5[id], h6[id] {
 }
 
 .dark {
+  /* Override all light mode variables for dark mode */
   --korean-primary: var(--korean-primary-dark);
+  --korean-primary-hover: #2563EB;
+  --korean-primary-light: #1E3A8A20;
+  --korean-accent: #FF7B7B;
+  --korean-accent-hover: #FF6262;
+  --korean-success: #059669;
+  --korean-warning: #D97706;
+  --korean-error: #DC2626;
+
+  /* Social interaction colors for dark mode */
+  --like-color: #FF4A5A;
+  --like-color-hover: #FF3040;
+  --comment-color: #38BDF8;
+  --share-color: #22D3EE;
+  --bookmark-color: #FBBF24;
+
+  /* Korean learning specific colors for dark mode */
   --original-text-bg: var(--original-text-bg-dark);
+  --original-text-border: #1E3A8A;
   --translated-text-bg: var(--translated-text-bg-dark);
+  --translated-text-border: #166534;
   --correction-bg: var(--correction-bg-dark);
+  --correction-border: #991B1B;
+  --correction-highlight: #DC2626;
   --mentor-accent: var(--mentor-accent-dark);
+  --mentor-accent-light: #581C8720;
+
+  /* Audio/Voice colors for dark mode */
   --voice-bg: var(--voice-bg-dark);
+  --voice-border: #3730A3;
+  --waveform-active: #8B5CF6;
+  --waveform-inactive: #64748B;
 }
 
 /* ========================================

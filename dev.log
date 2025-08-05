@@ -8,180 +8,974 @@
    - Environments: .env.local
 
  ✓ Starting...
- ✓ Compiled middleware in 119ms
- ✓ Ready in 1198ms
- ○ Compiling /[locale]/iron5 ...
- ✓ Compiled /[locale]/iron5 in 3s
+ ✓ Compiled middleware in 108ms
+ ✓ Ready in 1063ms
+ ○ Compiling /[locale]/study ...
+ ✓ Compiled /[locale]/study in 2s
 AuthStatus: user: null
 AuthStatus: loading: true
-Translation key not found: footer.about
-Translation key not found: footer.privacy
-Translation key not found: footer.terms
-Translation key not found: footer.contact
- GET /en/iron5 200 in 3845ms
- ○ Compiling /[locale]/community ...
- ✓ Compiled /[locale]/community in 736ms
+ GET /en/study 200 in 2861ms
+ ✓ Compiled /favicon.ico in 271ms
+ GET /favicon.ico?favicon.45db1c09.ico 200 in 525ms
+ ✓ Compiled /[locale]/study/vocabulary in 424ms
+ GET /en/study/vocabulary 200 in 877ms
+ ✓ Compiled /[locale]/study/words in 485ms
+ GET /en/study/words?theme=fruits 200 in 841ms
+ ✓ Compiled in 250ms
+ ✓ Compiled in 244ms
 AuthStatus: user: null
 AuthStatus: loading: true
-Translation key not found: footer.about
-Translation key not found: footer.privacy
-Translation key not found: footer.terms
-Translation key not found: footer.contact
- GET /en/community 200 in 1249ms
- ○ Compiling /favicon.ico ...
- ✓ Compiled /favicon.ico in 587ms
- GET /favicon.ico?favicon.45db1c09.ico 200 in 964ms
- ✓ Compiled in 144ms
- ✓ Compiled /_not-found/page in 294ms
- GET /en/community 404 in 487ms
- GET /favicon.ico?favicon.45db1c09.ico 200 in 255ms
- ✓ Compiled /[locale]/community in 34ms
+ GET /en/study/words?theme=fruits 200 in 660ms
+ GET /favicon.ico?favicon.45db1c09.ico 200 in 495ms
 AuthStatus: user: null
 AuthStatus: loading: true
-Translation key not found: footer.about
-Translation key not found: footer.privacy
-Translation key not found: footer.terms
-Translation key not found: footer.contact
- GET /en/community 200 in 96ms
- GET /favicon.ico?favicon.45db1c09.ico 200 in 352ms
+ GET /en/study/words?theme=fruits 200 in 235ms
+ GET /favicon.ico?favicon.45db1c09.ico 200 in 836ms
 AuthStatus: user: null
 AuthStatus: loading: true
-Translation key not found: footer.about
-Translation key not found: footer.privacy
-Translation key not found: footer.terms
-Translation key not found: footer.contact
- GET /en/community 200 in 59ms
- GET /favicon.ico?favicon.45db1c09.ico 200 in 286ms
+ GET /en/study/words?theme=fruits 200 in 349ms
+ GET /favicon.ico?favicon.45db1c09.ico 200 in 595ms
+   Reload env: .env
+ GET /en/study/words?theme=fruits 200 in 315ms
+   Reload env: .env
+ GET /en/study/words?theme=fruits 200 in 163ms
+   Reload env: .env
+ GET /en/study/words?theme=fruits 200 in 119ms
+   Reload env: .env
+ GET /en/study/words?theme=fruits 200 in 212ms
 AuthStatus: user: null
 AuthStatus: loading: true
-Translation key not found: footer.about
-Translation key not found: footer.privacy
-Translation key not found: footer.terms
-Translation key not found: footer.contact
- GET /en/community 200 in 126ms
- GET /favicon.ico?favicon.45db1c09.ico 200 in 256ms
- ✓ Compiled in 141ms
- ✓ Compiled /_not-found/page in 18ms
- GET /en/community 404 in 165ms
- GET /favicon.ico?favicon.45db1c09.ico 200 in 244ms
- ✓ Compiled in 124ms
- ✓ Compiled /[locale]/community in 21ms
- GET /en/community 200 in 189ms
- GET /en/community 200 in 43ms
- GET /en/community 200 in 32ms
- ✓ Compiled /[locale]/iron5 in 30ms
+ GET /en/study/words?theme=fruits 200 in 384ms
+ GET /favicon.ico?favicon.45db1c09.ico 200 in 738ms
 AuthStatus: user: null
 AuthStatus: loading: true
-Translation key not found: footer.about
-Translation key not found: footer.privacy
-Translation key not found: footer.terms
-Translation key not found: footer.contact
- GET /en/iron5 200 in 232ms
-AuthStatus: user: null
-AuthStatus: loading: true
-Translation key not found: footer.about
-Translation key not found: footer.privacy
-Translation key not found: footer.terms
-Translation key not found: footer.contact
- GET /en/community 200 in 477ms
- GET /favicon.ico?favicon.45db1c09.ico 200 in 370ms
- ⚠ Fast Refresh had to perform a full reload due to a runtime error.
- ✓ Compiled in 240ms
-AuthStatus: user: null
-AuthStatus: loading: true
-Translation key not found: footer.about
-Translation key not found: footer.privacy
-Translation key not found: footer.terms
-Translation key not found: footer.contact
- GET /en/community 200 in 360ms
- GET /favicon.ico?favicon.45db1c09.ico 200 in 244ms
- GET /favicon.ico 200 in 275ms
+ GET /en/study/words?theme=fruits 200 in 283ms
+ GET /favicon.ico?favicon.45db1c09.ico 200 in 400ms
  ○ Compiling /[locale] ...
- ✓ Compiled /[locale] in 630ms
+ ✓ Compiled /[locale] in 1089ms
+ GET /en 200 in 1518ms
+ ○ Compiling / ...
+ ✓ Compiled / in 943ms
+ GET / 307 in 1145ms
 AuthStatus: user: null
 AuthStatus: loading: true
-Translation key not found: footer.about
-Translation key not found: footer.privacy
-Translation key not found: footer.terms
-Translation key not found: footer.contact
- GET /en 200 in 1210ms
- GET /favicon.ico?favicon.45db1c09.ico 200 in 252ms
- GET /en/iron5 200 in 48ms
- ✓ Compiled in 258ms
- ✓ Compiled in 229ms
- ⨯ [Error: ENOENT: no such file or directory, open '/Users/x/github/polarist/polarist-nextjs/.next/server/app/[locale]/iron5/page/app-build-manifest.json'] {
+ GET /en 200 in 78ms
+ GET /favicon.ico?favicon.45db1c09.ico 200 in 249ms
+ ✓ Compiled /[locale]/roadmap in 321ms
+ GET /en/roadmap 200 in 631ms
+ GET /en/roadmap 200 in 44ms
+ ✓ Compiled /[locale]/ranking in 393ms
+ GET /en/ranking 200 in 824ms
+   Reload env: .env.development
+ ○ Compiling /[locale]/study/sentences ...
+ ✓ Compiled /[locale]/study/sentences in 835ms
+ GET /en/study/sentences 200 in 1484ms
+ ✓ Compiled /[locale]/study/sentences/[id] in 356ms
+ GET /en/study/sentences/health-medical 200 in 640ms
+ GET /en/study/sentences/health-medical 200 in 64ms
+ GET /en/study/sentences/emotions-opinions 200 in 48ms
+ GET /en 200 in 224ms
+ GET /en/study/vocabulary 200 in 234ms
+ GET /en/study/words?theme=animals 200 in 573ms
+ GET /en 200 in 250ms
+ GET / 307 in 369ms
+AuthStatus: user: null
+AuthStatus: loading: true
+ GET /en 200 in 225ms
+ GET / 307 in 367ms
+AuthStatus: user: null
+AuthStatus: loading: true
+ GET /en 200 in 98ms
+ ○ Compiling /[locale]/community ...
+ ✓ Compiled /[locale]/community in 1686ms
+ GET /en/community 200 in 2124ms
+ ○ Compiling /[locale]/progress ...
+ ✓ Compiled /[locale]/progress in 631ms
+ GET /en/ranking 200 in 51ms
+ GET /en/progress 200 in 1350ms
+ GET /en 200 in 50ms
+ ⨯ ./src/app/[locale]/community/page.tsx:6:1
+Module not found: Can't resolve '@/components/community/post-viewer/swipeable-post-viewer'
+[0m [90m 4 |[39m [36mimport[39m { useParams[33m,[39m useRouter } [36mfrom[39m [32m'next/navigation'[39m[33m;[39m
+ [90m 5 |[39m [36mimport[39m { [33mLocale[39m[33m,[39m isValidLocale } [36mfrom[39m [32m'@/lib/i18n/config'[39m[33m;[39m
+[31m[1m>[22m[39m[90m 6 |[39m [36mimport[39m { [33mSwipeablePostViewer[39m } [36mfrom[39m [32m'@/components/community/post-viewer/swipeable-post-viewer'[39m[33m;[39m
+ [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 7 |[39m [36mimport[39m { [33mCommunityDataManager[39m } [36mfrom[39m [32m'@/lib/community/data-manager'[39m[33m;[39m
+ [90m 8 |[39m [36mimport[39m { [33mPost[39m[33m,[39m [33mPostCategory[39m } [36mfrom[39m [32m'@/lib/community/types'[39m[33m;[39m
+ [90m 9 |[39m[0m
+
+Import map: aliased to relative './src/components/community/post-viewer/swipeable-post-viewer' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/[locale]/community/page.tsx [Client Component Browser]
+    ./src/app/[locale]/community/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/[locale]/community/page.tsx [Client Component SSR]
+    ./src/app/[locale]/community/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/app/[locale]/community/page.tsx:6:1
+Module not found: Can't resolve '@/components/community/post-viewer/swipeable-post-viewer'
+[0m [90m 4 |[39m [36mimport[39m { useParams[33m,[39m useRouter } [36mfrom[39m [32m'next/navigation'[39m[33m;[39m
+ [90m 5 |[39m [36mimport[39m { [33mLocale[39m[33m,[39m isValidLocale } [36mfrom[39m [32m'@/lib/i18n/config'[39m[33m;[39m
+[31m[1m>[22m[39m[90m 6 |[39m [36mimport[39m { [33mSwipeablePostViewer[39m } [36mfrom[39m [32m'@/components/community/post-viewer/swipeable-post-viewer'[39m[33m;[39m
+ [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 7 |[39m [36mimport[39m { [33mCommunityDataManager[39m } [36mfrom[39m [32m'@/lib/community/data-manager'[39m[33m;[39m
+ [90m 8 |[39m [36mimport[39m { [33mPost[39m[33m,[39m [33mPostCategory[39m } [36mfrom[39m [32m'@/lib/community/types'[39m[33m;[39m
+ [90m 9 |[39m[0m
+
+Import map: aliased to relative './src/components/community/post-viewer/swipeable-post-viewer' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/[locale]/community/page.tsx [Client Component Browser]
+    ./src/app/[locale]/community/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/[locale]/community/page.tsx [Client Component SSR]
+    ./src/app/[locale]/community/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/app/[locale]/community/page.tsx:6:1
+Module not found: Can't resolve '@/components/community/post-viewer/swipeable-post-viewer'
+[0m [90m 4 |[39m [36mimport[39m { useParams[33m,[39m useRouter } [36mfrom[39m [32m'next/navigation'[39m[33m;[39m
+ [90m 5 |[39m [36mimport[39m { [33mLocale[39m[33m,[39m isValidLocale } [36mfrom[39m [32m'@/lib/i18n/config'[39m[33m;[39m
+[31m[1m>[22m[39m[90m 6 |[39m [36mimport[39m { [33mSwipeablePostViewer[39m } [36mfrom[39m [32m'@/components/community/post-viewer/swipeable-post-viewer'[39m[33m;[39m
+ [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 7 |[39m [36mimport[39m { [33mCommunityDataManager[39m } [36mfrom[39m [32m'@/lib/community/data-manager'[39m[33m;[39m
+ [90m 8 |[39m [36mimport[39m { [33mPost[39m[33m,[39m [33mPostCategory[39m } [36mfrom[39m [32m'@/lib/community/types'[39m[33m;[39m
+ [90m 9 |[39m[0m
+
+Import map: aliased to relative './src/components/community/post-viewer/swipeable-post-viewer' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/[locale]/community/page.tsx [Client Component Browser]
+    ./src/app/[locale]/community/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/[locale]/community/page.tsx [Client Component SSR]
+    ./src/app/[locale]/community/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/app/[locale]/community/page.tsx:6:1
+Module not found: Can't resolve '@/components/community/post-viewer/swipeable-post-viewer'
+[0m [90m 4 |[39m [36mimport[39m { useParams[33m,[39m useRouter } [36mfrom[39m [32m'next/navigation'[39m[33m;[39m
+ [90m 5 |[39m [36mimport[39m { [33mLocale[39m[33m,[39m isValidLocale } [36mfrom[39m [32m'@/lib/i18n/config'[39m[33m;[39m
+[31m[1m>[22m[39m[90m 6 |[39m [36mimport[39m { [33mSwipeablePostViewer[39m } [36mfrom[39m [32m'@/components/community/post-viewer/swipeable-post-viewer'[39m[33m;[39m
+ [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 7 |[39m [36mimport[39m { [33mCommunityDataManager[39m } [36mfrom[39m [32m'@/lib/community/data-manager'[39m[33m;[39m
+ [90m 8 |[39m [36mimport[39m { [33mPost[39m[33m,[39m [33mPostCategory[39m } [36mfrom[39m [32m'@/lib/community/types'[39m[33m;[39m
+ [90m 9 |[39m[0m
+
+Import map: aliased to relative './src/components/community/post-viewer/swipeable-post-viewer' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/[locale]/community/page.tsx [Client Component Browser]
+    ./src/app/[locale]/community/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/[locale]/community/page.tsx [Client Component SSR]
+    ./src/app/[locale]/community/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/app/[locale]/community/page.tsx:7:1
+Module not found: Can't resolve '@/lib/community/data-manager'
+[0m [90m  5 |[39m [36mimport[39m { [33mLocale[39m[33m,[39m isValidLocale } [36mfrom[39m [32m'@/lib/i18n/config'[39m[33m;[39m
+ [90m  6 |[39m [36mimport[39m { [33mSwipeablePostViewer[39m } [36mfrom[39m [32m'@/components/community/post-viewer/swipeable-post-viewer'[39m[33m;[39m
+[31m[1m>[22m[39m[90m  7 |[39m [36mimport[39m { [33mCommunityDataManager[39m } [36mfrom[39m [32m'@/lib/community/data-manager'[39m[33m;[39m
+ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m  8 |[39m [36mimport[39m { [33mPost[39m[33m,[39m [33mPostCategory[39m } [36mfrom[39m [32m'@/lib/community/types'[39m[33m;[39m
+ [90m  9 |[39m
+ [90m 10 |[39m [36mexport[39m [36mdefault[39m [36mfunction[39m [33mCommunityPage[39m() {[0m
+
+Import map: aliased to relative './src/lib/community/data-manager' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/[locale]/community/page.tsx [Client Component Browser]
+    ./src/app/[locale]/community/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/[locale]/community/page.tsx [Client Component SSR]
+    ./src/app/[locale]/community/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/app/[locale]/community/page.tsx:7:1
+Module not found: Can't resolve '@/lib/community/data-manager'
+[0m [90m  5 |[39m [36mimport[39m { [33mLocale[39m[33m,[39m isValidLocale } [36mfrom[39m [32m'@/lib/i18n/config'[39m[33m;[39m
+ [90m  6 |[39m [36mimport[39m { [33mSwipeablePostViewer[39m } [36mfrom[39m [32m'@/components/community/post-viewer/swipeable-post-viewer'[39m[33m;[39m
+[31m[1m>[22m[39m[90m  7 |[39m [36mimport[39m { [33mCommunityDataManager[39m } [36mfrom[39m [32m'@/lib/community/data-manager'[39m[33m;[39m
+ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m  8 |[39m [36mimport[39m { [33mPost[39m[33m,[39m [33mPostCategory[39m } [36mfrom[39m [32m'@/lib/community/types'[39m[33m;[39m
+ [90m  9 |[39m
+ [90m 10 |[39m [36mexport[39m [36mdefault[39m [36mfunction[39m [33mCommunityPage[39m() {[0m
+
+Import map: aliased to relative './src/lib/community/data-manager' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/[locale]/community/page.tsx [Client Component Browser]
+    ./src/app/[locale]/community/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/[locale]/community/page.tsx [Client Component SSR]
+    ./src/app/[locale]/community/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/app/[locale]/community/page.tsx:7:1
+Module not found: Can't resolve '@/lib/community/data-manager'
+[0m [90m  5 |[39m [36mimport[39m { [33mLocale[39m[33m,[39m isValidLocale } [36mfrom[39m [32m'@/lib/i18n/config'[39m[33m;[39m
+ [90m  6 |[39m [36mimport[39m { [33mSwipeablePostViewer[39m } [36mfrom[39m [32m'@/components/community/post-viewer/swipeable-post-viewer'[39m[33m;[39m
+[31m[1m>[22m[39m[90m  7 |[39m [36mimport[39m { [33mCommunityDataManager[39m } [36mfrom[39m [32m'@/lib/community/data-manager'[39m[33m;[39m
+ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m  8 |[39m [36mimport[39m { [33mPost[39m[33m,[39m [33mPostCategory[39m } [36mfrom[39m [32m'@/lib/community/types'[39m[33m;[39m
+ [90m  9 |[39m
+ [90m 10 |[39m [36mexport[39m [36mdefault[39m [36mfunction[39m [33mCommunityPage[39m() {[0m
+
+Import map: aliased to relative './src/lib/community/data-manager' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/[locale]/community/page.tsx [Client Component Browser]
+    ./src/app/[locale]/community/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/[locale]/community/page.tsx [Client Component SSR]
+    ./src/app/[locale]/community/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/app/[locale]/community/page.tsx:7:1
+Module not found: Can't resolve '@/lib/community/data-manager'
+[0m [90m  5 |[39m [36mimport[39m { [33mLocale[39m[33m,[39m isValidLocale } [36mfrom[39m [32m'@/lib/i18n/config'[39m[33m;[39m
+ [90m  6 |[39m [36mimport[39m { [33mSwipeablePostViewer[39m } [36mfrom[39m [32m'@/components/community/post-viewer/swipeable-post-viewer'[39m[33m;[39m
+[31m[1m>[22m[39m[90m  7 |[39m [36mimport[39m { [33mCommunityDataManager[39m } [36mfrom[39m [32m'@/lib/community/data-manager'[39m[33m;[39m
+ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m  8 |[39m [36mimport[39m { [33mPost[39m[33m,[39m [33mPostCategory[39m } [36mfrom[39m [32m'@/lib/community/types'[39m[33m;[39m
+ [90m  9 |[39m
+ [90m 10 |[39m [36mexport[39m [36mdefault[39m [36mfunction[39m [33mCommunityPage[39m() {[0m
+
+Import map: aliased to relative './src/lib/community/data-manager' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/[locale]/community/page.tsx [Client Component Browser]
+    ./src/app/[locale]/community/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/[locale]/community/page.tsx [Client Component SSR]
+    ./src/app/[locale]/community/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/app/[locale]/community/page.tsx:6:1
+Module not found: Can't resolve '@/components/community/post-viewer/swipeable-post-viewer'
+[0m [90m 4 |[39m [36mimport[39m { useParams[33m,[39m useRouter } [36mfrom[39m [32m'next/navigation'[39m[33m;[39m
+ [90m 5 |[39m [36mimport[39m { [33mLocale[39m[33m,[39m isValidLocale } [36mfrom[39m [32m'@/lib/i18n/config'[39m[33m;[39m
+[31m[1m>[22m[39m[90m 6 |[39m [36mimport[39m { [33mSwipeablePostViewer[39m } [36mfrom[39m [32m'@/components/community/post-viewer/swipeable-post-viewer'[39m[33m;[39m
+ [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 7 |[39m [36mimport[39m { [33mCommunityDataManager[39m } [36mfrom[39m [32m'@/lib/community/data-manager'[39m[33m;[39m
+ [90m 8 |[39m [36mimport[39m { [33mPost[39m[33m,[39m [33mPostCategory[39m } [36mfrom[39m [32m'@/lib/community/types'[39m[33m;[39m
+ [90m 9 |[39m[0m
+
+Import map: aliased to relative './src/components/community/post-viewer/swipeable-post-viewer' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/[locale]/community/page.tsx [Client Component Browser]
+    ./src/app/[locale]/community/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/[locale]/community/page.tsx [Client Component SSR]
+    ./src/app/[locale]/community/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/app/[locale]/community/page.tsx:6:1
+Module not found: Can't resolve '@/components/community/post-viewer/swipeable-post-viewer'
+[0m [90m 4 |[39m [36mimport[39m { useParams[33m,[39m useRouter } [36mfrom[39m [32m'next/navigation'[39m[33m;[39m
+ [90m 5 |[39m [36mimport[39m { [33mLocale[39m[33m,[39m isValidLocale } [36mfrom[39m [32m'@/lib/i18n/config'[39m[33m;[39m
+[31m[1m>[22m[39m[90m 6 |[39m [36mimport[39m { [33mSwipeablePostViewer[39m } [36mfrom[39m [32m'@/components/community/post-viewer/swipeable-post-viewer'[39m[33m;[39m
+ [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 7 |[39m [36mimport[39m { [33mCommunityDataManager[39m } [36mfrom[39m [32m'@/lib/community/data-manager'[39m[33m;[39m
+ [90m 8 |[39m [36mimport[39m { [33mPost[39m[33m,[39m [33mPostCategory[39m } [36mfrom[39m [32m'@/lib/community/types'[39m[33m;[39m
+ [90m 9 |[39m[0m
+
+Import map: aliased to relative './src/components/community/post-viewer/swipeable-post-viewer' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/[locale]/community/page.tsx [Client Component Browser]
+    ./src/app/[locale]/community/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/[locale]/community/page.tsx [Client Component SSR]
+    ./src/app/[locale]/community/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/app/[locale]/community/page.tsx:6:1
+Module not found: Can't resolve '@/components/community/post-viewer/swipeable-post-viewer'
+[0m [90m 4 |[39m [36mimport[39m { useParams[33m,[39m useRouter } [36mfrom[39m [32m'next/navigation'[39m[33m;[39m
+ [90m 5 |[39m [36mimport[39m { [33mLocale[39m[33m,[39m isValidLocale } [36mfrom[39m [32m'@/lib/i18n/config'[39m[33m;[39m
+[31m[1m>[22m[39m[90m 6 |[39m [36mimport[39m { [33mSwipeablePostViewer[39m } [36mfrom[39m [32m'@/components/community/post-viewer/swipeable-post-viewer'[39m[33m;[39m
+ [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 7 |[39m [36mimport[39m { [33mCommunityDataManager[39m } [36mfrom[39m [32m'@/lib/community/data-manager'[39m[33m;[39m
+ [90m 8 |[39m [36mimport[39m { [33mPost[39m[33m,[39m [33mPostCategory[39m } [36mfrom[39m [32m'@/lib/community/types'[39m[33m;[39m
+ [90m 9 |[39m[0m
+
+Import map: aliased to relative './src/components/community/post-viewer/swipeable-post-viewer' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/[locale]/community/page.tsx [Client Component Browser]
+    ./src/app/[locale]/community/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/[locale]/community/page.tsx [Client Component SSR]
+    ./src/app/[locale]/community/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/app/[locale]/community/page.tsx:6:1
+Module not found: Can't resolve '@/components/community/post-viewer/swipeable-post-viewer'
+[0m [90m 4 |[39m [36mimport[39m { useParams[33m,[39m useRouter } [36mfrom[39m [32m'next/navigation'[39m[33m;[39m
+ [90m 5 |[39m [36mimport[39m { [33mLocale[39m[33m,[39m isValidLocale } [36mfrom[39m [32m'@/lib/i18n/config'[39m[33m;[39m
+[31m[1m>[22m[39m[90m 6 |[39m [36mimport[39m { [33mSwipeablePostViewer[39m } [36mfrom[39m [32m'@/components/community/post-viewer/swipeable-post-viewer'[39m[33m;[39m
+ [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 7 |[39m [36mimport[39m { [33mCommunityDataManager[39m } [36mfrom[39m [32m'@/lib/community/data-manager'[39m[33m;[39m
+ [90m 8 |[39m [36mimport[39m { [33mPost[39m[33m,[39m [33mPostCategory[39m } [36mfrom[39m [32m'@/lib/community/types'[39m[33m;[39m
+ [90m 9 |[39m[0m
+
+Import map: aliased to relative './src/components/community/post-viewer/swipeable-post-viewer' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/[locale]/community/page.tsx [Client Component Browser]
+    ./src/app/[locale]/community/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/[locale]/community/page.tsx [Client Component SSR]
+    ./src/app/[locale]/community/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/app/[locale]/community/page.tsx:7:1
+Module not found: Can't resolve '@/lib/community/data-manager'
+[0m [90m  5 |[39m [36mimport[39m { [33mLocale[39m[33m,[39m isValidLocale } [36mfrom[39m [32m'@/lib/i18n/config'[39m[33m;[39m
+ [90m  6 |[39m [36mimport[39m { [33mSwipeablePostViewer[39m } [36mfrom[39m [32m'@/components/community/post-viewer/swipeable-post-viewer'[39m[33m;[39m
+[31m[1m>[22m[39m[90m  7 |[39m [36mimport[39m { [33mCommunityDataManager[39m } [36mfrom[39m [32m'@/lib/community/data-manager'[39m[33m;[39m
+ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m  8 |[39m [36mimport[39m { [33mPost[39m[33m,[39m [33mPostCategory[39m } [36mfrom[39m [32m'@/lib/community/types'[39m[33m;[39m
+ [90m  9 |[39m
+ [90m 10 |[39m [36mexport[39m [36mdefault[39m [36mfunction[39m [33mCommunityPage[39m() {[0m
+
+Import map: aliased to relative './src/lib/community/data-manager' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/[locale]/community/page.tsx [Client Component Browser]
+    ./src/app/[locale]/community/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/[locale]/community/page.tsx [Client Component SSR]
+    ./src/app/[locale]/community/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/app/[locale]/community/page.tsx:7:1
+Module not found: Can't resolve '@/lib/community/data-manager'
+[0m [90m  5 |[39m [36mimport[39m { [33mLocale[39m[33m,[39m isValidLocale } [36mfrom[39m [32m'@/lib/i18n/config'[39m[33m;[39m
+ [90m  6 |[39m [36mimport[39m { [33mSwipeablePostViewer[39m } [36mfrom[39m [32m'@/components/community/post-viewer/swipeable-post-viewer'[39m[33m;[39m
+[31m[1m>[22m[39m[90m  7 |[39m [36mimport[39m { [33mCommunityDataManager[39m } [36mfrom[39m [32m'@/lib/community/data-manager'[39m[33m;[39m
+ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m  8 |[39m [36mimport[39m { [33mPost[39m[33m,[39m [33mPostCategory[39m } [36mfrom[39m [32m'@/lib/community/types'[39m[33m;[39m
+ [90m  9 |[39m
+ [90m 10 |[39m [36mexport[39m [36mdefault[39m [36mfunction[39m [33mCommunityPage[39m() {[0m
+
+Import map: aliased to relative './src/lib/community/data-manager' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/[locale]/community/page.tsx [Client Component Browser]
+    ./src/app/[locale]/community/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/[locale]/community/page.tsx [Client Component SSR]
+    ./src/app/[locale]/community/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/app/[locale]/community/page.tsx:7:1
+Module not found: Can't resolve '@/lib/community/data-manager'
+[0m [90m  5 |[39m [36mimport[39m { [33mLocale[39m[33m,[39m isValidLocale } [36mfrom[39m [32m'@/lib/i18n/config'[39m[33m;[39m
+ [90m  6 |[39m [36mimport[39m { [33mSwipeablePostViewer[39m } [36mfrom[39m [32m'@/components/community/post-viewer/swipeable-post-viewer'[39m[33m;[39m
+[31m[1m>[22m[39m[90m  7 |[39m [36mimport[39m { [33mCommunityDataManager[39m } [36mfrom[39m [32m'@/lib/community/data-manager'[39m[33m;[39m
+ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m  8 |[39m [36mimport[39m { [33mPost[39m[33m,[39m [33mPostCategory[39m } [36mfrom[39m [32m'@/lib/community/types'[39m[33m;[39m
+ [90m  9 |[39m
+ [90m 10 |[39m [36mexport[39m [36mdefault[39m [36mfunction[39m [33mCommunityPage[39m() {[0m
+
+Import map: aliased to relative './src/lib/community/data-manager' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/[locale]/community/page.tsx [Client Component Browser]
+    ./src/app/[locale]/community/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/[locale]/community/page.tsx [Client Component SSR]
+    ./src/app/[locale]/community/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/app/[locale]/community/page.tsx:7:1
+Module not found: Can't resolve '@/lib/community/data-manager'
+[0m [90m  5 |[39m [36mimport[39m { [33mLocale[39m[33m,[39m isValidLocale } [36mfrom[39m [32m'@/lib/i18n/config'[39m[33m;[39m
+ [90m  6 |[39m [36mimport[39m { [33mSwipeablePostViewer[39m } [36mfrom[39m [32m'@/components/community/post-viewer/swipeable-post-viewer'[39m[33m;[39m
+[31m[1m>[22m[39m[90m  7 |[39m [36mimport[39m { [33mCommunityDataManager[39m } [36mfrom[39m [32m'@/lib/community/data-manager'[39m[33m;[39m
+ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m  8 |[39m [36mimport[39m { [33mPost[39m[33m,[39m [33mPostCategory[39m } [36mfrom[39m [32m'@/lib/community/types'[39m[33m;[39m
+ [90m  9 |[39m
+ [90m 10 |[39m [36mexport[39m [36mdefault[39m [36mfunction[39m [33mCommunityPage[39m() {[0m
+
+Import map: aliased to relative './src/lib/community/data-manager' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/[locale]/community/page.tsx [Client Component Browser]
+    ./src/app/[locale]/community/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/[locale]/community/page.tsx [Client Component SSR]
+    ./src/app/[locale]/community/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/app/[locale]/community/page.tsx:6:1
+Module not found: Can't resolve '@/components/community/post-viewer/swipeable-post-viewer'
+[0m [90m 4 |[39m [36mimport[39m { useParams[33m,[39m useRouter } [36mfrom[39m [32m'next/navigation'[39m[33m;[39m
+ [90m 5 |[39m [36mimport[39m { [33mLocale[39m[33m,[39m isValidLocale } [36mfrom[39m [32m'@/lib/i18n/config'[39m[33m;[39m
+[31m[1m>[22m[39m[90m 6 |[39m [36mimport[39m { [33mSwipeablePostViewer[39m } [36mfrom[39m [32m'@/components/community/post-viewer/swipeable-post-viewer'[39m[33m;[39m
+ [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 7 |[39m [36mimport[39m { [33mCommunityDataManager[39m } [36mfrom[39m [32m'@/lib/community/data-manager'[39m[33m;[39m
+ [90m 8 |[39m [36mimport[39m { [33mPost[39m[33m,[39m [33mPostCategory[39m } [36mfrom[39m [32m'@/lib/community/types'[39m[33m;[39m
+ [90m 9 |[39m[0m
+
+Import map: aliased to relative './src/components/community/post-viewer/swipeable-post-viewer' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/[locale]/community/page.tsx [Client Component Browser]
+    ./src/app/[locale]/community/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/[locale]/community/page.tsx [Client Component SSR]
+    ./src/app/[locale]/community/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/app/[locale]/community/page.tsx:6:1
+Module not found: Can't resolve '@/components/community/post-viewer/swipeable-post-viewer'
+[0m [90m 4 |[39m [36mimport[39m { useParams[33m,[39m useRouter } [36mfrom[39m [32m'next/navigation'[39m[33m;[39m
+ [90m 5 |[39m [36mimport[39m { [33mLocale[39m[33m,[39m isValidLocale } [36mfrom[39m [32m'@/lib/i18n/config'[39m[33m;[39m
+[31m[1m>[22m[39m[90m 6 |[39m [36mimport[39m { [33mSwipeablePostViewer[39m } [36mfrom[39m [32m'@/components/community/post-viewer/swipeable-post-viewer'[39m[33m;[39m
+ [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 7 |[39m [36mimport[39m { [33mCommunityDataManager[39m } [36mfrom[39m [32m'@/lib/community/data-manager'[39m[33m;[39m
+ [90m 8 |[39m [36mimport[39m { [33mPost[39m[33m,[39m [33mPostCategory[39m } [36mfrom[39m [32m'@/lib/community/types'[39m[33m;[39m
+ [90m 9 |[39m[0m
+
+Import map: aliased to relative './src/components/community/post-viewer/swipeable-post-viewer' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/[locale]/community/page.tsx [Client Component Browser]
+    ./src/app/[locale]/community/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/[locale]/community/page.tsx [Client Component SSR]
+    ./src/app/[locale]/community/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/app/[locale]/community/page.tsx:6:1
+Module not found: Can't resolve '@/components/community/post-viewer/swipeable-post-viewer'
+[0m [90m 4 |[39m [36mimport[39m { useParams[33m,[39m useRouter } [36mfrom[39m [32m'next/navigation'[39m[33m;[39m
+ [90m 5 |[39m [36mimport[39m { [33mLocale[39m[33m,[39m isValidLocale } [36mfrom[39m [32m'@/lib/i18n/config'[39m[33m;[39m
+[31m[1m>[22m[39m[90m 6 |[39m [36mimport[39m { [33mSwipeablePostViewer[39m } [36mfrom[39m [32m'@/components/community/post-viewer/swipeable-post-viewer'[39m[33m;[39m
+ [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 7 |[39m [36mimport[39m { [33mCommunityDataManager[39m } [36mfrom[39m [32m'@/lib/community/data-manager'[39m[33m;[39m
+ [90m 8 |[39m [36mimport[39m { [33mPost[39m[33m,[39m [33mPostCategory[39m } [36mfrom[39m [32m'@/lib/community/types'[39m[33m;[39m
+ [90m 9 |[39m[0m
+
+Import map: aliased to relative './src/components/community/post-viewer/swipeable-post-viewer' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/[locale]/community/page.tsx [Client Component Browser]
+    ./src/app/[locale]/community/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/[locale]/community/page.tsx [Client Component SSR]
+    ./src/app/[locale]/community/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/app/[locale]/community/page.tsx:6:1
+Module not found: Can't resolve '@/components/community/post-viewer/swipeable-post-viewer'
+[0m [90m 4 |[39m [36mimport[39m { useParams[33m,[39m useRouter } [36mfrom[39m [32m'next/navigation'[39m[33m;[39m
+ [90m 5 |[39m [36mimport[39m { [33mLocale[39m[33m,[39m isValidLocale } [36mfrom[39m [32m'@/lib/i18n/config'[39m[33m;[39m
+[31m[1m>[22m[39m[90m 6 |[39m [36mimport[39m { [33mSwipeablePostViewer[39m } [36mfrom[39m [32m'@/components/community/post-viewer/swipeable-post-viewer'[39m[33m;[39m
+ [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 7 |[39m [36mimport[39m { [33mCommunityDataManager[39m } [36mfrom[39m [32m'@/lib/community/data-manager'[39m[33m;[39m
+ [90m 8 |[39m [36mimport[39m { [33mPost[39m[33m,[39m [33mPostCategory[39m } [36mfrom[39m [32m'@/lib/community/types'[39m[33m;[39m
+ [90m 9 |[39m[0m
+
+Import map: aliased to relative './src/components/community/post-viewer/swipeable-post-viewer' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/[locale]/community/page.tsx [Client Component Browser]
+    ./src/app/[locale]/community/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/[locale]/community/page.tsx [Client Component SSR]
+    ./src/app/[locale]/community/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/app/[locale]/community/page.tsx:7:1
+Module not found: Can't resolve '@/lib/community/data-manager'
+[0m [90m  5 |[39m [36mimport[39m { [33mLocale[39m[33m,[39m isValidLocale } [36mfrom[39m [32m'@/lib/i18n/config'[39m[33m;[39m
+ [90m  6 |[39m [36mimport[39m { [33mSwipeablePostViewer[39m } [36mfrom[39m [32m'@/components/community/post-viewer/swipeable-post-viewer'[39m[33m;[39m
+[31m[1m>[22m[39m[90m  7 |[39m [36mimport[39m { [33mCommunityDataManager[39m } [36mfrom[39m [32m'@/lib/community/data-manager'[39m[33m;[39m
+ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m  8 |[39m [36mimport[39m { [33mPost[39m[33m,[39m [33mPostCategory[39m } [36mfrom[39m [32m'@/lib/community/types'[39m[33m;[39m
+ [90m  9 |[39m
+ [90m 10 |[39m [36mexport[39m [36mdefault[39m [36mfunction[39m [33mCommunityPage[39m() {[0m
+
+Import map: aliased to relative './src/lib/community/data-manager' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/[locale]/community/page.tsx [Client Component Browser]
+    ./src/app/[locale]/community/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/[locale]/community/page.tsx [Client Component SSR]
+    ./src/app/[locale]/community/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/app/[locale]/community/page.tsx:7:1
+Module not found: Can't resolve '@/lib/community/data-manager'
+[0m [90m  5 |[39m [36mimport[39m { [33mLocale[39m[33m,[39m isValidLocale } [36mfrom[39m [32m'@/lib/i18n/config'[39m[33m;[39m
+ [90m  6 |[39m [36mimport[39m { [33mSwipeablePostViewer[39m } [36mfrom[39m [32m'@/components/community/post-viewer/swipeable-post-viewer'[39m[33m;[39m
+[31m[1m>[22m[39m[90m  7 |[39m [36mimport[39m { [33mCommunityDataManager[39m } [36mfrom[39m [32m'@/lib/community/data-manager'[39m[33m;[39m
+ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m  8 |[39m [36mimport[39m { [33mPost[39m[33m,[39m [33mPostCategory[39m } [36mfrom[39m [32m'@/lib/community/types'[39m[33m;[39m
+ [90m  9 |[39m
+ [90m 10 |[39m [36mexport[39m [36mdefault[39m [36mfunction[39m [33mCommunityPage[39m() {[0m
+
+Import map: aliased to relative './src/lib/community/data-manager' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/[locale]/community/page.tsx [Client Component Browser]
+    ./src/app/[locale]/community/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/[locale]/community/page.tsx [Client Component SSR]
+    ./src/app/[locale]/community/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/app/[locale]/community/page.tsx:7:1
+Module not found: Can't resolve '@/lib/community/data-manager'
+[0m [90m  5 |[39m [36mimport[39m { [33mLocale[39m[33m,[39m isValidLocale } [36mfrom[39m [32m'@/lib/i18n/config'[39m[33m;[39m
+ [90m  6 |[39m [36mimport[39m { [33mSwipeablePostViewer[39m } [36mfrom[39m [32m'@/components/community/post-viewer/swipeable-post-viewer'[39m[33m;[39m
+[31m[1m>[22m[39m[90m  7 |[39m [36mimport[39m { [33mCommunityDataManager[39m } [36mfrom[39m [32m'@/lib/community/data-manager'[39m[33m;[39m
+ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m  8 |[39m [36mimport[39m { [33mPost[39m[33m,[39m [33mPostCategory[39m } [36mfrom[39m [32m'@/lib/community/types'[39m[33m;[39m
+ [90m  9 |[39m
+ [90m 10 |[39m [36mexport[39m [36mdefault[39m [36mfunction[39m [33mCommunityPage[39m() {[0m
+
+Import map: aliased to relative './src/lib/community/data-manager' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/[locale]/community/page.tsx [Client Component Browser]
+    ./src/app/[locale]/community/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/[locale]/community/page.tsx [Client Component SSR]
+    ./src/app/[locale]/community/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/app/[locale]/community/page.tsx:7:1
+Module not found: Can't resolve '@/lib/community/data-manager'
+[0m [90m  5 |[39m [36mimport[39m { [33mLocale[39m[33m,[39m isValidLocale } [36mfrom[39m [32m'@/lib/i18n/config'[39m[33m;[39m
+ [90m  6 |[39m [36mimport[39m { [33mSwipeablePostViewer[39m } [36mfrom[39m [32m'@/components/community/post-viewer/swipeable-post-viewer'[39m[33m;[39m
+[31m[1m>[22m[39m[90m  7 |[39m [36mimport[39m { [33mCommunityDataManager[39m } [36mfrom[39m [32m'@/lib/community/data-manager'[39m[33m;[39m
+ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m  8 |[39m [36mimport[39m { [33mPost[39m[33m,[39m [33mPostCategory[39m } [36mfrom[39m [32m'@/lib/community/types'[39m[33m;[39m
+ [90m  9 |[39m
+ [90m 10 |[39m [36mexport[39m [36mdefault[39m [36mfunction[39m [33mCommunityPage[39m() {[0m
+
+Import map: aliased to relative './src/lib/community/data-manager' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/[locale]/community/page.tsx [Client Component Browser]
+    ./src/app/[locale]/community/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/[locale]/community/page.tsx [Client Component SSR]
+    ./src/app/[locale]/community/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/app/[locale]/community/page.tsx:6:1
+Module not found: Can't resolve '@/components/community/post-viewer/swipeable-post-viewer'
+[0m [90m 4 |[39m [36mimport[39m { useParams[33m,[39m useRouter } [36mfrom[39m [32m'next/navigation'[39m[33m;[39m
+ [90m 5 |[39m [36mimport[39m { [33mLocale[39m[33m,[39m isValidLocale } [36mfrom[39m [32m'@/lib/i18n/config'[39m[33m;[39m
+[31m[1m>[22m[39m[90m 6 |[39m [36mimport[39m { [33mSwipeablePostViewer[39m } [36mfrom[39m [32m'@/components/community/post-viewer/swipeable-post-viewer'[39m[33m;[39m
+ [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 7 |[39m [36mimport[39m { [33mCommunityDataManager[39m } [36mfrom[39m [32m'@/lib/community/data-manager'[39m[33m;[39m
+ [90m 8 |[39m [36mimport[39m { [33mPost[39m[33m,[39m [33mPostCategory[39m } [36mfrom[39m [32m'@/lib/community/types'[39m[33m;[39m
+ [90m 9 |[39m[0m
+
+Import map: aliased to relative './src/components/community/post-viewer/swipeable-post-viewer' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/[locale]/community/page.tsx [Client Component Browser]
+    ./src/app/[locale]/community/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/[locale]/community/page.tsx [Client Component SSR]
+    ./src/app/[locale]/community/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/app/[locale]/community/page.tsx:6:1
+Module not found: Can't resolve '@/components/community/post-viewer/swipeable-post-viewer'
+[0m [90m 4 |[39m [36mimport[39m { useParams[33m,[39m useRouter } [36mfrom[39m [32m'next/navigation'[39m[33m;[39m
+ [90m 5 |[39m [36mimport[39m { [33mLocale[39m[33m,[39m isValidLocale } [36mfrom[39m [32m'@/lib/i18n/config'[39m[33m;[39m
+[31m[1m>[22m[39m[90m 6 |[39m [36mimport[39m { [33mSwipeablePostViewer[39m } [36mfrom[39m [32m'@/components/community/post-viewer/swipeable-post-viewer'[39m[33m;[39m
+ [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 7 |[39m [36mimport[39m { [33mCommunityDataManager[39m } [36mfrom[39m [32m'@/lib/community/data-manager'[39m[33m;[39m
+ [90m 8 |[39m [36mimport[39m { [33mPost[39m[33m,[39m [33mPostCategory[39m } [36mfrom[39m [32m'@/lib/community/types'[39m[33m;[39m
+ [90m 9 |[39m[0m
+
+Import map: aliased to relative './src/components/community/post-viewer/swipeable-post-viewer' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/[locale]/community/page.tsx [Client Component Browser]
+    ./src/app/[locale]/community/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/[locale]/community/page.tsx [Client Component SSR]
+    ./src/app/[locale]/community/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/app/[locale]/community/page.tsx:6:1
+Module not found: Can't resolve '@/components/community/post-viewer/swipeable-post-viewer'
+[0m [90m 4 |[39m [36mimport[39m { useParams[33m,[39m useRouter } [36mfrom[39m [32m'next/navigation'[39m[33m;[39m
+ [90m 5 |[39m [36mimport[39m { [33mLocale[39m[33m,[39m isValidLocale } [36mfrom[39m [32m'@/lib/i18n/config'[39m[33m;[39m
+[31m[1m>[22m[39m[90m 6 |[39m [36mimport[39m { [33mSwipeablePostViewer[39m } [36mfrom[39m [32m'@/components/community/post-viewer/swipeable-post-viewer'[39m[33m;[39m
+ [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 7 |[39m [36mimport[39m { [33mCommunityDataManager[39m } [36mfrom[39m [32m'@/lib/community/data-manager'[39m[33m;[39m
+ [90m 8 |[39m [36mimport[39m { [33mPost[39m[33m,[39m [33mPostCategory[39m } [36mfrom[39m [32m'@/lib/community/types'[39m[33m;[39m
+ [90m 9 |[39m[0m
+
+Import map: aliased to relative './src/components/community/post-viewer/swipeable-post-viewer' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/[locale]/community/page.tsx [Client Component Browser]
+    ./src/app/[locale]/community/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/[locale]/community/page.tsx [Client Component SSR]
+    ./src/app/[locale]/community/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/app/[locale]/community/page.tsx:6:1
+Module not found: Can't resolve '@/components/community/post-viewer/swipeable-post-viewer'
+[0m [90m 4 |[39m [36mimport[39m { useParams[33m,[39m useRouter } [36mfrom[39m [32m'next/navigation'[39m[33m;[39m
+ [90m 5 |[39m [36mimport[39m { [33mLocale[39m[33m,[39m isValidLocale } [36mfrom[39m [32m'@/lib/i18n/config'[39m[33m;[39m
+[31m[1m>[22m[39m[90m 6 |[39m [36mimport[39m { [33mSwipeablePostViewer[39m } [36mfrom[39m [32m'@/components/community/post-viewer/swipeable-post-viewer'[39m[33m;[39m
+ [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 7 |[39m [36mimport[39m { [33mCommunityDataManager[39m } [36mfrom[39m [32m'@/lib/community/data-manager'[39m[33m;[39m
+ [90m 8 |[39m [36mimport[39m { [33mPost[39m[33m,[39m [33mPostCategory[39m } [36mfrom[39m [32m'@/lib/community/types'[39m[33m;[39m
+ [90m 9 |[39m[0m
+
+Import map: aliased to relative './src/components/community/post-viewer/swipeable-post-viewer' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/[locale]/community/page.tsx [Client Component Browser]
+    ./src/app/[locale]/community/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/[locale]/community/page.tsx [Client Component SSR]
+    ./src/app/[locale]/community/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/app/[locale]/community/page.tsx:7:1
+Module not found: Can't resolve '@/lib/community/data-manager'
+[0m [90m  5 |[39m [36mimport[39m { [33mLocale[39m[33m,[39m isValidLocale } [36mfrom[39m [32m'@/lib/i18n/config'[39m[33m;[39m
+ [90m  6 |[39m [36mimport[39m { [33mSwipeablePostViewer[39m } [36mfrom[39m [32m'@/components/community/post-viewer/swipeable-post-viewer'[39m[33m;[39m
+[31m[1m>[22m[39m[90m  7 |[39m [36mimport[39m { [33mCommunityDataManager[39m } [36mfrom[39m [32m'@/lib/community/data-manager'[39m[33m;[39m
+ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m  8 |[39m [36mimport[39m { [33mPost[39m[33m,[39m [33mPostCategory[39m } [36mfrom[39m [32m'@/lib/community/types'[39m[33m;[39m
+ [90m  9 |[39m
+ [90m 10 |[39m [36mexport[39m [36mdefault[39m [36mfunction[39m [33mCommunityPage[39m() {[0m
+
+Import map: aliased to relative './src/lib/community/data-manager' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/[locale]/community/page.tsx [Client Component Browser]
+    ./src/app/[locale]/community/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/[locale]/community/page.tsx [Client Component SSR]
+    ./src/app/[locale]/community/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/app/[locale]/community/page.tsx:7:1
+Module not found: Can't resolve '@/lib/community/data-manager'
+[0m [90m  5 |[39m [36mimport[39m { [33mLocale[39m[33m,[39m isValidLocale } [36mfrom[39m [32m'@/lib/i18n/config'[39m[33m;[39m
+ [90m  6 |[39m [36mimport[39m { [33mSwipeablePostViewer[39m } [36mfrom[39m [32m'@/components/community/post-viewer/swipeable-post-viewer'[39m[33m;[39m
+[31m[1m>[22m[39m[90m  7 |[39m [36mimport[39m { [33mCommunityDataManager[39m } [36mfrom[39m [32m'@/lib/community/data-manager'[39m[33m;[39m
+ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m  8 |[39m [36mimport[39m { [33mPost[39m[33m,[39m [33mPostCategory[39m } [36mfrom[39m [32m'@/lib/community/types'[39m[33m;[39m
+ [90m  9 |[39m
+ [90m 10 |[39m [36mexport[39m [36mdefault[39m [36mfunction[39m [33mCommunityPage[39m() {[0m
+
+Import map: aliased to relative './src/lib/community/data-manager' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/[locale]/community/page.tsx [Client Component Browser]
+    ./src/app/[locale]/community/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/[locale]/community/page.tsx [Client Component SSR]
+    ./src/app/[locale]/community/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/app/[locale]/community/page.tsx:7:1
+Module not found: Can't resolve '@/lib/community/data-manager'
+[0m [90m  5 |[39m [36mimport[39m { [33mLocale[39m[33m,[39m isValidLocale } [36mfrom[39m [32m'@/lib/i18n/config'[39m[33m;[39m
+ [90m  6 |[39m [36mimport[39m { [33mSwipeablePostViewer[39m } [36mfrom[39m [32m'@/components/community/post-viewer/swipeable-post-viewer'[39m[33m;[39m
+[31m[1m>[22m[39m[90m  7 |[39m [36mimport[39m { [33mCommunityDataManager[39m } [36mfrom[39m [32m'@/lib/community/data-manager'[39m[33m;[39m
+ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m  8 |[39m [36mimport[39m { [33mPost[39m[33m,[39m [33mPostCategory[39m } [36mfrom[39m [32m'@/lib/community/types'[39m[33m;[39m
+ [90m  9 |[39m
+ [90m 10 |[39m [36mexport[39m [36mdefault[39m [36mfunction[39m [33mCommunityPage[39m() {[0m
+
+Import map: aliased to relative './src/lib/community/data-manager' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/[locale]/community/page.tsx [Client Component Browser]
+    ./src/app/[locale]/community/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/[locale]/community/page.tsx [Client Component SSR]
+    ./src/app/[locale]/community/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ⨯ ./src/app/[locale]/community/page.tsx:7:1
+Module not found: Can't resolve '@/lib/community/data-manager'
+[0m [90m  5 |[39m [36mimport[39m { [33mLocale[39m[33m,[39m isValidLocale } [36mfrom[39m [32m'@/lib/i18n/config'[39m[33m;[39m
+ [90m  6 |[39m [36mimport[39m { [33mSwipeablePostViewer[39m } [36mfrom[39m [32m'@/components/community/post-viewer/swipeable-post-viewer'[39m[33m;[39m
+[31m[1m>[22m[39m[90m  7 |[39m [36mimport[39m { [33mCommunityDataManager[39m } [36mfrom[39m [32m'@/lib/community/data-manager'[39m[33m;[39m
+ [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m  8 |[39m [36mimport[39m { [33mPost[39m[33m,[39m [33mPostCategory[39m } [36mfrom[39m [32m'@/lib/community/types'[39m[33m;[39m
+ [90m  9 |[39m
+ [90m 10 |[39m [36mexport[39m [36mdefault[39m [36mfunction[39m [33mCommunityPage[39m() {[0m
+
+Import map: aliased to relative './src/lib/community/data-manager' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/[locale]/community/page.tsx [Client Component Browser]
+    ./src/app/[locale]/community/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/[locale]/community/page.tsx [Client Component SSR]
+    ./src/app/[locale]/community/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ ✓ Compiled middleware in 8ms
+ GET /en 200 in 212ms
+AuthStatus: user: null
+AuthStatus: loading: true
+ GET /en 200 in 143ms
+ GET /en 200 in 144ms
+ GET /favicon.ico?favicon.45db1c09.ico 200 in 293ms
+ ✓ Compiled in 8.6s
+ ✓ Compiled in 344ms
+ ✓ Compiled in 428ms
+ ✓ Compiled in 552ms
+ ✓ Compiled in 351ms
+ ✓ Compiled in 523ms
+ ✓ Compiled in 817ms
+ ✓ Compiled middleware in 11ms
+ ✓ Compiled in 642ms
+ GET /en 200 in 478ms
+AuthStatus: user: null
+AuthStatus: loading: true
+ GET /en 200 in 334ms
+ GET /favicon.ico?favicon.45db1c09.ico 200 in 247ms
+ ○ Compiling /_not-found/page ...
+ ✓ Compiled /_not-found/page in 1057ms
+ GET /en/community 404 in 1152ms
+ GET /en/community 404 in 97ms
+ ✓ Compiled in 717ms
+ ✓ Compiled in 421ms
+ ✓ Compiled in 487ms
+ ✓ Compiled in 454ms
+ ✓ Compiled in 624ms
+ ✓ Compiled middleware in 10ms
+ ✓ Compiled in 610ms
+ GET /en/community 404 in 498ms
+ GET /en/community 404 in 68ms
+Error: Cannot apply unknown utility class `skeleton`
+    [2m[at onInvalidCandidate (/Users/x/github/polarist/polarist-nextjs/node_modules/@tailwindcss/node/node_modules/tailwindcss/dist/lib.js:18:1509)][0m
+    [2m[at ge (/Users/x/github/polarist/polarist-nextjs/node_modules/@tailwindcss/node/node_modules/tailwindcss/dist/lib.js:13:29503)][0m
+    [2m[at /Users/x/github/polarist/polarist-nextjs/node_modules/@tailwindcss/node/node_modules/tailwindcss/dist/lib.js:18:373][0m
+    [2m[at I (/Users/x/github/polarist/polarist-nextjs/node_modules/@tailwindcss/node/node_modules/tailwindcss/dist/lib.js:3:1656)][0m
+    [2m[at je (/Users/x/github/polarist/polarist-nextjs/node_modules/@tailwindcss/node/node_modules/tailwindcss/dist/lib.js:18:172)][0m
+    [2m[at bi (/Users/x/github/polarist/polarist-nextjs/node_modules/@tailwindcss/node/node_modules/tailwindcss/dist/lib.js:35:780)][0m
+    [2m[at async yi (/Users/x/github/polarist/polarist-nextjs/node_modules/@tailwindcss/node/node_modules/tailwindcss/dist/lib.js:35:1123)][0m
+    [2m[at async _r (/Users/x/github/polarist/polarist-nextjs/node_modules/@tailwindcss/node/dist/index.js:10:3384)][0m
+    [2m[at async p (/Users/x/github/polarist/polarist-nextjs/node_modules/@tailwindcss/postcss/dist/index.js:10:4019)][0m
+    [2m[at async Object.Once (/Users/x/github/polarist/polarist-nextjs/node_modules/@tailwindcss/postcss/dist/index.js:10:4870)][0m
+Error: Cannot apply unknown utility class `skeleton`
+    [2m[at onInvalidCandidate (/Users/x/github/polarist/polarist-nextjs/node_modules/@tailwindcss/node/node_modules/tailwindcss/dist/lib.js:18:1509)][0m
+    [2m[at ge (/Users/x/github/polarist/polarist-nextjs/node_modules/@tailwindcss/node/node_modules/tailwindcss/dist/lib.js:13:29503)][0m
+    [2m[at /Users/x/github/polarist/polarist-nextjs/node_modules/@tailwindcss/node/node_modules/tailwindcss/dist/lib.js:18:373][0m
+    [2m[at I (/Users/x/github/polarist/polarist-nextjs/node_modules/@tailwindcss/node/node_modules/tailwindcss/dist/lib.js:3:1656)][0m
+    [2m[at je (/Users/x/github/polarist/polarist-nextjs/node_modules/@tailwindcss/node/node_modules/tailwindcss/dist/lib.js:18:172)][0m
+    [2m[at bi (/Users/x/github/polarist/polarist-nextjs/node_modules/@tailwindcss/node/node_modules/tailwindcss/dist/lib.js:35:780)][0m
+    [2m[at async yi (/Users/x/github/polarist/polarist-nextjs/node_modules/@tailwindcss/node/node_modules/tailwindcss/dist/lib.js:35:1123)][0m
+    [2m[at async _r (/Users/x/github/polarist/polarist-nextjs/node_modules/@tailwindcss/node/dist/index.js:10:3384)][0m
+    [2m[at async p (/Users/x/github/polarist/polarist-nextjs/node_modules/@tailwindcss/postcss/dist/index.js:10:4019)][0m
+    [2m[at async Object.Once (/Users/x/github/polarist/polarist-nextjs/node_modules/@tailwindcss/postcss/dist/index.js:10:4290)][0m
+ ✓ Compiled in 225ms
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/x/github/polarist/polarist-nextjs/.next/server/app/_not-found/page/app-build-manifest.json'] {
   errno: -2,
   code: 'ENOENT',
   syscall: 'open',
-  path: '/Users/x/github/polarist/polarist-nextjs/.next/server/app/[locale]/iron5/page/app-build-manifest.json'
+  path: '/Users/x/github/polarist/polarist-nextjs/.next/server/app/_not-found/page/app-build-manifest.json'
 }
  ○ Compiling /_error ...
- ✓ Compiled /_error in 1156ms
- ⨯ [Error: ENOENT: no such file or directory, open '/Users/x/github/polarist/polarist-nextjs/.next/static/development/_buildManifest.js.tmp.6m6r11r1zpj'] {
+ ✓ Compiled /_error in 1217ms
+[Error: ENOENT: no such file or directory, open '/Users/x/github/polarist/polarist-nextjs/.next/static/development/_buildManifest.js.tmp.1fbqsizz11e'] {
   errno: -2,
   code: 'ENOENT',
   syscall: 'open',
-  path: '/Users/x/github/polarist/polarist-nextjs/.next/static/development/_buildManifest.js.tmp.6m6r11r1zpj'
+  path: '/Users/x/github/polarist/polarist-nextjs/.next/static/development/_buildManifest.js.tmp.1fbqsizz11e'
 }
-[Error: ENOENT: no such file or directory, open '/Users/x/github/polarist/polarist-nextjs/.next/server/app/[locale]/iron5/page/app-build-manifest.json'] {
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/x/github/polarist/polarist-nextjs/.next/static/development/_buildManifest.js.tmp.iytj06qdqmb'] {
   errno: -2,
   code: 'ENOENT',
   syscall: 'open',
-  path: '/Users/x/github/polarist/polarist-nextjs/.next/server/app/[locale]/iron5/page/app-build-manifest.json'
+  path: '/Users/x/github/polarist/polarist-nextjs/.next/static/development/_buildManifest.js.tmp.iytj06qdqmb'
 }
- ⨯ [Error: ENOENT: no such file or directory, open '/Users/x/github/polarist/polarist-nextjs/.next/static/development/_buildManifest.js.tmp.ru5e8yu2x9'] {
+[Error: ENOENT: no such file or directory, open '/Users/x/github/polarist/polarist-nextjs/.next/static/development/_buildManifest.js.tmp.yy95zyumotj'] {
   errno: -2,
   code: 'ENOENT',
   syscall: 'open',
-  path: '/Users/x/github/polarist/polarist-nextjs/.next/static/development/_buildManifest.js.tmp.ru5e8yu2x9'
-}
-[Error: ENOENT: no such file or directory, open '/Users/x/github/polarist/polarist-nextjs/.next/static/development/_buildManifest.js.tmp.yheovsv5ck'] {
-  errno: -2,
-  code: 'ENOENT',
-  syscall: 'open',
-  path: '/Users/x/github/polarist/polarist-nextjs/.next/static/development/_buildManifest.js.tmp.yheovsv5ck'
-}
- ⨯ [Error: ENOENT: no such file or directory, open '/Users/x/github/polarist/polarist-nextjs/.next/server/app/favicon.ico/[__metadata_id__]/route/app-paths-manifest.json'] {
-  errno: -2,
-  code: 'ENOENT',
-  syscall: 'open',
-  path: '/Users/x/github/polarist/polarist-nextjs/.next/server/app/favicon.ico/[__metadata_id__]/route/app-paths-manifest.json'
-}
- ⨯ [Error: ENOENT: no such file or directory, open '/Users/x/github/polarist/polarist-nextjs/.next/server/app/[locale]/iron5/page/app-build-manifest.json'] {
-  errno: -2,
-  code: 'ENOENT',
-  syscall: 'open',
-  path: '/Users/x/github/polarist/polarist-nextjs/.next/server/app/[locale]/iron5/page/app-build-manifest.json'
-}
- ⨯ [Error: ENOENT: no such file or directory, open '/Users/x/github/polarist/polarist-nextjs/.next/static/development/_buildManifest.js.tmp.cbsedtxv8gh'] {
-  errno: -2,
-  code: 'ENOENT',
-  syscall: 'open',
-  path: '/Users/x/github/polarist/polarist-nextjs/.next/static/development/_buildManifest.js.tmp.cbsedtxv8gh'
-}
-[Error: ENOENT: no such file or directory, open '/Users/x/github/polarist/polarist-nextjs/.next/server/app/[locale]/iron5/page/app-build-manifest.json'] {
-  errno: -2,
-  code: 'ENOENT',
-  syscall: 'open',
-  path: '/Users/x/github/polarist/polarist-nextjs/.next/server/app/[locale]/iron5/page/app-build-manifest.json'
-}
- ⨯ [Error: ENOENT: no such file or directory, open '/Users/x/github/polarist/polarist-nextjs/.next/static/development/_buildManifest.js.tmp.lg6xn7rz55'] {
-  errno: -2,
-  code: 'ENOENT',
-  syscall: 'open',
-  path: '/Users/x/github/polarist/polarist-nextjs/.next/static/development/_buildManifest.js.tmp.lg6xn7rz55'
-}
-[Error: ENOENT: no such file or directory, open '/Users/x/github/polarist/polarist-nextjs/.next/static/development/_buildManifest.js.tmp.ndfr1i2whf'] {
-  errno: -2,
-  code: 'ENOENT',
-  syscall: 'open',
-  path: '/Users/x/github/polarist/polarist-nextjs/.next/static/development/_buildManifest.js.tmp.ndfr1i2whf'
-}
- ⨯ [Error: ENOENT: no such file or directory, open '/Users/x/github/polarist/polarist-nextjs/.next/server/app/favicon.ico/[__metadata_id__]/route/app-paths-manifest.json'] {
-  errno: -2,
-  code: 'ENOENT',
-  syscall: 'open',
-  path: '/Users/x/github/polarist/polarist-nextjs/.next/server/app/favicon.ico/[__metadata_id__]/route/app-paths-manifest.json'
+  path: '/Users/x/github/polarist/polarist-nextjs/.next/static/development/_buildManifest.js.tmp.yy95zyumotj'
 }
  ⨯ [Error: ENOENT: no such file or directory, open '/Users/x/github/polarist/polarist-nextjs/.next/server/app/favicon.ico/[__metadata_id__]/route/app-paths-manifest.json'] {
   errno: -2,
@@ -195,11 +989,11 @@ Translation key not found: footer.contact
   syscall: 'open',
   path: '/Users/x/github/polarist/polarist-nextjs/.next/server/app/[locale]/page/app-build-manifest.json'
 }
- ⨯ [Error: ENOENT: no such file or directory, open '/Users/x/github/polarist/polarist-nextjs/.next/static/development/_buildManifest.js.tmp.500wslj4ei'] {
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/x/github/polarist/polarist-nextjs/.next/static/development/_buildManifest.js.tmp.6eg1fmkgx1u'] {
   errno: -2,
   code: 'ENOENT',
   syscall: 'open',
-  path: '/Users/x/github/polarist/polarist-nextjs/.next/static/development/_buildManifest.js.tmp.500wslj4ei'
+  path: '/Users/x/github/polarist/polarist-nextjs/.next/static/development/_buildManifest.js.tmp.6eg1fmkgx1u'
 }
 [Error: ENOENT: no such file or directory, open '/Users/x/github/polarist/polarist-nextjs/.next/server/app/[locale]/page/app-build-manifest.json'] {
   errno: -2,
@@ -207,17 +1001,17 @@ Translation key not found: footer.contact
   syscall: 'open',
   path: '/Users/x/github/polarist/polarist-nextjs/.next/server/app/[locale]/page/app-build-manifest.json'
 }
- ⨯ [Error: ENOENT: no such file or directory, open '/Users/x/github/polarist/polarist-nextjs/.next/static/development/_buildManifest.js.tmp.g5t3fhanlc'] {
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/x/github/polarist/polarist-nextjs/.next/static/development/_buildManifest.js.tmp.150l41lf0xr'] {
   errno: -2,
   code: 'ENOENT',
   syscall: 'open',
-  path: '/Users/x/github/polarist/polarist-nextjs/.next/static/development/_buildManifest.js.tmp.g5t3fhanlc'
+  path: '/Users/x/github/polarist/polarist-nextjs/.next/static/development/_buildManifest.js.tmp.150l41lf0xr'
 }
-[Error: ENOENT: no such file or directory, open '/Users/x/github/polarist/polarist-nextjs/.next/static/development/_buildManifest.js.tmp.345fkitknsj'] {
+[Error: ENOENT: no such file or directory, open '/Users/x/github/polarist/polarist-nextjs/.next/static/development/_buildManifest.js.tmp.bbnp6l8p9m7'] {
   errno: -2,
   code: 'ENOENT',
   syscall: 'open',
-  path: '/Users/x/github/polarist/polarist-nextjs/.next/static/development/_buildManifest.js.tmp.345fkitknsj'
+  path: '/Users/x/github/polarist/polarist-nextjs/.next/static/development/_buildManifest.js.tmp.bbnp6l8p9m7'
 }
  ⨯ [Error: ENOENT: no such file or directory, open '/Users/x/github/polarist/polarist-nextjs/.next/server/app/favicon.ico/[__metadata_id__]/route/app-paths-manifest.json'] {
   errno: -2,
@@ -231,11 +1025,11 @@ Translation key not found: footer.contact
   syscall: 'open',
   path: '/Users/x/github/polarist/polarist-nextjs/.next/server/app/[locale]/page/app-build-manifest.json'
 }
- ⨯ [Error: ENOENT: no such file or directory, open '/Users/x/github/polarist/polarist-nextjs/.next/static/development/_buildManifest.js.tmp.259nhtc7v52'] {
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/x/github/polarist/polarist-nextjs/.next/static/development/_buildManifest.js.tmp.4xgtnnwyxof'] {
   errno: -2,
   code: 'ENOENT',
   syscall: 'open',
-  path: '/Users/x/github/polarist/polarist-nextjs/.next/static/development/_buildManifest.js.tmp.259nhtc7v52'
+  path: '/Users/x/github/polarist/polarist-nextjs/.next/static/development/_buildManifest.js.tmp.4xgtnnwyxof'
 }
 [Error: ENOENT: no such file or directory, open '/Users/x/github/polarist/polarist-nextjs/.next/server/app/[locale]/page/app-build-manifest.json'] {
   errno: -2,
@@ -243,17 +1037,17 @@ Translation key not found: footer.contact
   syscall: 'open',
   path: '/Users/x/github/polarist/polarist-nextjs/.next/server/app/[locale]/page/app-build-manifest.json'
 }
- ⨯ [Error: ENOENT: no such file or directory, open '/Users/x/github/polarist/polarist-nextjs/.next/static/development/_buildManifest.js.tmp.q0bwq6ilc4'] {
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/x/github/polarist/polarist-nextjs/.next/static/development/_buildManifest.js.tmp.rcwkjmrte6a'] {
   errno: -2,
   code: 'ENOENT',
   syscall: 'open',
-  path: '/Users/x/github/polarist/polarist-nextjs/.next/static/development/_buildManifest.js.tmp.q0bwq6ilc4'
+  path: '/Users/x/github/polarist/polarist-nextjs/.next/static/development/_buildManifest.js.tmp.rcwkjmrte6a'
 }
-[Error: ENOENT: no such file or directory, open '/Users/x/github/polarist/polarist-nextjs/.next/static/development/_buildManifest.js.tmp.q7meodgmpym'] {
+[Error: ENOENT: no such file or directory, open '/Users/x/github/polarist/polarist-nextjs/.next/static/development/_buildManifest.js.tmp.q99dsadqrxb'] {
   errno: -2,
   code: 'ENOENT',
   syscall: 'open',
-  path: '/Users/x/github/polarist/polarist-nextjs/.next/static/development/_buildManifest.js.tmp.q7meodgmpym'
+  path: '/Users/x/github/polarist/polarist-nextjs/.next/static/development/_buildManifest.js.tmp.q99dsadqrxb'
 }
  ⨯ [Error: ENOENT: no such file or directory, open '/Users/x/github/polarist/polarist-nextjs/.next/server/app/favicon.ico/[__metadata_id__]/route/app-paths-manifest.json'] {
   errno: -2,
@@ -261,3 +1055,72 @@ Translation key not found: footer.contact
   syscall: 'open',
   path: '/Users/x/github/polarist/polarist-nextjs/.next/server/app/favicon.ico/[__metadata_id__]/route/app-paths-manifest.json'
 }
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/x/github/polarist/polarist-nextjs/.next/server/app/[locale]/page/app-build-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/x/github/polarist/polarist-nextjs/.next/server/app/[locale]/page/app-build-manifest.json'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/x/github/polarist/polarist-nextjs/.next/static/development/_buildManifest.js.tmp.9bsfnp0w0tq'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/x/github/polarist/polarist-nextjs/.next/static/development/_buildManifest.js.tmp.9bsfnp0w0tq'
+}
+[Error: ENOENT: no such file or directory, open '/Users/x/github/polarist/polarist-nextjs/.next/server/app/[locale]/page/app-build-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/x/github/polarist/polarist-nextjs/.next/server/app/[locale]/page/app-build-manifest.json'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/x/github/polarist/polarist-nextjs/.next/static/development/_buildManifest.js.tmp.kljbtelmahc'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/x/github/polarist/polarist-nextjs/.next/static/development/_buildManifest.js.tmp.kljbtelmahc'
+}
+[Error: ENOENT: no such file or directory, open '/Users/x/github/polarist/polarist-nextjs/.next/static/development/_buildManifest.js.tmp.k6mufgeniyf'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/x/github/polarist/polarist-nextjs/.next/static/development/_buildManifest.js.tmp.k6mufgeniyf'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/x/github/polarist/polarist-nextjs/.next/server/app/favicon.ico/[__metadata_id__]/route/app-paths-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/x/github/polarist/polarist-nextjs/.next/server/app/favicon.ico/[__metadata_id__]/route/app-paths-manifest.json'
+}
+ ○ Compiling /[locale]/korean-sns/create ...
+ ✓ Compiled /[locale]/korean-sns/create in 859ms
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/x/github/polarist/polarist-nextjs/.next/static/development/_buildManifest.js.tmp.lwl5od4fh39'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/x/github/polarist/polarist-nextjs/.next/static/development/_buildManifest.js.tmp.lwl5od4fh39'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/x/github/polarist/polarist-nextjs/.next/server/pages/_app/build-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/x/github/polarist/polarist-nextjs/.next/server/pages/_app/build-manifest.json'
+}
+[Error: ENOENT: no such file or directory, open '/Users/x/github/polarist/polarist-nextjs/.next/static/development/_buildManifest.js.tmp.lwl5od4fh39'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/x/github/polarist/polarist-nextjs/.next/static/development/_buildManifest.js.tmp.lwl5od4fh39'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/x/github/polarist/polarist-nextjs/.next/server/pages/_app/build-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/x/github/polarist/polarist-nextjs/.next/server/pages/_app/build-manifest.json'
+}
+[Error: ENOENT: no such file or directory, open '/Users/x/github/polarist/polarist-nextjs/.next/server/pages/_app/build-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/x/github/polarist/polarist-nextjs/.next/server/pages/_app/build-manifest.json'
+}
+[?25h

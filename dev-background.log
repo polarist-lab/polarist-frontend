@@ -1,0 +1,25 @@
+
+> polarist-nextjs@0.1.0 dev
+> next dev --turbopack
+
+   ▲ Next.js 15.4.2 (Turbopack)
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.35.20:3000
+   - Environments: .env.local, .env.development
+
+ ✓ Starting...
+ ○ Compiling middleware ...
+ ✓ Compiled middleware in 1426ms
+ ✓ Ready in 12.7s
+ ○ Compiling /[locale]/korean-sns ...
+ ✓ Compiled /[locale]/korean-sns in 18.6s
+AuthStatus: user: null
+AuthStatus: loading: true
+ GET /en/korean-sns 200 in 20151ms
+ ○ Compiling /[locale]/korean-sns/create ...
+ ✓ Compiled /[locale]/korean-sns/create in 1224ms
+AuthStatus: user: null
+AuthStatus: loading: true
+ GET /en/korean-sns/create 200 in 1649ms
+ ✓ Compiled middleware in 476ms
+ ✓ Compiled middleware in 27ms

@@ -1,0 +1,283 @@
+{
+  "id": "family",
+  "title": "Korean Family Terms",
+  "description": "Learn Korean family terms and relationship vocabulary. Understand Korean culture through family connections.",
+  "totalWords": 25,
+  "words": [
+    {
+      "korean": "가족",
+      "pronunciation": "ga-jok",
+      "english": "family",
+      "category": "family",
+      "difficulty": "absolute-beginner",
+      "frequency": 98,
+      "example": "우리 가족은 네 명이에요.",
+      "exampleTranslation": "Our family has four members.",
+      "notes": "Most basic family word"
+    },
+    {
+      "korean": "엄마",
+      "pronunciation": "eom-ma",
+      "english": "mom",
+      "category": "family",
+      "difficulty": "absolute-beginner",
+      "frequency": 95,
+      "example": "엄마가 요리를 해요.",
+      "exampleTranslation": "Mom is cooking.",
+      "notes": "Informal way to say mother"
+    },
+    {
+      "korean": "아빠",
+      "pronunciation": "a-ppa",
+      "english": "dad",
+      "category": "family",
+      "difficulty": "absolute-beginner",
+      "frequency": 95,
+      "example": "아빠가 회사에 가요.",
+      "exampleTranslation": "Dad goes to work.",
+      "notes": "Informal way to say father"
+    },
+    {
+      "korean": "어머니",
+      "pronunciation": "eo-meo-ni",
+      "english": "mother",
+      "category": "family",
+      "difficulty": "absolute-beginner",
+      "frequency": 90,
+      "example": "어머니께서 집에 계세요.",
+      "exampleTranslation": "Mother is at home.",
+      "notes": "Formal way to say mother"
+    },
+    {
+      "korean": "아버지",
+      "pronunciation": "a-beo-ji",
+      "english": "father",
+      "category": "family",
+      "difficulty": "absolute-beginner",
+      "frequency": 90,
+      "example": "아버지는 신문을 읽으세요.",
+      "exampleTranslation": "Father reads the newspaper.",
+      "notes": "Formal way to say father"
+    },
+    {
+      "korean": "형",
+      "pronunciation": "hyeong",
+      "english": "older brother (male speaker)",
+      "category": "family",
+      "difficulty": "absolute-beginner",
+      "frequency": 85,
+      "example": "형이 대학생이에요.",
+      "exampleTranslation": "My older brother is a university student.",
+      "notes": "Used by males only"
+    },
+    {
+      "korean": "오빠",
+      "pronunciation": "o-ppa",
+      "english": "older brother (female speaker)",
+      "category": "family",
+      "difficulty": "absolute-beginner",
+      "frequency": 85,
+      "example": "오빠가 저를 도와줘요.",
+      "exampleTranslation": "My older brother helps me.",
+      "notes": "Used by females only"
+    },
+    {
+      "korean": "누나",
+      "pronunciation": "nu-na",
+      "english": "older sister (male speaker)",
+      "category": "family",
+      "difficulty": "absolute-beginner",
+      "frequency": 82,
+      "example": "누나는 간호사예요.",
+      "exampleTranslation": "My older sister is a nurse.",
+      "notes": "Used by males only"
+    },
+    {
+      "korean": "언니",
+      "pronunciation": "eon-ni",
+      "english": "older sister (female speaker)",
+      "category": "family",
+      "difficulty": "absolute-beginner",
+      "frequency": 82,
+      "example": "언니가 예뻐요.",
+      "exampleTranslation": "My older sister is pretty.",
+      "notes": "Used by females only"
+    },
+    {
+      "korean": "동생",
+      "pronunciation": "dong-saeng",
+      "english": "younger sibling",
+      "category": "family",
+      "difficulty": "absolute-beginner",
+      "frequency": 80,
+      "example": "동생이 학교에 가요.",
+      "exampleTranslation": "My younger sibling goes to school.",
+      "notes": "Gender-neutral term"
+    },
+    {
+      "korean": "할머니",
+      "pronunciation": "hal-meo-ni",
+      "english": "grandmother",
+      "category": "family",
+      "difficulty": "beginner",
+      "frequency": 78,
+      "example": "할머니가 옛날 이야기를 해주세요.",
+      "exampleTranslation": "Grandmother tells old stories.",
+      "notes": "Paternal or maternal grandmother"
+    },
+    {
+      "korean": "할아버지",
+      "pronunciation": "hal-a-beo-ji",
+      "english": "grandfather",
+      "category": "family",
+      "difficulty": "beginner",
+      "frequency": 78,
+      "example": "할아버지는 산책을 좋아하세요.",
+      "exampleTranslation": "Grandfather likes taking walks.",
+      "notes": "Paternal or maternal grandfather"
+    },
+    {
+      "korean": "삼촌",
+      "pronunciation": "sam-chon",
+      "english": "uncle",
+      "category": "family",
+      "difficulty": "beginner",
+      "frequency": 70,
+      "example": "삼촌이 선물을 주셨어요.",
+      "exampleTranslation": "Uncle gave me a present.",
+      "notes": "Father's younger brother"
+    },
+    {
+      "korean": "이모",
+      "pronunciation": "i-mo",
+      "english": "aunt (mother's sister)",
+      "category": "family",
+      "difficulty": "beginner",
+      "frequency": 68,
+      "example": "이모가 맛있는 음식을 만들어요.",
+      "exampleTranslation": "Aunt makes delicious food.",
+      "notes": "Mother's sister"
+    },
+    {
+      "korean": "고모",
+      "pronunciation": "go-mo",
+      "english": "aunt (father's sister)",
+      "category": "family",
+      "difficulty": "beginner",
+      "frequency": 66,
+      "example": "고모는 미국에 살아요.",
+      "exampleTranslation": "Aunt lives in America.",
+      "notes": "Father's sister"
+    },
+    {
+      "korean": "사촌",
+      "pronunciation": "sa-chon",
+      "english": "cousin",
+      "category": "family",
+      "difficulty": "beginner",
+      "frequency": 65,
+      "example": "사촌과 함께 놀아요.",
+      "exampleTranslation": "I play with my cousin.",
+      "notes": "Children of aunts/uncles"
+    },
+    {
+      "korean": "남편",
+      "pronunciation": "nam-pyeon",
+      "english": "husband",
+      "category": "family",
+      "difficulty": "beginner",
+      "frequency": 75,
+      "example": "남편이 회사에서 일해요.",
+      "exampleTranslation": "My husband works at a company.",
+      "notes": "Married male partner"
+    },
+    {
+      "korean": "아내",
+      "pronunciation": "a-nae",
+      "english": "wife",
+      "category": "family",
+      "difficulty": "beginner",
+      "frequency": 75,
+      "example": "아내가 요리를 잘해요.",
+      "exampleTranslation": "My wife cooks well.",
+      "notes": "Married female partner"
+    },
+    {
+      "korean": "아들",
+      "pronunciation": "a-deul",
+      "english": "son",
+      "category": "family",
+      "difficulty": "beginner",
+      "frequency": 72,
+      "example": "아들이 축구를 좋아해요.",
+      "exampleTranslation": "My son likes soccer.",
+      "notes": "Male child"
+    },
+    {
+      "korean": "딸",
+      "pronunciation": "ttal",
+      "english": "daughter",
+      "category": "family",
+      "difficulty": "beginner",
+      "frequency": 72,
+      "example": "딸이 피아노를 배워요.",
+      "exampleTranslation": "My daughter learns piano.",
+      "notes": "Female child"
+    },
+    {
+      "korean": "시어머니",
+      "pronunciation": "si-eo-meo-ni",
+      "english": "mother-in-law (husband's mother)",
+      "category": "family",
+      "difficulty": "intermediate",
+      "frequency": 60,
+      "example": "시어머니께서 친절하세요.",
+      "exampleTranslation": "My mother-in-law is kind.",
+      "notes": "Husband's mother"
+    },
+    {
+      "korean": "시아버지",
+      "pronunciation": "si-a-beo-ji",
+      "english": "father-in-law (husband's father)",
+      "category": "family",
+      "difficulty": "intermediate",
+      "frequency": 58,
+      "example": "시아버지는 엄격하세요.",
+      "exampleTranslation": "My father-in-law is strict.",
+      "notes": "Husband's father"
+    },
+    {
+      "korean": "며느리",
+      "pronunciation": "myeo-neu-ri",
+      "english": "daughter-in-law",
+      "category": "family",
+      "difficulty": "intermediate",
+      "frequency": 55,
+      "example": "며느리가 효도를 잘해요.",
+      "exampleTranslation": "The daughter-in-law is very filial.",
+      "notes": "Son's wife"
+    },
+    {
+      "korean": "사위",
+      "pronunciation": "sa-wi",
+      "english": "son-in-law",
+      "category": "family",
+      "difficulty": "intermediate",
+      "frequency": 55,
+      "example": "사위가 착해요.",
+      "exampleTranslation": "My son-in-law is nice.",
+      "notes": "Daughter's husband"
+    },
+    {
+      "korean": "조부모",
+      "pronunciation": "jo-bu-mo",
+      "english": "grandparents",
+      "category": "family",
+      "difficulty": "advanced",
+      "frequency": 50,
+      "example": "조부모님께서 건강하세요.",
+      "exampleTranslation": "My grandparents are healthy.",
+      "notes": "Grandparents collectively"
+    }
+  ]
+}

@@ -1,0 +1,2778 @@
+{
+  "metadata": {
+    "title": "한국어 자주 사용되는 단어 150개",
+    "source": "표준국어대사전 + 기본 정의",
+    "last_updated": "2025-07-28T17:21:19.562Z",
+    "total_count": 150,
+    "version": "1.0.0-final",
+    "methodology": "대용량 웹 크롤링 + 기본 정의 보완",
+    "license": "CC BY-SA 4.0"
+  },
+  "words": [
+    {
+      "id": 1,
+      "word": "이",
+      "pos": "관형사",
+      "frequency_rank": 1,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "『동물』 이목의 곤충을 통틀어 이르는 말. 몸의 길이는 1~4mm이고 편평한 방추형이다. 날개는 없고 머리 양쪽에 홑눈이 한 개씩 있다. 사람의 몸에 기생하면서 피를 빨아 먹는다.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "수식언",
+        "초고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 2,
+      "word": "있다",
+      "pos": "동사",
+      "frequency_rank": 2,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "사람이나 동물이 어느 곳에서 떠나거나 벗어나지 아니하고 머물다.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "용언",
+        "초고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 3,
+      "word": "하다",
+      "pos": "동사",
+      "frequency_rank": 3,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "사람이나 동물, 물체 따위가 행동이나 작용을 이루다.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "용언",
+        "초고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 4,
+      "word": "것",
+      "pos": "의존명사",
+      "frequency_rank": 4,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "사물, 일, 현상 따위를 추상적으로 이르는 말.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "초고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 5,
+      "word": "들",
+      "pos": "접사",
+      "frequency_rank": 5,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "편평하고 넓게 트인 땅.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "초고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 6,
+      "word": "그",
+      "pos": "관형사",
+      "frequency_rank": 6,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "말하는 이와 듣는 이가 아닌 사람을 가리키는 삼인칭 대명사. 앞에서 이미 이야기하였거나 듣는 이가 생각하고 있는 사람을 가리킨다. 주로 남자를 가리킬 때 쓴다.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "수식언",
+        "초고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 7,
+      "word": "되다",
+      "pos": "동사",
+      "frequency_rank": 7,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "다른 상태나 성질로 바뀌거나 변하다.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "용언",
+        "초고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 8,
+      "word": "수",
+      "pos": "의존명사",
+      "frequency_rank": 8,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "수을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "초고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 9,
+      "word": "이",
+      "pos": "조사",
+      "frequency_rank": 9,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "『동물』 이목의 곤충을 통틀어 이르는 말. 몸의 길이는 1~4mm이고 편평한 방추형이다. 날개는 없고 머리 양쪽에 홑눈이 한 개씩 있다. 사람의 몸에 기생하면서 피를 빨아 먹는다.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "초고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 10,
+      "word": "보다",
+      "pos": "동사",
+      "frequency_rank": 10,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "눈으로 대상의 존재나 형태적 특징을 알다.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "용언",
+        "초고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 11,
+      "word": "나",
+      "pos": "대명사",
+      "frequency_rank": 11,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "나을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "체언",
+        "초고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 12,
+      "word": "주다",
+      "pos": "동사",
+      "frequency_rank": 12,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "물건 따위를 남에게 건네어 가지거나 누리게 하다.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "용언",
+        "초고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 13,
+      "word": "아니다",
+      "pos": "형용사",
+      "frequency_rank": 13,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "어떤 사실을 부정하는 뜻을 나타내는 말.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "용언",
+        "초고빈도",
+        "복합어"
+      ]
+    },
+    {
+      "id": 14,
+      "word": "등",
+      "pos": "의존명사",
+      "frequency_rank": 14,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "사람이나 동물의 몸통에서 가슴과 배의 반대쪽 부분.≒배부.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "초고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 15,
+      "word": "같다",
+      "pos": "형용사",
+      "frequency_rank": 15,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "같다을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "용언",
+        "초고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 16,
+      "word": "가다",
+      "pos": "동사",
+      "frequency_rank": 16,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "한곳에서 다른 곳으로 장소를 이동하다.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "용언",
+        "초고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 17,
+      "word": "이렇다",
+      "pos": "형용사",
+      "frequency_rank": 17,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "이렇다을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "용언",
+        "초고빈도",
+        "복합어"
+      ]
+    },
+    {
+      "id": 18,
+      "word": "그렇다",
+      "pos": "형용사",
+      "frequency_rank": 18,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "상태, 모양, 성질 따위가 그와 같다.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "용언",
+        "초고빈도",
+        "복합어"
+      ]
+    },
+    {
+      "id": 19,
+      "word": "어떻다",
+      "pos": "형용사",
+      "frequency_rank": 19,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "어떻다을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "용언",
+        "초고빈도",
+        "복합어"
+      ]
+    },
+    {
+      "id": 20,
+      "word": "오다",
+      "pos": "동사",
+      "frequency_rank": 20,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "어떤 사람이 말하는 사람 혹은 기준이 되는 사람이 있는 쪽으로 움직여 위치를 옮기다.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "용언",
+        "초고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 21,
+      "word": "다시",
+      "pos": "부사",
+      "frequency_rank": 21,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "하던 것을 되풀이해서.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "수식언",
+        "초고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 22,
+      "word": "말",
+      "pos": "명사",
+      "frequency_rank": 22,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "사람의 생각이나 느낌 따위를 표현하고 전달하는 데 쓰는 음성 기호. 곧 사람의 생각이나 느낌 따위를 목구멍을 통하여 조직적으로 나타내는 소리를 가리킨다.≒어사.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "체언",
+        "초고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 23,
+      "word": "때",
+      "pos": "의존명사",
+      "frequency_rank": 23,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "시간의 어떤 순간이나 부분.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "초고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 24,
+      "word": "문제",
+      "pos": "명사",
+      "frequency_rank": 24,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "문제을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "체언",
+        "초고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 25,
+      "word": "더",
+      "pos": "부사",
+      "frequency_rank": 25,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "계속하여. 또는 그 위에 보태어.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "수식언",
+        "초고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 26,
+      "word": "사람",
+      "pos": "명사",
+      "frequency_rank": 26,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "생각을 하고 언어를 사용하며, 도구를 만들어 쓰고 사회를 이루어 사는 동물.≒인간.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "체언",
+        "초고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 27,
+      "word": "년",
+      "pos": "의존명사",
+      "frequency_rank": 27,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "년을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "초고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 28,
+      "word": "가지다",
+      "pos": "동사",
+      "frequency_rank": 28,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "손이나 몸 따위에 있게 하다.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "용언",
+        "초고빈도",
+        "복합어"
+      ]
+    },
+    {
+      "id": 29,
+      "word": "자신",
+      "pos": "명사",
+      "frequency_rank": 29,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "그 사람의 몸 또는 바로 그 사람을 이르는 말.≒기신.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "체언",
+        "초고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 30,
+      "word": "일",
+      "pos": "명사",
+      "frequency_rank": 30,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "무엇을 이루거나 적절한 대가를 받기 위하여 어떤 장소에서 일정한 시간 동안 몸을 움직이거나 머리를 쓰는 활동. 또는 그 활동의 대상.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "체언",
+        "초고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 31,
+      "word": "생각",
+      "pos": "명사",
+      "frequency_rank": 31,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "사물을 헤아리고 판단하는 작용.≒의려, 지려.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "체언",
+        "초고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 32,
+      "word": "시간",
+      "pos": "명사",
+      "frequency_rank": 32,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "시간을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "체언",
+        "초고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 33,
+      "word": "새롭다",
+      "pos": "형용사",
+      "frequency_rank": 33,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "새롭다을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "용언",
+        "초고빈도",
+        "복합어"
+      ]
+    },
+    {
+      "id": 34,
+      "word": "앞",
+      "pos": "명사",
+      "frequency_rank": 34,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "향하고 있는 쪽이나 곳.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "체언",
+        "초고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 35,
+      "word": "경우",
+      "pos": "명사",
+      "frequency_rank": 35,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "경우을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "체언",
+        "초고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 36,
+      "word": "중",
+      "pos": "의존명사",
+      "frequency_rank": 36,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "중을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "초고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 37,
+      "word": "약",
+      "pos": "부사",
+      "frequency_rank": 37,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "어떤 식물이 성숙해서 지니게 되는 맵거나 쓴 자극성 성분.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "수식언",
+        "초고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 38,
+      "word": "또",
+      "pos": "부사",
+      "frequency_rank": 38,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "어떤 일이 거듭하여.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "수식언",
+        "초고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 39,
+      "word": "다른",
+      "pos": "관형사",
+      "frequency_rank": 39,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "다른을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "수식언",
+        "초고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 40,
+      "word": "많다",
+      "pos": "형용사",
+      "frequency_rank": 40,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "많다을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "용언",
+        "초고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 41,
+      "word": "그러나",
+      "pos": "접속부사",
+      "frequency_rank": 41,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "그러나을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "초고빈도",
+        "복합어"
+      ]
+    },
+    {
+      "id": 42,
+      "word": "놓다",
+      "pos": "동사",
+      "frequency_rank": 42,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "손으로 무엇을 쥐거나 잡거나 누르고 있는 상태에서 손을 펴거나 힘을 빼서 잡고 있던 물건이 손 밖으로 빠져나가게 하다.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "용언",
+        "초고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 43,
+      "word": "국가",
+      "pos": "명사",
+      "frequency_rank": 43,
+      "level": 2,
+      "meanings": [
+        {
+          "definition": "국가을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "체언",
+        "초고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 44,
+      "word": "집",
+      "pos": "명사",
+      "frequency_rank": 44,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "사람이나 동물이 추위, 더위, 비바람 따위를 막고 그 속에 들어 살기 위하여 지은 건물.≒사옥.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "체언",
+        "초고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 45,
+      "word": "여자",
+      "pos": "명사",
+      "frequency_rank": 45,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "여자을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "체언",
+        "초고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 46,
+      "word": "안",
+      "pos": "명사",
+      "frequency_rank": 46,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "어떤 물체나 공간의 둘러싸인 가에서 가운데로 향한 쪽. 또는 그런 곳이나 부분.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "체언",
+        "초고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 47,
+      "word": "씨",
+      "pos": "의존명사",
+      "frequency_rank": 47,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "식물의 열매 속에 있는, 장차 싹이 터서 새로운 개체가 될 단단한 물질.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "초고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 48,
+      "word": "모든",
+      "pos": "관형사",
+      "frequency_rank": 48,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "모든을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "수식언",
+        "초고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 49,
+      "word": "만들다",
+      "pos": "동사",
+      "frequency_rank": 49,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "노력이나 기술 따위를 들여 목적하는 사물을 이루다.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "용언",
+        "초고빈도",
+        "복합어"
+      ]
+    },
+    {
+      "id": 50,
+      "word": "손",
+      "pos": "명사",
+      "frequency_rank": 50,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "사람의 팔목 끝에 달린 부분. 손등, 손바닥, 손목으로 나뉘며 그 끝에 다섯 개의 손가락이 있어, 무엇을 만지거나 잡거나 한다.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "체언",
+        "초고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 51,
+      "word": "위",
+      "pos": "명사",
+      "frequency_rank": 51,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "어떤 기준보다 더 높은 쪽. 또는 사물의 중간 부분보다 더 높은 쪽.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "체언",
+        "초고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 52,
+      "word": "아직",
+      "pos": "부사",
+      "frequency_rank": 52,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "아직을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "수식언",
+        "초고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 53,
+      "word": "영향",
+      "pos": "명사",
+      "frequency_rank": 53,
+      "level": 2,
+      "meanings": [
+        {
+          "definition": "영향을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "체언",
+        "초고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 54,
+      "word": "관련",
+      "pos": "명사",
+      "frequency_rank": 54,
+      "level": 2,
+      "meanings": [
+        {
+          "definition": "관련을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "체언",
+        "초고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 55,
+      "word": "점",
+      "pos": "명사",
+      "frequency_rank": 55,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "점을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "체언",
+        "초고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 56,
+      "word": "돈",
+      "pos": "명사",
+      "frequency_rank": 56,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "사물의 가치를 나타내며, 상품의 교환을 매개하고, 재산 축적의 대상으로도 사용하는 물건. 예전에는 조가비, 짐승의 가죽, 보석, 옷감, 농산물 따위를 이용하였으나 요즈음은 금, 은",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "체언",
+        "초고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 57,
+      "word": "정부",
+      "pos": "명사",
+      "frequency_rank": 57,
+      "level": 2,
+      "meanings": [
+        {
+          "definition": "정부을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "체언",
+        "초고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 58,
+      "word": "모르다",
+      "pos": "동사",
+      "frequency_rank": 58,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "사람이나 사물 따위를 알거나 이해하지 못하다.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "용언",
+        "초고빈도",
+        "복합어"
+      ]
+    },
+    {
+      "id": 59,
+      "word": "그동안",
+      "pos": "명사",
+      "frequency_rank": 59,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "그동안을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "체언",
+        "초고빈도",
+        "복합어"
+      ]
+    },
+    {
+      "id": 60,
+      "word": "의견",
+      "pos": "명사",
+      "frequency_rank": 60,
+      "level": 2,
+      "meanings": [
+        {
+          "definition": "의견을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "체언",
+        "초고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 61,
+      "word": "최근",
+      "pos": "명사",
+      "frequency_rank": 61,
+      "level": 2,
+      "meanings": [
+        {
+          "definition": "얼마 되지 않은 지나간 날부터 현재 또는 바로 직전까지의 기간.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "체언",
+        "초고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 62,
+      "word": "학교",
+      "pos": "명사",
+      "frequency_rank": 62,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "학교을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "체언",
+        "초고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 63,
+      "word": "이런",
+      "pos": "관형사",
+      "frequency_rank": 63,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "이런을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "수식언",
+        "초고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 64,
+      "word": "경제",
+      "pos": "명사",
+      "frequency_rank": 64,
+      "level": 2,
+      "meanings": [
+        {
+          "definition": "『음악』 서울·경기 지방의 독특한 시조 창법. 박절이 엄정하고 속목을 쓰는 것이 특징이다.=경조.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "체언",
+        "초고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 65,
+      "word": "알다",
+      "pos": "동사",
+      "frequency_rank": 65,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "교육이나 경험, 사고 행위를 통하여 사물이나 상황에 대한 정보나 지식을 갖추다.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "용언",
+        "초고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 66,
+      "word": "그래서",
+      "pos": "접속부사",
+      "frequency_rank": 66,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "그래서을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "초고빈도",
+        "복합어"
+      ]
+    },
+    {
+      "id": 67,
+      "word": "받다",
+      "pos": "동사",
+      "frequency_rank": 67,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "다른 사람이 주거나 보내오는 물건 따위를 가지다.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "용언",
+        "초고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 68,
+      "word": "못하다",
+      "pos": "동사",
+      "frequency_rank": 68,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "못하다을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "용언",
+        "초고빈도",
+        "복합어"
+      ]
+    },
+    {
+      "id": 69,
+      "word": "일부",
+      "pos": "명사",
+      "frequency_rank": 69,
+      "level": 2,
+      "meanings": [
+        {
+          "definition": "일부을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "체언",
+        "초고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 70,
+      "word": "그런",
+      "pos": "관형사",
+      "frequency_rank": 70,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "그런을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "수식언",
+        "초고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 71,
+      "word": "데",
+      "pos": "의존명사",
+      "frequency_rank": 71,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "‘곳’이나 ‘장소’의 뜻을 나타내는 말.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "초고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 72,
+      "word": "지금",
+      "pos": "명사",
+      "frequency_rank": 72,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "지금을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "체언",
+        "초고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 73,
+      "word": "우리",
+      "pos": "대명사",
+      "frequency_rank": 73,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "우리을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "체언",
+        "초고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 74,
+      "word": "속",
+      "pos": "명사",
+      "frequency_rank": 74,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "거죽이나 껍질로 싸인 물체의 안쪽 부분.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "체언",
+        "초고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 75,
+      "word": "개인",
+      "pos": "명사",
+      "frequency_rank": 75,
+      "level": 2,
+      "meanings": [
+        {
+          "definition": "도장을 본디 모양과 다르게 고쳐 새김.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "체언",
+        "초고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 76,
+      "word": "역시",
+      "pos": "부사",
+      "frequency_rank": 76,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "어떤 것을 전제로 하고 그것과 같게.=또한.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "수식언",
+        "초고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 77,
+      "word": "앉다",
+      "pos": "동사",
+      "frequency_rank": 77,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "사람이나 동물이 윗몸을 바로 한 상태에서 엉덩이에 몸무게를 실어 다른 물건이나 바닥에 몸을 올려놓다.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "용언",
+        "초고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 78,
+      "word": "무엇",
+      "pos": "대명사",
+      "frequency_rank": 78,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "모르는 사실이나 사물을 가리키는 지시 대명사.≒무어.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "체언",
+        "초고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 79,
+      "word": "어디",
+      "pos": "대명사",
+      "frequency_rank": 79,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "잘 모르는 어느 곳을 가리키는 지시 대명사.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "체언",
+        "초고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 80,
+      "word": "계속",
+      "pos": "부사",
+      "frequency_rank": 80,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "계속을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "수식언",
+        "초고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 81,
+      "word": "이제",
+      "pos": "부사",
+      "frequency_rank": 81,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "이제을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "수식언",
+        "초고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 82,
+      "word": "느끼다",
+      "pos": "동사",
+      "frequency_rank": 82,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "서럽거나 감격에 겨워 울다.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "용언",
+        "초고빈도",
+        "복합어"
+      ]
+    },
+    {
+      "id": 83,
+      "word": "마음",
+      "pos": "명사",
+      "frequency_rank": 83,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "사람이 본래부터 지닌 성격이나 품성.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "체언",
+        "초고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 84,
+      "word": "좋다",
+      "pos": "형용사",
+      "frequency_rank": 84,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "대상의 성질이나 내용 따위가 보통 이상의 수준이어서 만족할 만하다.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "용언",
+        "초고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 85,
+      "word": "크다",
+      "pos": "형용사",
+      "frequency_rank": 85,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "사람이나 사물의 외형적 길이, 넓이, 높이, 부피 따위가 보통 정도를 넘다.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "용언",
+        "초고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 86,
+      "word": "작다",
+      "pos": "형용사",
+      "frequency_rank": 86,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "길이, 넓이, 부피 따위가 비교 대상이나 보통보다 덜하다.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "용언",
+        "초고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 87,
+      "word": "높다",
+      "pos": "형용사",
+      "frequency_rank": 87,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "아래에서 위까지의 길이가 길다.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "용언",
+        "초고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 88,
+      "word": "낮다",
+      "pos": "형용사",
+      "frequency_rank": 88,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "아래에서 위까지의 높이가 기준이 되는 대상이나 보통 정도에 미치지 못하는 상태에 있다.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "용언",
+        "초고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 89,
+      "word": "먹다",
+      "pos": "동사",
+      "frequency_rank": 89,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "먹다을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "용언",
+        "초고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 90,
+      "word": "마시다",
+      "pos": "동사",
+      "frequency_rank": 90,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "물이나 술 따위의 액체를 목구멍으로 넘기다.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "용언",
+        "초고빈도",
+        "복합어"
+      ]
+    },
+    {
+      "id": 91,
+      "word": "자다",
+      "pos": "동사",
+      "frequency_rank": 91,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "자다을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "용언",
+        "초고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 92,
+      "word": "일어나다",
+      "pos": "동사",
+      "frequency_rank": 92,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "일어나다을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "용언",
+        "초고빈도",
+        "복합어"
+      ]
+    },
+    {
+      "id": 93,
+      "word": "걷다",
+      "pos": "동사",
+      "frequency_rank": 93,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "구름이나 안개 따위가 흩어져 없어지다.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "용언",
+        "초고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 94,
+      "word": "뛰다",
+      "pos": "동사",
+      "frequency_rank": 94,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "있던 자리로부터 몸을 높이 솟구쳐 오르다.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "용언",
+        "초고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 95,
+      "word": "읽다",
+      "pos": "동사",
+      "frequency_rank": 95,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "글이나 글자를 보고 그 음대로 소리 내어 말로써 나타내다.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "용언",
+        "초고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 96,
+      "word": "쓰다",
+      "pos": "동사",
+      "frequency_rank": 96,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "붓, 펜, 연필과 같이 선을 그을 수 있는 도구로 종이 따위에 획을 그어서 일정한 글자의 모양이 이루어지게 하다.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "용언",
+        "초고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 97,
+      "word": "말하다",
+      "pos": "동사",
+      "frequency_rank": 97,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "말하다을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "용언",
+        "초고빈도",
+        "복합어"
+      ]
+    },
+    {
+      "id": 98,
+      "word": "듣다",
+      "pos": "동사",
+      "frequency_rank": 98,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "사람이나 동물이 소리를 감각 기관을 통해 알아차리다.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "용언",
+        "초고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 99,
+      "word": "보다",
+      "pos": "동사",
+      "frequency_rank": 99,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "눈으로 대상의 존재나 형태적 특징을 알다.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "용언",
+        "초고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 100,
+      "word": "놓다",
+      "pos": "동사",
+      "frequency_rank": 100,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "손으로 무엇을 쥐거나 잡거나 누르고 있는 상태에서 손을 펴거나 힘을 빼서 잡고 있던 물건이 손 밖으로 빠져나가게 하다.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "용언",
+        "초고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 101,
+      "word": "가져오다",
+      "pos": "동사",
+      "frequency_rank": 101,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "가져오다을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "용언",
+        "고빈도",
+        "복합어"
+      ]
+    },
+    {
+      "id": 102,
+      "word": "나가다",
+      "pos": "동사",
+      "frequency_rank": 102,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "나가다을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "용언",
+        "고빈도",
+        "복합어"
+      ]
+    },
+    {
+      "id": 103,
+      "word": "들어가다",
+      "pos": "동사",
+      "frequency_rank": 103,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "들어가다을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "용언",
+        "고빈도",
+        "복합어"
+      ]
+    },
+    {
+      "id": 104,
+      "word": "물",
+      "pos": "명사",
+      "frequency_rank": 104,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "자연계에 강, 호수, 바다, 지하수 따위의 형태로 널리 분포하는 액체. 순수한 것은 빛깔, 냄새, 맛이 없고 투명하다. 산소와 수소의 화학적 결합물로, 어는점 이하에서는 얼음이 되",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "체언",
+        "고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 105,
+      "word": "음식",
+      "pos": "명사",
+      "frequency_rank": 105,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "사람이 먹을 수 있도록 만든, 밥이나 국 따위의 물건.≒식선, 찬선.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "체언",
+        "고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 106,
+      "word": "밥",
+      "pos": "명사",
+      "frequency_rank": 106,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "쌀, 보리 따위의 곡식을 씻어서 솥 따위의 용기에 넣고 물을 알맞게 부어, 낟알이 풀어지지 않고 물기가 잦아들게 끓여 익힌 음식.≒반식.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "체언",
+        "고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 107,
+      "word": "차",
+      "pos": "명사",
+      "frequency_rank": 107,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "차을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "체언",
+        "고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 108,
+      "word": "커피",
+      "pos": "명사",
+      "frequency_rank": 108,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "커피나무의 열매를 볶아서 간 가루. 카페인을 함유하고 있으며, 독특한 향기가 있어 차의 원료로 널리 애용되고, 과자나 음료수의 복합 원료로도 많이 쓴다.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "체언",
+        "고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 109,
+      "word": "우유",
+      "pos": "명사",
+      "frequency_rank": 109,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "우유을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "체언",
+        "고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 110,
+      "word": "과일",
+      "pos": "명사",
+      "frequency_rank": 110,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "과일을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "체언",
+        "고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 111,
+      "word": "야채",
+      "pos": "명사",
+      "frequency_rank": 111,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "들에서 자라나는 나물.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "체언",
+        "고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 112,
+      "word": "고기",
+      "pos": "명사",
+      "frequency_rank": 112,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "식용하는 온갖 동물의 살.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "체언",
+        "고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 113,
+      "word": "생선",
+      "pos": "명사",
+      "frequency_rank": 113,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "생선을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "체언",
+        "고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 114,
+      "word": "옷",
+      "pos": "명사",
+      "frequency_rank": 114,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "옷을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "체언",
+        "고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 115,
+      "word": "신발",
+      "pos": "명사",
+      "frequency_rank": 115,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "신발을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "체언",
+        "고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 116,
+      "word": "모자",
+      "pos": "명사",
+      "frequency_rank": 116,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "모자을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "체언",
+        "고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 117,
+      "word": "가방",
+      "pos": "명사",
+      "frequency_rank": 117,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "가방을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "체언",
+        "고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 118,
+      "word": "시계",
+      "pos": "명사",
+      "frequency_rank": 118,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "시계을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "체언",
+        "고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 119,
+      "word": "전화",
+      "pos": "명사",
+      "frequency_rank": 119,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "전화을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "체언",
+        "고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 120,
+      "word": "컴퓨터",
+      "pos": "명사",
+      "frequency_rank": 120,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "컴퓨터을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "체언",
+        "고빈도",
+        "복합어"
+      ]
+    },
+    {
+      "id": 121,
+      "word": "책",
+      "pos": "명사",
+      "frequency_rank": 121,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "종이를 여러 장 묶어 맨 물건.≒서권.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "체언",
+        "고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 122,
+      "word": "펜",
+      "pos": "명사",
+      "frequency_rank": 122,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "펜촉에 펜대를 끼워서 글씨를 쓰는 기구의 하나.≒경필, 철필.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "체언",
+        "고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 123,
+      "word": "종이",
+      "pos": "명사",
+      "frequency_rank": 123,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "종이을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "체언",
+        "고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 124,
+      "word": "의자",
+      "pos": "명사",
+      "frequency_rank": 124,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "옷을 짓는 데 쓰는 천.=옷감.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "체언",
+        "고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 125,
+      "word": "테이블",
+      "pos": "명사",
+      "frequency_rank": 125,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "테이블을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "체언",
+        "고빈도",
+        "복합어"
+      ]
+    },
+    {
+      "id": 126,
+      "word": "침대",
+      "pos": "명사",
+      "frequency_rank": 126,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "침대을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "체언",
+        "고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 127,
+      "word": "방",
+      "pos": "명사",
+      "frequency_rank": 127,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "방을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "체언",
+        "고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 128,
+      "word": "거실",
+      "pos": "명사",
+      "frequency_rank": 128,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "거실을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "체언",
+        "고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 129,
+      "word": "부엌",
+      "pos": "명사",
+      "frequency_rank": 129,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "부엌을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "체언",
+        "고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 130,
+      "word": "화장실",
+      "pos": "명사",
+      "frequency_rank": 130,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "화장실을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "체언",
+        "고빈도",
+        "복합어"
+      ]
+    },
+    {
+      "id": 131,
+      "word": "문",
+      "pos": "명사",
+      "frequency_rank": 131,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "문을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "체언",
+        "고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 132,
+      "word": "창문",
+      "pos": "명사",
+      "frequency_rank": 132,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "창문을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "체언",
+        "고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 133,
+      "word": "바닥",
+      "pos": "명사",
+      "frequency_rank": 133,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "평평하게 넓이를 이룬 부분.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "체언",
+        "고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 134,
+      "word": "천장",
+      "pos": "명사",
+      "frequency_rank": 134,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "천장을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "체언",
+        "고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 135,
+      "word": "벽",
+      "pos": "명사",
+      "frequency_rank": 135,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "벽을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "체언",
+        "고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 136,
+      "word": "길",
+      "pos": "명사",
+      "frequency_rank": 136,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "사람이나 동물 또는 자동차 따위가 지나갈 수 있게 땅 위에 낸 일정한 너비의 공간.≒도도.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "체언",
+        "고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 137,
+      "word": "차",
+      "pos": "명사",
+      "frequency_rank": 137,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "차을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "체언",
+        "고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 138,
+      "word": "버스",
+      "pos": "명사",
+      "frequency_rank": 138,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "버스을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "체언",
+        "고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 139,
+      "word": "지하철",
+      "pos": "명사",
+      "frequency_rank": 139,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "지하철을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "체언",
+        "고빈도",
+        "복합어"
+      ]
+    },
+    {
+      "id": 140,
+      "word": "비행기",
+      "pos": "명사",
+      "frequency_rank": 140,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "비행기을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "체언",
+        "고빈도",
+        "복합어"
+      ]
+    },
+    {
+      "id": 141,
+      "word": "배",
+      "pos": "명사",
+      "frequency_rank": 141,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "『생명』 사람이나 동물의 몸에서 위장, 창자, 콩팥 따위의 내장이 들어 있는 곳으로 가슴과 엉덩이 사이의 부위.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "체언",
+        "고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 142,
+      "word": "기차",
+      "pos": "명사",
+      "frequency_rank": 142,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "여객차나 화차를 끌고 다니는 철도 차량. 증기 기관차, 디젤 기관차, 전기 기관차 따위가 있다.=기관차.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "체언",
+        "고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 143,
+      "word": "역",
+      "pos": "명사",
+      "frequency_rank": 143,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "『역사』 조선 시대에, 군사를 뽑을 때 팔의 힘을 시험하던 방법. 두 손에 50근 무게의 물건을 하나씩 들고 가는 일로, 일력(一力)·이력(二力)·삼력(三力)의 세 등급이 있었다.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "체언",
+        "고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 144,
+      "word": "공항",
+      "pos": "명사",
+      "frequency_rank": 144,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "공항을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "체언",
+        "고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 145,
+      "word": "병원",
+      "pos": "명사",
+      "frequency_rank": 145,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "병원을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "체언",
+        "고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 146,
+      "word": "은행",
+      "pos": "명사",
+      "frequency_rank": 146,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "은행을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "체언",
+        "고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 147,
+      "word": "우체국",
+      "pos": "명사",
+      "frequency_rank": 147,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "우체국을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "체언",
+        "고빈도",
+        "복합어"
+      ]
+    },
+    {
+      "id": 148,
+      "word": "상점",
+      "pos": "명사",
+      "frequency_rank": 148,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "상점을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "체언",
+        "고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 149,
+      "word": "마트",
+      "pos": "명사",
+      "frequency_rank": 149,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "마트을/를 나타내는 말"
+        }
+      ],
+      "source": "기본_정의",
+      "tags": [
+        "체언",
+        "고빈도",
+        "단어"
+      ]
+    },
+    {
+      "id": 150,
+      "word": "식당",
+      "pos": "명사",
+      "frequency_rank": 150,
+      "level": 1,
+      "meanings": [
+        {
+          "definition": "건물 안에 식사를 할 수 있게 시설을 갖춘 장소.",
+          "category": "1"
+        }
+      ],
+      "source": "표준국어대사전_크롤링",
+      "tags": [
+        "체언",
+        "고빈도",
+        "단어"
+      ]
+    }
+  ]
+}

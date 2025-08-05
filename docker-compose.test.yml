@@ -1,0 +1,41 @@
+version: '3.8'
+
+services:
+  # Test PostgreSQL Database
+  postgres-test:
+    image: postgres:16-alpine
+    container_name: polarist-postgres-test
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: polarist_test
+      POSTGRES_USER: polarist_test
+      POSTGRES_PASSWORD: test_password_123
+      POSTGRES_INITDB_ARGS: "--auth-host=scram-sha-256 --auth-local=scram-sha-256"
+    ports:
+      - "5434:5432"
+    volumes:
+      - postgres_test_data:/var/lib/postgresql/data
+      - ./backend-rust/migrations/postgres:/docker-entrypoint-initdb.d
+    command: >
+      postgres 
+      -c shared_buffers=128MB
+      -c max_connections=20
+      -c log_statement=none
+      -c log_min_duration_statement=-1
+      -c synchronous_commit=off
+      -c fsync=off
+      -c full_page_writes=off
+    networks:
+      - polarist-test
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U polarist_test -d polarist_test"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  postgres_test_data:
+
+networks:
+  polarist-test:
+    driver: bridge

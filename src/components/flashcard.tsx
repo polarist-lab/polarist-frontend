@@ -13,6 +13,7 @@ import {
   createNavigationButtonProps,
   UNIFIED_CARD_LAYOUT 
 } from '@/lib/unified-card-styles';
+import { SpeakerWaveIcon, SpeakerXMarkIcon } from '@heroicons/react/24/outline';
 
 interface FlashcardProps {
   word: KoreanWord;
@@ -38,6 +39,19 @@ export function Flashcard({
   const [pressedButton, setPressedButton] = useState<string | null>(null);
   const [hanjaSettings, setHanjaSettings] = useState<UserHanjaSettings | null>(null);
   const [showHanjaHintState, setShowHanjaHintState] = useState(false);
+  const [audio, setAudio] = useState<HTMLAudioElement | null>(null);
+  const [isPlaying, setIsPlaying] = useState(false);
+
+  useEffect(() => {
+    if (word.audioUrl) {
+      const audioInstance = new Audio(word.audioUrl);
+      audioInstance.onended = () => setIsPlaying(false);
+      setAudio(audioInstance);
+    }
+    return () => {
+      audio?.pause();
+    };
+  }, [word.audioUrl]);
 
   // 한자 설정 로드
   useEffect(() => {
@@ -54,12 +68,23 @@ export function Flashcard({
 
   // 통합 스타일 클래스 생성
   const cardClasses = createUnifiedCardClasses('wordbook', undefined, pressedButton === 'card');
-  const categoryBadge = createMetadataBadge(word.category, 'topLeft');
-  const difficultyBadge = createMetadataBadge(word.difficulty, 'topRight');
+  const difficultyBadge = createMetadataBadge(word.difficulty, 'topLeft');
   const navButtons = createNavigationButtonProps(onPrevious, onNext, 'wordbook', pressedButton);
   
   const handleCardClick = () => {
     onToggle();
+  };
+
+  const handlePlayAudio = (e: React.MouseEvent) => {
+    e.stopPropagation();
+    if (audio) {
+      if (isPlaying) {
+        audio.pause();
+        audio.currentTime = 0;
+      }
+      audio.play().catch(err => console.error("Audio play failed:", err));
+      setIsPlaying(true);
+    }
   };
 
   const handleNext = () => {
@@ -171,8 +196,8 @@ export function Flashcard({
                 {t('study.clickToSeeFullInfo')}
               </div>
               
-              <div className={categoryBadge.className}>
-                {categoryBadge.content}
+              <div className={difficultyBadge.className}>
+                {difficultyBadge.content}
               </div>
 
               {/* 한자 토글 버튼 */}
@@ -191,8 +216,31 @@ export function Flashcard({
           {/* Back of the card (Full Info Mode) */}
           <div className={`flip-card-back ${cardClasses.back}`}>
             <div className={cardClasses.content}>
-              <div className={`korean-text text-4xl font-bold mb-2`}>
-                {word.korean}
+              <div className="flex items-center justify-center gap-4 mb-2">
+                <div className={'korean-text text-4xl font-bold'}>
+                  {word.korean}
+                </div>
+                <button 
+                  onClick={word.audioUrl ? handlePlayAudio : undefined} 
+                  disabled={!word.audioUrl}
+                  className={`p-3 rounded-full shadow-lg transition-all duration-200 ease-in-out group relative
+                    ${word.audioUrl 
+                      ? 'bg-blue-500 hover:bg-blue-600 hover:scale-110' 
+                      : 'bg-gray-400 cursor-not-allowed opacity-70'}`}
+                  aria-label={word.audioUrl ? "Play audio" : "Audio not available"}
+                >
+                  {word.audioUrl ? (
+                    <SpeakerWaveIcon className={`h-6 w-6 text-white ${isPlaying ? 'animate-pulse' : ''}`} />
+                  ) : (
+                    <SpeakerXMarkIcon className="h-6 w-6 text-white" />
+                  )}
+                  {!word.audioUrl && (
+                    <div className="absolute bottom-full mb-2 w-max px-3 py-1.5 text-sm font-medium text-white bg-gray-900 rounded-lg shadow-sm opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                      Audio not available
+                      <div className="tooltip-arrow" data-popper-arrow></div>
+                    </div>
+                  )}
+                </button>
               </div>
               
               {/* 한자 표시 (설정에 따라) */}
@@ -228,9 +276,6 @@ export function Flashcard({
                 {t('study.clickToSwitchToKoreanOnly')}
               </div>
               
-              <div className={categoryBadge.className}>
-                {categoryBadge.content}
-              </div>
               <div className={difficultyBadge.className}>
                 {difficultyBadge.content}
               </div>
